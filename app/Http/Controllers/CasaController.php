@@ -58,7 +58,7 @@ class CasaController extends Controller
      */
     public function edit(Casa $casa)
     {
-        //
+        return view('casas.edit',compact('casa'));
     }
 
     /**

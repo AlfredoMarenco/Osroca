@@ -12,7 +12,8 @@ Route::get('prueba', function () {
 });
 
 Route::resource('casas', CasaController::class)->names([
-    'index' => 'casas.index'
+    'index' => 'casas.index',
+    'edit' => 'casas.edit'
 ]);
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {

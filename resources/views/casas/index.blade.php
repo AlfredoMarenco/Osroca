@@ -5,7 +5,7 @@
         </h2>
     </x-slot>
 
-    <div class="py-12">
+    <div class="py-10">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
                 <!-- This example requires Tailwind CSS v2.0+ -->
@@ -38,7 +38,7 @@
                                             <tr>
                                                 <td class="px-6 py-4 whitespace-nowrap">
                                                     <div class="text-sm font-medium text-gray-900">
-                                                        Modelo - {{ $casa->name }}
+                                                        {{ $casa->name }}
                                                     </div>
 
                                                 </td>
@@ -48,12 +48,12 @@
                                                     </div>
                                                 </td>
                                                 <td class="px-6 py-4 whitespace-nowrap">
-                                                    <div class="bg-pink-400 flex-shrink-0 mx-auto h-10 w-10">
+                                                    <div class="flex-shrink-0 mx-auto h-10 w-10" style="background-color: {{ $casa->bgcolor }};">
 
                                                     </div>
                                                 </td>
                                                 <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
-                                                    <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
+                                                    <a href="{{ route('casas.edit',$casa) }}" class="text-indigo-600 hover:text-indigo-900">Edit</a>
                                                 </td>
                                             </tr>
                                         @endforeach

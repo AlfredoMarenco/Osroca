@@ -38,5 +38,7 @@
         @stack('modals')
 
         @livewireScripts
+
+        <div class="text-gray-600 text-center"> Sistema creado por Agencia Vandu -  Todos los derechos reservados</div>
     </body>
 </html>
