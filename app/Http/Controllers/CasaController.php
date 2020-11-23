@@ -15,7 +15,7 @@ class CasaController extends Controller
     public function index()
     {
         $casas = Casa::all();
-        return view('casas.index',compact('casas'));
+        return view('casas.index', compact('casas'));
     }
 
     /**

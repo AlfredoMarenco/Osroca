@@ -16,5 +16,5 @@ Route::resource('casas', CasaController::class)->names([
 ]);
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('casas.index');
+    return view('dashboard');
 })->name('dashboard');
