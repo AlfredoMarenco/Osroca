@@ -70,7 +70,19 @@ class CasaController extends Controller
      */
     public function update(Request $request, Casa $casa)
     {
-        //
+        $request->validate([
+            'name' => 'required',
+            'price' => 'required'
+        ]);
+
+        $casa->name = $request->name;
+        $casa->price = $request->price;
+        $casa->bgcolor = $request->bgcolor;
+        $casa->textcolor = $request->textcolor;
+
+        $casa->update();
+
+        return back()->with('success','Datos actualizados correctamente');
     }
 
     /**
