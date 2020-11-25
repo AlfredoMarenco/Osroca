@@ -29,7 +29,7 @@
                 <x-jet-section-border />
             @endif
 
-            <div class="mt-10 sm:mt-0">
+            {{-- <div class="mt-10 sm:mt-0">
                 @livewire('profile.logout-other-browser-sessions-form')
             </div>
 
@@ -37,7 +37,7 @@
 
             <div class="mt-10 sm:mt-0">
                 @livewire('profile.delete-user-form')
-            </div>
+            </div> --}}
         </div>
     </div>
 </x-app-layout>
