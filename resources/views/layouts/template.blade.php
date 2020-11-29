@@ -8,41 +8,45 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style-gc.css">
 
     <title>Gran Calzada</title>
 </head>
 
 <body>
-    <nav class="fixed navbar navbar-expand-lg navbar-dark bg-pink">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto">
-                <li class="nav-item">
-                    <a class="nav-link mx-5" href="#azul">Ciudad Viva <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link mx-5" href="#blanco">El Desarrollo</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link mx-5" href="#">Ubicación</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link mx-5" href="#">Desarrollos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link mx-5" href="#">Contacto</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link mx-5" href="#">Pito</a>
-                </li>
-            </ul>
+    <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-pink">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/img/Icons/Calzada.svg" width="60" height="60" alt="Gran calzada" loading="lazy">
+              </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link mx-5" href="#azul">Ciudad Viva <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-5" href="#blanco">El Desarrollo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-5" href="#">Ubicación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-5" href="#">Desarrollos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ml-5" href="#">Contacto</a>
+                    </li>
+                    
+                </ul>
+            </div>
         </div>
     </nav>
 
-    <div class="container-fluid">
+    <div>
         @yield('section')
         
     </div>
