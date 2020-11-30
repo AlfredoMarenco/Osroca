@@ -7,10 +7,6 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('prueba', function () {
-    return view('prueba');
-});
-
 Route::resource('casas', CasaController::class)->names([
     'index' => 'casas.index',
     'edit' => 'casas.edit',
