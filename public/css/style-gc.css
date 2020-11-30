@@ -126,7 +126,10 @@
 svg {
    display: block;
 }
-.texto {
+.fondo-1 {
+    background-image: url(/public/img/fondo-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
     background-color: #ee4a7b;
 }
 
@@ -135,19 +138,16 @@ svg {
 }
 .calzada-rosa {
     padding-top: 80px;
-    width: 18%;
+    width: 10%;
 }
 .estas-en {
     color: white;
     font-size: 40px;
     margin-top: 15px;
-    padding-right: 50px;
-    padding-left: 50px;
-
+    
 }
-.linea {
-    padding-top: 380px;
-    text-align: right;
+.linea-der {
+    background-color: #ee4a7b;
 }
 
 .btn-blue {
@@ -160,4 +160,29 @@ svg {
 
 .wave {
     background-color: white;
+}
+
+/* Sección Grupo Casitas */
+
+.respaldados {
+    font-size: 45px;
+    padding-top: 180px;
+    padding-left: 20px;
+}
+.casitas-col {
+    text-align: right;
+}
+.casitas-l {
+    width: 80%;
+}
+
+.grupo-casitas {
+    text-align: justify;
+    color: gray;
+    font-size: 24px;
+}
+
+.comunidades {
+    padding-top: 30px;
+    text-align: center;
 }
