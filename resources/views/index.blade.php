@@ -203,14 +203,14 @@
 
         <!-- DESARROLLOS -->
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12  almada-c">
+            <div class="col-lg-6 col-md-6 col-sm-12 fo-a  almada-c">
                 <img src="/img/Icons/Logo-Almada.png" class="almada img-fluid" alt="">
                 <h3 class="lead costo">DESDE <B>$360,000</B></h3>
                 <div class="boton-2">
                     <a href="#"><button class="btn btn-primary">Encuentra tu casa</button></a>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 almada-c">
+            <div class="col-lg-6 col-md-6 col-sm-12 fo-v almada-c">
                 <img src="/img/Icons/Logo-Miraverde.png" class="miraverde img-fluid" alt="">
                 
                 <div class="boton-2">

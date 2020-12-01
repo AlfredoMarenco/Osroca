@@ -241,11 +241,7 @@ svg {
     font-weight: 300;
 }
 
-.bg-creator {
-    background-image: url(/public/img/fondo-linea.png);
-    background-position: center;
-    background-repeat: no-repeat;
-}
+
 
 .fondo {
     background-color: #0b2650;
@@ -266,8 +262,13 @@ svg {
     color: #0b2650;
 }
 
-.background-almada {
+.fo-a{
     background-image: url(/public/img/f-rosa.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fo-v{
+    background-image: url(/public/img/f-verde.png);
     background-position: center;
     background-repeat: no-repeat;
 }
