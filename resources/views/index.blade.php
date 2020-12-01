@@ -143,11 +143,18 @@
             </div>
         </div>
     </div>
+
+    <!-- Linea de etapas -->
+    <div class="bg-etapas" style="text-align: center">
+        <img src="/img/etapas-3.png" class="img-fluid etapas" alt="">
+
+    </div>
+    <!-- Fin Linea de etapas -->
     
 
+    
 
-
-        <!-- INSERTAR IMAGEN DE MORRITOS -->
+        
         
         
         <div class="fondo container-fluid">
@@ -171,7 +178,7 @@
                     <h4 style="color: white" class="min-des">MIN CIUDAD<br>INDUSTRIAL</h4>
                 </div>
             </div>
-            <div class="row">
+            <div class="row cercania">
                 <div class="col-lg-4 col-md-4 col-sm-12 auto-p">
                     <img src="/img/Icons/Icon-Bus.svg" alt="" class="img-fluid auto">
                 </div>
