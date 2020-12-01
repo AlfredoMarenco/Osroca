@@ -31,7 +31,8 @@
                     </div>
                     <div class="col-lg-6">
                         <img src="/img/Icons/Calzada-1.png" class="img-fluid icono" alt="">
-                        <p class="caracteristicas">Distancia<br> de periférico</p>
+                        <p class="caracteristicas">Más de 4,000 viviendas<br>
+                        divididas en dos desarollos</p>
                     </div>
                 </div>
             </div>
@@ -93,9 +94,9 @@
             <div class="row texto">
                 <div class="col-lg-12 col-md-12 col-sm-12 centro">
                     <img src="/img/Icons/Calzada.svg" class="img-fluid calzada-rosa" alt="Gran Calzada | Ciudad Viva">
-                    <h2 class="estas-en">Estás en el camino correcto <br> para 
+                    <h1 class="estas-en">Estás en el camino correcto <br> para 
                         cambiar y mejorar tu estilo de vida,<br> 
-                        es el momento de vivir otro entorno.</h2>
+                        es el momento de vivir otro entorno.</h1>
                         <a href="#" class="boton-rosa"><button class="btn btn-blue">Conoce los desarrollos</button></a>
                     </div>
                 </div>

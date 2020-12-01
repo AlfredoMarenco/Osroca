@@ -1,3 +1,31 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'Avenir';
+    src: url(‘/fonts/Gran-Calzada/Avenir/Avenir.ttc′) format('ttc');
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'clearface';
+    src: url(‘/fonts/Gran-Calzada/clearface/Clearface-bold.ttc′) format('ttf'); 
+    src: url(‘/fonts/Gran-Calzada/clearface/ClearfaceEFHeavy-Regular.otf′) format('.otf');
+    font-style: normal;
+    font-weight: bold;
+    }
+
+@font-face {
+    font-family: 'Minion-Pro';
+    src: url(‘/fonts/Gran-Calzada/Minionpro/MinionPro-Regular.otf′) format('otf'); 
+    src: url(‘/fonts/Gran-Calzada/clearface/ClearfaceEFHeavy-Regular.otf′) format('.otf');
+    font-style: normal;
+    font-weight: bold;
+    }
+    
+h1 {
+    font-family: "clearface";
+}
+
 
 
 .bg-pink {
@@ -43,7 +71,8 @@
 }
 
 .caracteristicas {
-    font-size: 30px;
+    font-family: "Avenir";
+    font-size: 25px;
 }
 
 .cont {
