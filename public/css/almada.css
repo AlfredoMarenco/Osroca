@@ -1,0 +1,37 @@
+.bg-mora {
+    background-color: #51488b;
+}
+.espacio {
+    padding-top: 10px;
+}
+.titular {
+    text-align: center;
+    padding-top: 230px;
+    font-size: 60px;
+    color: white;
+}
+.desde {
+    text-transform: uppercase;
+    text-align: center;
+    color: #f8b1a1;
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+.alm {
+    text-align: center;
+}
+.alm-inv {
+    width: 80%;
+   
+    padding-top: 150px;
+    
+}
+
+
+/* Modelos */
+
+.familia {
+    text-align: center;
+    font-size: 50px;
+}

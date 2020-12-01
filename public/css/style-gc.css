@@ -126,7 +126,10 @@
 svg {
    display: block;
 }
-.texto {
+.fondo-1 {
+    
+    background-repeat: no-repeat;
+    background-position: center;
     background-color: #ee4a7b;
 }
 
@@ -135,19 +138,16 @@ svg {
 }
 .calzada-rosa {
     padding-top: 80px;
-    width: 18%;
+    width: 10%;
 }
 .estas-en {
     color: white;
     font-size: 40px;
     margin-top: 15px;
-    padding-right: 50px;
-    padding-left: 50px;
-
+    
 }
-.linea {
-    padding-top: 380px;
-    text-align: right;
+.linea-der {
+    background-color: #ee4a7b;
 }
 
 .btn-blue {
@@ -156,8 +156,158 @@ svg {
     color: white;
     background-color: #0b2650;
     border-radius: 20px;
+    margin-bottom: 130px;
 }
 
 .wave {
     background-color: white;
+}
+
+/* Sección Grupo Casitas */
+
+.respaldados {
+    font-size: 45px;
+    padding-top: 130px;
+    padding-left: 20px;
+}
+.casitas-col {
+    text-align: right;
+}
+.casitas-l {
+    width: 80%;
+    padding-bottom: 50px;
+}
+
+.grupo-casitas {
+    text-align: justify;
+    color: gray;
+    font-size: 24px;
+}
+
+.comunidades {
+    padding-top: 30px;
+    text-align: center;
+}
+
+/* urbanización */
+
+.urbanizacion {
+    background-color: #0b2650;
+}
+
+
+.t-urb {
+    font-size: 45px;
+    padding-top: 80px;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.p-urb {
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.boton {
+    text-align: center;
+}
+
+.auto {
+    padding-top: 20px;
+    width: 35%;
+    
+}
+
+.der {
+    padding-right: 210px;
+}
+
+.auto-p {
+    text-align: right;
+}
+
+.minuto-p {
+    text-align: center;
+}
+.minuto {
+    padding-top: 30px;
+    font-size: 38px;
+}
+.min-des {
+    font-weight: 300;
+}
+
+
+
+.fondo {
+    background-color: #0b2650;
+}
+/* Desarrollos */
+
+.cal-rosa {
+    width: 20%;
+}
+.cal-rosa-1 {
+    text-align: right;
+    padding-top: 8px;
+    padding-right: 20px;
+}
+.titulo-desarrollos {
+    padding-left: 25px;
+    font-size: 50px;
+    color: #0b2650;
+}
+
+.fo-a{
+    background-image: url(/img/f-rosa.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fo-v{
+    background-image: url(/img/f-verde.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.almada-c {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.almada {
+    width: 55%;
+}
+.costo {
+    font-size: 40px;
+    color: #5e5491;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn-primary {
+    
+    font-size: 23px;
+    padding-right: 40px;
+    padding-left: 40px;
+    color: #5e5491;
+    background: none !important;
+    border-radius: 20px;
+    border-color: #5e5491;
+    border-width: 4px;
+}
+
+.miraverde {
+    width: 76%;
+}
+
+.b-mira {
+    margin-top: 99px;
+    color: #215a36 !important;
+    border-color: #215a36 !important;
 }

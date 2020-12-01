@@ -7,6 +7,13 @@ Route::get('/', function () {
     return view('index');
 });
 
+<<<<<<< HEAD
+=======
+Route::get('/almada', function () {
+    return view('almada');
+});
+
+>>>>>>> Frontend
 Route::resource('casas', CasaController::class)->names([
     'index' => 'casas.index',
     'edit' => 'casas.edit',
