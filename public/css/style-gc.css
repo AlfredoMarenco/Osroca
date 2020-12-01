@@ -79,6 +79,11 @@ h1 {
     font-size: 25px;
 }
 
+.caracteristicas-icon {
+    font-family: Avenir;
+    font-size: 18px;
+}
+
 .cont {
     padding-top: 60px;
 }

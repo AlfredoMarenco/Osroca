@@ -5,10 +5,7 @@
         <div class="col-lg-12 col-md-12 col-sm-12 banner">
             <img src="/img/Icons/Logo-GranCalzada.svg" class="img-fluid logo-banner" alt="Gran Calzada | Ciudad Viva">
         </div>
-
     </section>
-
-
     <section id="s-sec">
         <div class="container-fluid">
             <div class="row">
@@ -57,13 +54,29 @@
                         <a href="#" class="boton-rosa"><button class="btn btn-pink">Precalifícate</button></a>
                     </div>
 
-                    <div class="row mt-5 text-center">
-                        <div class="col-6 text-center caracteristicas"><img src="" alt=""> UNA CIUDAD PLANEADA</div>
-                        <div class="col-6 text-center">Contenido 2</div>
+                    <div class="row mt-5 inline-block">
+                        {{-- primer icono de la primera fila --}}
+                        <div class="col-2 text-right ">
+                            <img src="img/Icons/Icon-Planeacion.svg" class="img-fluid mt-2" width="65%" alt="">
+                        </div>
+                        <p class="col-4 text-left caracteristicas-icon p-2">UNA CIUDAD PLANEADA</p>
+                        {{-- segundo icono primera fila --}}
+                        <div class="col-2 text-right ">
+                            <img src="img/Icons/Icon-Equipamiento.svg" class="img-fluid mt-2" width="65%" alt="">
+                        </div>
+                        <p class="col-4 text-left caracteristicas-icon p-2 my-3">EQUIPAMENTO</p>
                     </div>
                     <div class="row">
-                        <div class="col-6 text-center">Contenido 3</div>
-                        <div class="col-6 text-center">Contenido 4</div>
+                         {{-- primer icono de la segunda fila --}}
+                         <div class="col-2 text-right ">
+                            <img src="img/Icons/Icon-Concreto.svg" class="img-fluid mt-2" width="65%" alt="">
+                        </div>
+                        <p class="col-4 text-left caracteristicas-icon p-12">CONCRETO HIDRÁULICO</p>
+                        {{-- segundo icono segunda fila --}}
+                        <div class="col-2 text-right ">
+                            <img src="img/Icons/Icon-Drenaje.svg" class="img-fluid mt-2" width="65%" alt="">
+                        </div>
+                        <p class="col-4 text-left caracteristicas-icon p-2">PLANTA DE TRATAMIENTO</p>
                     </div>
                 </div>
             </div>
@@ -176,13 +189,6 @@
 
         </div>
         <!-- Fin Linea de etapas -->
-
-
-
-
-
-
-
         <div class="fondo container-fluid">
             <div class="row">
                 <div class="col-lg-12">
@@ -261,12 +267,5 @@
             </div>
         </div>
     </section>
-
-
-    </section>
-
-
-
-
 
 @endsection
