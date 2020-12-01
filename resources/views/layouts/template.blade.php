@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/style-gc.css">
     <link rel="stylesheet" href="css/almada.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="css/modelos.css">
     <title>Gran Calzada</title>
 </head>
 
