@@ -1,3 +1,31 @@
+/* Fonts */
+
+@font-face {
+    font-family: Avenir;
+    src: url("../fonts/GranCalzada/Avenir/Avenir.ttc");
+    font-style: normal;
+    }
+
+ @font-face {
+    font-family: clearface;
+    src: url("../fonts/GranCalzada/clearface/Clearface-bold.ttc"); 
+    src: url("../fonts/GranCalzada/clearface/ClearfaceEFHeavy-Regular.otf");
+    font-style: normal;
+    font-weight: bold;
+    }
+
+@font-face {
+    font-family: 'Minion-Pro';
+    src: url("../fonts/GranCalzada/Minionpro/MinionPro-Regular.otf"); 
+    src: url("../fonts/GranCalzada/clearface/ClearfaceEFHeavy-Regular.otf");
+    font-style: normal;
+    font-weight: bold;
+    }
+    
+h1 {
+    font-family: clearface;
+}
+
 
 
 .bg-pink {
@@ -8,6 +36,7 @@
 .nav-link {
     color: white !important;
     font-size: 20px;
+    font-family: Arial;
 }
 
 /* Primera sección */
@@ -39,11 +68,13 @@
 }
 
 .una-ciudad {
+    font-family: clearface;
     font-size: 65px;
 }
 
 .caracteristicas {
-    font-size: 30px;
+    font-family: Avenir;
+    font-size: 25px;
 }
 
 .cont {
@@ -216,6 +247,16 @@ svg {
     text-align: center;
 }
 
+.etapas{
+    padding-top: 40px;
+}
+.bg-etapas {
+    background-image: url(/img/linea-etapas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0b2650;
+}
+
 .auto {
     padding-top: 20px;
     width: 35%;
@@ -241,7 +282,9 @@ svg {
     font-weight: 300;
 }
 
-
+.cercania {
+    padding-bottom: 100px;
+}
 
 .fondo {
     background-color: #0b2650;
@@ -307,7 +350,86 @@ svg {
 }
 
 .b-mira {
-    margin-top: 99px;
+    margin-top: 95px;
     color: #215a36 !important;
     border-color: #215a36 !important;
 }
+
+/* Footer */
+
+#footer-section {
+    background-color: #0b2650;
+    margin-top: 130px;
+} 
+
+.casitas-footer {
+    width: 5%;
+}
+
+.footer-espacio {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.titulo-footer {
+    color: #ee4a7b;
+}
+
+.redes {
+    color: white;
+    font-size: 22px;
+
+}
+
+.mapa {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.fa-instagram {
+    color: #ee4a7b;
+    font-size: 29px !important;
+    padding-top: 10px;
+}
+
+.fa-facebook-official {
+    color: #ee4a7b;
+    font-size: 29px !important;
+}
+
+.correo {
+    padding-top: 69px;
+}
+
+.fa-whatsapp {
+    color: #ee4a7b;
+    font-size: 29px !important;
+    padding-top: 1px;
+}
+
+.puntos-de-venta {
+    text-align: center;
+    color: #ee4a7b;
+    padding-bottom: 40px;
+}
+
+.oficinas {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.oficina {
+    color: #ee4a7b;
+}
+
+.direccion {
+    color: white;
+    font-size: 18px;
+}
+
+
+
+
+

@@ -34,4 +34,148 @@
 .familia {
     text-align: center;
     font-size: 50px;
+    padding-bottom: 50px;
+}
+
+.padding-0 {
+    padding-right:0; 
+    padding-left:0; 
+}
+.imagen {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.bg-aqua {
+    background-color: #24cfd8;
+}
+
+.modelo-titulo {
+    padding-top: 50px;
+    color: #51488b;
+}
+
+.costo-modelo {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.boton-modelo {
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #349ebc;
+    border: none;
+}
+
+.espacio-terreno {
+    padding-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+.modelo-car {
+    text-align: center;
+    padding-top: 27px;
+}
+.caract-mod {
+    width: 50%;
+    padding-bottom: 10px;
+}
+.caract-mod-1 {
+    width: 30%;
+    padding-bottom: 9px; 
+}
+.caract-mod-1-s {
+    width: 30%;
+    padding-bottom: 3px; 
+}
+.caract-mod-1-1 {
+    width: 30%;
+    padding-bottom: 9px; 
+}
+.caract-mod-1-1-p {
+    width: 30%;
+    padding-bottom: 10px; 
+}
+
+.caract-mod-2 {
+    width: 35%;
+    padding-bottom: 9px;
+}
+.caract-mod-2-1 {
+    width: 35%;
+    padding-bottom: 11px;
+}
+
+.modelo-car-1 {
+    text-align: right;
+    padding-top: 10px;
+}
+.modelo-car-2 {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.modelo-car-3 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.descri {
+    font-size: 20px;
+    color: white;
+    font-weight: 200;
+}
+.espacio {
+    padding-right: 12px;
+}
+
+.botones {
+    margin-top: 40px;
+    text-align: left;
+}
+.botones-1 {
+    margin-top: 40px;
+    text-align: right;
+}
+
+.btn-secondary {
+    font-size: 23px;
+    padding-right: 40px;
+    padding-left: 40px;
+    color: #5e5491;
+    background: white;
+    border-radius: 20px;
+    border: none;
+
+}
+/* modelo magenta */
+
+.bg-magenta {
+    background-color: #ec008c;
+}
+
+.modelo-titulo-1 {
+    padding-top: 65px;
+    color: white;
+}
+
+.costo-modelo {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.magenta-model {
+    padding-top: 38px;
+}
+
+.boton-modelo-m {
+    
+        font-size: 20px;
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #b41a8c;
+        border: none;
+    
 }
