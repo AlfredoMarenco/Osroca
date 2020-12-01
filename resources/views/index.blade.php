@@ -54,7 +54,13 @@
             <div class="col-lg-6 col-md-12 col-sm-12 right-one">
                 <div class="texto-derecha">
                     <h1 class="una-ciudad-1">Una ciudad solo para ti, <br> decídete vivir en ella</h1>
-                <a href="#" class="boton-rosa"><button class="btn btn-pink">Precalifícate</button></a>
+                <div style="padding-top: 20px;">
+                    <a href="#" class="boton-rosa"><button class="btn btn-pink">Precalifícate</button></a>
+                </div>
+                <div style="padding-top: 20px">
+                    <img src="/img/iconos-tra.png" alt="" class="img-fluid">
+                </div>
+                
                 </div>
 
             </div>
@@ -205,7 +211,7 @@
                 <img src="img/Icons/Calzada-2.svg" class="img-fluid cal-rosa" alt="">
             </div>
             <div class="col-lg-8 col-md-6 col-sm-12">
-                <h2 class="titulo-desarrollos">Dos desarrollos <b><br>Para disfrutar la vida</b></h2>
+                <h1 class="titulo-desarrollos">Dos desarrollos <b><br>Para disfrutar la vida</b></h1>
             </div>
         </div>
 

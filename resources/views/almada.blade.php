@@ -88,7 +88,7 @@
 
     <div class="row magenta-model">
         <div class="col-lg-7 col-md-12 col-sm-12 bg-magenta padding-0">
-            <h1 class="modelo-titulo-1" style="text-align: center">Modelo Aguamarina</h1>
+            <h1 class="modelo-titulo-1" style="text-align: center">Modelo Magenta</h1>
             <div class="costo-modelo">
                 <button class="boton-modelo-m">Desde: $360,000</button>
             </div>

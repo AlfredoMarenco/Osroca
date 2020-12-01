@@ -26,7 +26,9 @@ h1 {
     font-family: clearface;
 }
 
-
+.navbar-brand {
+    padding-left: 120px;
+}
 
 .bg-pink {
     background-color: #ee4a7b !important;
@@ -141,13 +143,18 @@ h1 {
 
 #resumen {
     background-color: #0b2650;
-    padding-top: 80px;
+    padding-top: 120px;
     padding-right: 50px;
     padding-left: 50px;
 }
 
 .amenidades {
     text-align: center;
+   
+}
+
+.i-resumen {
+    width: 70%;
 }
 
 /* fondo rosa */
@@ -290,7 +297,9 @@ svg {
     background-color: #0b2650;
 }
 /* Desarrollos */
-
+#desarrollos {
+    padding-bottom: 140px;
+}
 .cal-rosa {
     width: 20%;
 }
@@ -302,6 +311,7 @@ svg {
 .titulo-desarrollos {
     padding-left: 25px;
     font-size: 50px;
+    padding-bottom: 40px;
     color: #0b2650;
 }
 
@@ -359,7 +369,7 @@ svg {
 
 #footer-section {
     background-color: #0b2650;
-    margin-top: 130px;
+    padding-top: 130px;
 } 
 
 .casitas-footer {
