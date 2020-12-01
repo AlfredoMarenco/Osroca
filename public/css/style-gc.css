@@ -1,29 +1,29 @@
 /* Fonts */
 
 @font-face {
-    font-family: 'Avenir';
-    src: url(‘/fonts/Gran-Calzada/Avenir/Avenir.ttc′) format('ttc');
+    font-family: Avenir;
+    src: url("../fonts/GranCalzada/Avenir/Avenir.ttc");
     font-style: normal;
     }
 
-@font-face {
-    font-family: 'clearface';
-    src: url(‘/fonts/Gran-Calzada/clearface/Clearface-bold.ttc′) format('ttf'); 
-    src: url(‘/fonts/Gran-Calzada/clearface/ClearfaceEFHeavy-Regular.otf′) format('.otf');
+ @font-face {
+    font-family: clearface;
+    src: url("../fonts/GranCalzada/clearface/Clearface-bold.ttc"); 
+    src: url("../fonts/GranCalzada/clearface/ClearfaceEFHeavy-Regular.otf");
     font-style: normal;
     font-weight: bold;
     }
 
 @font-face {
     font-family: 'Minion-Pro';
-    src: url(‘/fonts/Gran-Calzada/Minionpro/MinionPro-Regular.otf′) format('otf'); 
-    src: url(‘/fonts/Gran-Calzada/clearface/ClearfaceEFHeavy-Regular.otf′) format('.otf');
+    src: url("../fonts/GranCalzada/Minionpro/MinionPro-Regular.otf"); 
+    src: url("../fonts/GranCalzada/clearface/ClearfaceEFHeavy-Regular.otf");
     font-style: normal;
-    font-weight: bold;
+    font-weight: bold; */
     }
     
 h1 {
-    font-family: "clearface";
+    font-family: clearface;
 }
 
 
@@ -36,6 +36,7 @@ h1 {
 .nav-link {
     color: white !important;
     font-size: 20px;
+    font-family: Arial;
 }
 
 /* Primera sección */
@@ -67,11 +68,12 @@ h1 {
 }
 
 .una-ciudad {
+    font-family: clearface;
     font-size: 65px;
 }
 
 .caracteristicas {
-    font-family: "Avenir";
+    font-family: Avenir;
     font-size: 25px;
 }
 
