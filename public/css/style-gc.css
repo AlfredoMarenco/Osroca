@@ -127,7 +127,7 @@ svg {
    display: block;
 }
 .fondo-1 {
-    background-image: url(/public/img/fondo-1.png);
+    background-image: url(/img/fondo-1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-color: #ee4a7b;
@@ -263,12 +263,12 @@ svg {
 }
 
 .fo-a{
-    background-image: url(/public/img/f-rosa.png);
+    background-image: url(/img/f-rosa.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 .fo-v{
-    background-image: url(/public/img/f-verde.png);
+    background-image: url(/img/f-verde.png);
     background-position: center;
     background-repeat: no-repeat;
 }
