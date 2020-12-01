@@ -156,6 +156,7 @@ svg {
     color: white;
     background-color: #0b2650;
     border-radius: 20px;
+    margin-bottom: 130px;
 }
 
 .wave {
@@ -166,7 +167,7 @@ svg {
 
 .respaldados {
     font-size: 45px;
-    padding-top: 180px;
+    padding-top: 130px;
     padding-left: 20px;
 }
 .casitas-col {
@@ -174,6 +175,7 @@ svg {
 }
 .casitas-l {
     width: 80%;
+    padding-bottom: 50px;
 }
 
 .grupo-casitas {
@@ -185,4 +187,125 @@ svg {
 .comunidades {
     padding-top: 30px;
     text-align: center;
+}
+
+/* urbanización */
+
+.urbanizacion {
+    background-color: #0b2650;
+}
+
+
+.t-urb {
+    font-size: 45px;
+    padding-top: 80px;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.p-urb {
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.boton {
+    text-align: center;
+}
+
+.auto {
+    padding-top: 20px;
+    width: 35%;
+    
+}
+
+.der {
+    padding-right: 210px;
+}
+
+.auto-p {
+    text-align: right;
+}
+
+.minuto-p {
+    text-align: center;
+}
+.minuto {
+    padding-top: 30px;
+    font-size: 38px;
+}
+.min-des {
+    font-weight: 300;
+}
+
+.bg-creator {
+    background-image: url(/public/img/fondo-linea.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fondo {
+    background-color: #0b2650;
+}
+/* Desarrollos */
+
+.cal-rosa {
+    width: 20%;
+}
+.cal-rosa-1 {
+    text-align: right;
+    padding-top: 8px;
+    padding-right: 20px;
+}
+.titulo-desarrollos {
+    padding-left: 25px;
+    font-size: 50px;
+    color: #0b2650;
+}
+
+.background-almada {
+    background-image: url(/public/img/f-rosa.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.almada-c {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.almada {
+    width: 55%;
+}
+.costo {
+    font-size: 40px;
+    color: #5e5491;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn-primary {
+    
+    font-size: 23px;
+    padding-right: 40px;
+    padding-left: 40px;
+    color: #5e5491;
+    background: none !important;
+    border-radius: 20px;
+    border-color: #5e5491;
+    border-width: 4px;
+}
+
+.miraverde {
+    width: 76%;
+}
+
+.b-mira {
+    margin-top: 99px;
+    color: #215a36 !important;
+    border-color: #215a36 !important;
 }

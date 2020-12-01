@@ -102,7 +102,8 @@
             </div>
     </div>
     
-    <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250">  <path fill="#ee4a7b" fill-opacity="1" d="M0,64L80,69.3C160,75,320,85,480,122.7C640,160,800,224,960,240C1120,256,1280,224,1360,208L1440,192L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+    <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120"><path fill="#ee4a7b" fill-opacity="1" d="M0,64L80,53.3C160,43,320,21,480,21.3C640,21,800,43,960,53.3C1120,64,1280,64,1360,64L1440,64L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+    
     
     
 </section> 
@@ -115,7 +116,7 @@
             Gran Desarrollador</h2>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 casitas-col">
-                <img src="img/Icons/Logo-Casitas.svg" class="img-fluid casitas-l" alt="">
+                <img src="img/Icons/Logo-Casitas.png" class="img-fluid casitas-l" alt="">
             </div>
         </div>
         <div class="col-lg-12">
@@ -130,7 +131,97 @@
     </div>
 
 </section>
-<section>
+
+<section id="urbanizacion">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0b2650" fill-opacity="1" d="M0,224L80,224C160,224,320,224,480,240C640,256,800,288,960,304C1120,320,1280,320,1360,320L1440,320L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+    <div class="container-fluid urbanizacion">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="t-urb">Urbanización y Gran <br>Conectividad Interior</h1>
+                <p class="p-urb">Trasládate caminando dentro de amplias y arboladas banquetas, <br> o rodando en familia por la ciclopista. La Gran Calzada® está creada para conectarte con todo lo <br> que necesitas diariamente: comercios, escuelas, supermercados, etc.</p>
+                <div class="boton"><a href="#"> <button class="btn btn-pink"> Encuentra tu hogar </button> </a></div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+        <!-- INSERTAR IMAGEN DE MORRITOS -->
+        
+        
+        <div class="fondo container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="t-urb">Gran Ubicación Privilegiada</h1>
+                <p class="p-urb">Ubicado el poniente de la ciudad  y se centra en una zona de alto crecimiento en el <br> estado, reconocida por su abundante generación de empleos y gran conexión.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 auto-p">
+                    <img src="/img/Icons/Icon-Auto.svg" alt="" class="img-fluid auto">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 minuto-p">
+                    <h2 style="color: white" class="minuto">5<h2>
+                    <h4 style="color: white" class="min-des">MIN PERIFÉRICO</h4>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 minuto-p der">
+                    <h2 style="color: white" class="minuto">8<h2>
+                    <h4 style="color: white" class="min-des">MIN CIUDAD<br>INDUSTRIAL</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 auto-p">
+                    <img src="/img/Icons/Icon-Bus.svg" alt="" class="img-fluid auto">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 minuto-p">
+                    <h2 style="color: white" class="minuto">15<h2>
+                    <h4 style="color: white" class="min-des">MIN PERIFÉRICO</h4>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 minuto-p der">
+                    <h2 style="color: white" class="minuto">17<h2>
+                    <h4 style="color: white" class="min-des">MIN CIUDAD<br>INDUSTRIAL</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120"><path fill="#0b2650" fill-opacity="1" d="M0,64L80,53.3C160,43,320,21,480,21.3C640,21,800,43,960,53.3C1120,64,1280,64,1360,64L1440,64L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+</section>
+
+<section id="desarrollos">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 cal-rosa-1">
+                <img src="img/Icons/Calzada-2.svg" class="img-fluid cal-rosa" alt="">
+            </div>
+            <div class="col-lg-8 col-md-6 col-sm-12">
+                <h2 class="titulo-desarrollos">Dos desarrollos <b><br>Para disfrutar la vida</b></h2>
+            </div>
+        </div>
+
+        <!-- DESARROLLOS -->
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12  almada-c">
+                <img src="/img/Icons/Logo-Almada.png" class="almada img-fluid" alt="">
+                <h3 class="lead costo">DESDE <B>$360,000</B></h3>
+                <div class="boton-2">
+                    <a href="#"><button class="btn btn-primary">Encuentra tu casa</button></a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 almada-c">
+                <img src="/img/Icons/Logo-Miraverde.png" class="miraverde img-fluid" alt="">
+                
+                <div class="boton-2">
+                    <a href="#"><button class="btn btn-primary b-mira">P R O X Í M A M E N T E</button></a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
     
 </section>
 
