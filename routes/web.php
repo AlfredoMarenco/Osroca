@@ -7,8 +7,8 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('prueba', function () {
-    return view('prueba');
+Route::get('/almada', function () {
+    return view('almada');
 });
 
 Route::resource('casas', CasaController::class)->names([

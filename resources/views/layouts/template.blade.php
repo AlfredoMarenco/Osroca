@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style-gc.css">
+    <link rel="stylesheet" href="css/almada.css">
 
     <title>Gran Calzada</title>
 </head>

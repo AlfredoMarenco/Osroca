@@ -127,7 +127,7 @@ svg {
    display: block;
 }
 .fondo-1 {
-    background-image: url(/img/fondo-1.png);
+    
     background-repeat: no-repeat;
     background-position: center;
     background-color: #ee4a7b;
@@ -274,7 +274,8 @@ svg {
 }
 
 .almada-c {
-    padding-top: 80px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     text-align: center;
 }
 
