@@ -8,11 +8,11 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('img/Icons/favicon-32x32.png') }}">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style-gc.css">
-    <link rel="stylesheet" href="css/almada.css">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style-gc.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/almada.css') }}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/modelos.css">
+    <link rel="stylesheet" href="{{ asset('css/modelos.css') }}">
     <title>Gran Calzada</title>
 </head>
 
@@ -29,19 +29,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="#azul">Ciudad Viva <span class="sr-only">(current)</span></a>
+                        <a class="nav-link mx-5" href="/">Ciudad Viva <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="#blanco">El Desarrollo</a>
+                        <a class="nav-link mx-5" href="#casitas">El Desarrollador</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="#">Ubicación</a>
+                        <a class="nav-link mx-5" href="#ubicacion">Ubicación</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="#">Desarrollos</a>
+                        <a class="nav-link mx-5" href="#desarrollos">Desarrollos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ml-5" href="#">Contacto</a>
+                        <a class="nav-link ml-5" href="#contacto">Contacto</a>
                     </li>
 
                 </ul>
@@ -55,8 +55,8 @@
     </div>
 
     <footer id="footer-section" class="bgfooter pt-5">
-        <div class="container-fluid">
-          <div class="row footer-espacio">
+        <div class="container-fluid" id="contacto">
+          <div class="row footer-espacio" >
 
             <div class="col-md-4 col-sm-6">
               <h1 class="titulo-footer">Contáctanos</h1>
@@ -104,10 +104,10 @@
 
         </div>
 
-        <div class="row mt-5 pt-2 oficinas ">
+        <div class="row mt-5 pt-2 oficinas" >
 
                 <div class="col-lg-12" style="text-align: center">
-                    <h2 class="puntos-de-venta" >Encuentra nuestros puntos de venta</h2>
+                    <h2 class="puntos-de-venta" id="ubicacion">Encuentra nuestros puntos de venta</h2>
                 </div>
 
             <div class="col-lg-4">
