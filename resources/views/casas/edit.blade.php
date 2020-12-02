@@ -57,7 +57,7 @@
                                             <label class="block text-sm font-medium leading-5 text-gray-700">
                                                 Color de fondo
                                             </label>
-                                            <div class="mt-1 flex block rounded-md w-full shadow-sm">
+                                            <div class="mt-1 flex rounded-md w-full shadow-sm">
                                                 <input type="color" name="bgcolor" value="{{ $casa->bgcolor }}">
                                             </div>
                                         </div>
@@ -65,7 +65,7 @@
                                             <label class="block text-sm font-medium leading-5 text-gray-700">
                                                 Color de texto
                                             </label>
-                                            <div class="mt-1 flex block rounded-md w-full shadow-sm">
+                                            <div class="mt-1 flex rounded-md w-full shadow-sm">
                                                 <input type="color" name="textcolor" value="{{ $casa->textcolor }}">
                                             </div>
                                         </div>
