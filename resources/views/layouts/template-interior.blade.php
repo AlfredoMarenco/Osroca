@@ -6,18 +6,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('img/Icons/favicon-32x32.png') }}">
+
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/style-gc.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/almada.css') }}">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style-gc.css">
+    <link rel="stylesheet" href="css/almada.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="{{ asset('css/modelos.css') }}">
+    <link rel="stylesheet" href="css/modelos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Gran Calzada</title>
 </head>
+
 <body>
     <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-pink">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/">
+            <a class="navbar-brand" href="#">
                 <img src="/img/Icons/Calzada.svg" width="60" height="60" alt="Gran calzada" loading="lazy">
               </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -25,33 +29,29 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav m-auto">
-                    <li class="nav-item">
-                        <a class="nav-link mx-5" href="/">Ciudad Viva <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link mx-5" href="#casitas">El Desarrollador</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link mx-5" href="#ubicacion">Ubicación</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link mx-5" href="#desarrollos">Desarrollos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link ml-5" href="#contacto">Contacto</a>
-                    </li>
-
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link mx-5" href="#azul">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-5" href="#blanco">Ficha técnica</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-5" href="#blanco">Recibe una cotización</a>
+              </li>
                 </ul>
             </div>
         </div>
     </nav>
+
     <div>
         @yield('section')
+
     </div>
+
     <footer id="footer-section" class="bgfooter pt-5">
-        <div class="container-fluid" id="contacto">
-          <div class="row footer-espacio" >
+        <div class="container-fluid">
+          <div class="row footer-espacio">
 
             <div class="col-md-4 col-sm-6">
               <h1 class="titulo-footer">Contáctanos</h1>
@@ -99,10 +99,10 @@
 
         </div>
 
-        <div class="row mt-5 pt-2 oficinas" >
+        <div class="row mt-5 pt-2 oficinas ">
 
                 <div class="col-lg-12" style="text-align: center">
-                    <h2 class="puntos-de-venta" id="ubicacion">Encuentra nuestros puntos de venta</h2>
+                    <h2 class="puntos-de-venta" >Encuentra nuestros puntos de venta</h2>
                 </div>
 
             <div class="col-lg-4">
@@ -151,6 +151,12 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
     -->
+
+
+
+
+
+
 </body>
 
 </html>

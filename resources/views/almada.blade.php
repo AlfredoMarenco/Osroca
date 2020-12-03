@@ -1,5 +1,6 @@
 @extends('layouts.template')
 
+@section('section')
 <header>
     <div class="bg-mora">
         <div class="container">
@@ -110,40 +111,63 @@
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-4 modelo-car-1">
-                        <img src="/img/Icons/Icon-Sala-bco.png" alt="" class="img-fluid caract-mod-1-s">
-                        <p class="descri espacio">Sala</p>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 modelo-car-3">
-                        <img src="/img/Icons/Icon-Comedor-bco.png" alt="" class="img-fluid caract-mod-2">
-                        <p class="descri">Comedor</p>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 modelo-car-2">
-                        <img src="/img/Icons/Icon-Cocina-bco.png" alt="" class="img-fluid caract-mod-1">
-                        <p class="descri">Cocina</p>
-                    </div>
-                </div>
+         <!--modelo violeta -->
 
-                <div class="row">
-                    <div class="col-lg-6 botones-1">
-                        <a href="#"><button class="btn- btn-secondary">Cotiza tu casa</button></a>
-                    </div>
-                    <div class="col-lg-6 botones">
-                        <a href="{{ route('magenta') }}"><button class="btn- btn-secondary">Ficha técnica</button></a>
-                    </div>
+    <div class="row" style="padding-top: 40px">
+        <div class="col-lg-5 col-md-12 col-sm-12 padding-0 imagen">
+            <img src="/img/aguamarina/GC_Aguamarina_fachada.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-7 col-md-12 col-sm-12 bg-violeta padding-0">
+            <h1 class="modelo-titulo" style="text-align: center">Modelo Violeta</h1>
+            <div class="costo-modelo">
+                <button class="boton-modelo">Desde: $360,000</button>
+            </div>
+
+            <div class="costo-modelo">
+                <p class="espacio-terreno">Terreno de: 5 x 17 m <br>Construcción de: 42.94 m2</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 modelo-car-1">
+                    <img src="/img/Icons/Icon-Planta-bco.png" alt="" class="img-fluid caract-mod-1-1-p" >
+                    <p class="descri">1 Planta</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 modelo-car">
+                    <img src="/img/Icons/Icon-Recaramara-doble-bco.png" alt="" class="img-fluid caract-mod" >
+                    <p class="descri">2 Recámaras</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 modelo-car-2">
+                    <img src="/img/Icons/Icon-Baño-bco.png" alt="" class="img-fluid caract-mod-1-1" >
+                    <p class="descri">1 Baño</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 modelo-car-1">
+                    <img src="/img/Icons/Icon-Sala-bco.png" alt="" class="img-fluid caract-mod-1-s" >
+                    <p class="descri espacio">Sala</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 modelo-car-3">
+                    <img src="/img/Icons/Icon-Comedor-bco.png" alt="" class="img-fluid caract-mod-2" >
+                    <p class="descri">Comedor</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 modelo-car-2">
+                    <img src="/img/Icons/Icon-Cocina-bco.png" alt="" class="img-fluid caract-mod-1" >
+                    <p class="descri">Cocina</p>
                 </div>
             </div>
             <div class="col-lg-5 col-md-12 col-sm-12 padding-0 imagen">
                 <img src="/img/magenta/GC_Magenta_B1_Fachada.jpg" class="img-fluid" alt="">
             </div>
         </div>
-        {{-- End modelo Magenta --}}
+    </div>
+    <!--modelo violeta plus-->
 
-        {{-- Start modelo violeta --}}
-        <div class="row" style="padding-top: 40px">
-            <div class="col-lg-5 col-md-12 col-sm-12 padding-0 imagen">
-                <img src="/img/aguamarina/GC_Aguamarina_fachada.jpg" class="img-fluid" alt="">
+    <div class="row magenta-model">
+        <div class="col-lg-7 col-md-12 col-sm-12 bg-violeta padding-0">
+            <h1 class="modelo-titulo-1" style="text-align: center">Modelo Violeta Plus</h1>
+            <div class="costo-modelo">
+                <button class="boton-modelo-m">Desde: $360,000</button>
             </div>
             <div class="col-lg-7 col-md-12 col-sm-12 bg-aqua padding-0">
                 <h1 class="modelo-titulo" style="text-align: center">Modelo Violeta</h1>
@@ -254,3 +278,5 @@
 
     </div>
 </section>
+
+@endsection
