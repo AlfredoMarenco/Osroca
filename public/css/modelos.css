@@ -4,9 +4,9 @@
 }
 
 .logo-h {
-    padding-top:150px;
+    margin-top:300px;
     padding-bottom:70px;
-    width: 16%;
+    width: 42%;
 }
 
 .ameni {
@@ -43,9 +43,7 @@ li {
     font-weight: 200;
 }
 
-#modelos {
-    padding-bottom: 70px;
-}
+
 
 #amenidades-m h1 {
     font-size: 30px;
