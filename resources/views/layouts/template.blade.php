@@ -2,9 +2,13 @@
 <html lang="en">
 
 <head>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('img/Icons/favicon-32x32.png') }}">
 
     <!-- Bootstrap CSS -->
@@ -16,6 +20,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Gran Calzada</title>
+    <!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '2821273661220502');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=2821273661220502&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+
 </head>
 
 <body>
@@ -59,9 +82,9 @@
         <div class="container-fluid">
             <div class="row footer-espacio">
 
-                <div class="col-md-4 col-sm-6">
-                    <h1 class="titulo-footer">Contáctanos</h1>
-                    <br>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+              <h1 class="titulo-footer">Contáctanos</h1>
+              <br>
 
 
                     <p class="redes"><i class="fa fa-instagram" aria-hidden="true" style="padding-right: 10px;"></i>
@@ -71,14 +94,13 @@
                             style="padding-right: 10px;"></i> @Grupocasitas</p>
                 </div>
 
-                <div class="col-md-4 col-sm-6 correo">
-                    <br>
-                    <p class="redes">info@grupocasitas.com.mx</p>
-                    <p class="redes"><i class="fa fa-whatsapp" aria-hidden="true" style="padding-right: 10px"></i>
-                        Contacta a un asesor ahora</p>
-                </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 correo">
+              <br>
+                <p class="redes">info@grupocasitas.com.mx</p>
+                <p class="redes"><i class="fa fa-whatsapp" aria-hidden="true" style="padding-right: 10px"></i>  Contacta a un asesor ahora</p>
+            </div>
 
-                <div class="col-md-4 col-sm-6 mx-right">
+            <div class="col-lg-4 col-md-12 col-sm-12 mx-right">
 
                     <form class="contact" name="contact-form" method="post" action="enviar.php">
                         <div class="form-group">
@@ -172,6 +194,21 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
     -->
-</body>
 
-</html>
+    <!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5510950.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+
+
+
+
+
+
+    -->
+
+
+
+
+
+

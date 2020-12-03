@@ -93,6 +93,7 @@
             <div class="costo-modelo">
                 <p class="espacio-terreno">Terreno de: 5 x 17 m <br>Construcción de: 42.94 m2</p>
             </div>
+        
 
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-4 modelo-car-1">
@@ -259,6 +260,7 @@
     
 
 
+ </div>
  </div>
 </section>
 
