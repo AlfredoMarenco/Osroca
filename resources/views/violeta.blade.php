@@ -1,16 +1,17 @@
-@extends('layouts.template')
+@extends('layouts.template-interior')
 
-<header id="h-logo">
-    <div class="row">
-        <div class="col-lg-5 col-md-12 col-sm-12">
-            <img src="/img/Icons/Logo-Almada-inv.png" class="img-fluid logo-h" alt="">
-        </div>
-        <div class="col-lg-7 col-md-12 col-sm-12">
-            <img src="/img/violeta/GC_Violeta_Fachada-1.jpg" class="img-fluid fachada-violeta" alt="">
-        </div>
+@section('section')
+<section id="h-logo">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-5 col-md-12 col-sm-12">
+                <img src="/img/Icons/Logo-Almada-inv.png" class="img-fluid logo-h" alt="">
+            </div>
+            <div class="col-lg-7 col-md-12 col-sm-12 p-0">
+                <img src="/img/violeta/GC_Violeta_Fachada-1.jpg" class="img-fluid fachada-violeta" alt="">
+            </div>   
     </div>
-   
-</header>
+</section>
 
 
 <section id="amenidades-m">
@@ -95,3 +96,4 @@
        </div>
    </div>
 </section>
+@endsection

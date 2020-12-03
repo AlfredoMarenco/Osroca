@@ -29,23 +29,16 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav m-auto">
-                    <li class="nav-item">
-                        <a class="nav-link mx-5" href="#azul">Ciudad Viva <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link mx-5" href="#blanco">El Desarrollo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link mx-5" href="#">Ubicación</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link mx-5" href="#">Desarrollos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link ml-5" href="#">Contacto</a>
-                    </li>
-
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link mx-5" href="#azul">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-5" href="#blanco">Ficha técnica</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-5" href="#blanco">Recibe una cotización</a>
+              </li>
                 </ul>
             </div>
         </div>
