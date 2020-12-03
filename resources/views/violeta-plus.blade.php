@@ -6,7 +6,7 @@
             <img src="/img/Icons/Logo-Almada-inv.png" class="img-fluid logo-h" alt="">
         </div>
         <div class="col-lg-7 col-md-12 col-sm-12">
-            <img src="/img/violeta/GC_Violeta_Fachada-1.jpg" class="img-fluid fachada-violeta" alt="">
+            <img src="/img/violeta-plus/cabeceras-fachada-1.jpg" class="img-fluid fachada-violeta" alt="">
         </div>
     </div>
    
@@ -17,25 +17,26 @@
     <div class="container-fluid">
         <div class="row ameni">
             <div class="col-lg-4 col-md-4 col-sm-6 imag-planta">
-                <img src="/img/violeta/GC_Violeta_Planta_Baja.png" class="img-fluid planta-b" alt="">
+                <img src="/img/violeta-plus/GC_Violeta_Plus_Planta_Baja_02.png" class="img-fluid planta-b" alt="">
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 ameni-txt">
-                <h1>Modelo Violeta</h1>
-                <li>Terreno desde: 6 x 17 m </li>
-                <li>Construcción: 62.86 m2</li>
+                <h1>Modelo Violeta Plus</h1>
+                <li>Terreno desde: 7 x 17 m </li>
+                <li>Construcción: 65.73 m2</li>
                 <br>
-                <li><b>Casa de 2 plantas <br>
-                    Amplio patio <br>
-                    Lista para ampliación</b> 
+
+                <li>Casa de 2 plantas <br> 
+                Pasillo lateral <br>
+                Amplio patio <br>
                 </li> <br>
                 <li style="font-weight: 600">Planta Arquitectónica</li> <br>
                 <li style="font-weight: 600">PLANTA BAJA</li>
                 <li>Sala / Comedor</li>
                 <li>Cocina</li>
-                <li>1/2</li>
+                <li>1/2 baño</li>
                 <li style="font-weight: 600">PLANTA ALTA</li>
                 <li>Recámara principal con área
-                    para clóset y terraza</li>
+                    para clóset y baño completo</li>
                 <li>Recámara secundaria con área
                     para clóset</li>
                 <li>1 Baño Completo</li>
@@ -46,7 +47,7 @@
                 <br>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 imag-planta">
-                <img src="/img/violeta/GC_Violeta_Planta_Alta2.png" class="img-fluid planta-b" alt="">
+                <img src="/img/violeta-plus/GC_Violeta_Plus_Planta_Alta02.png" class="img-fluid planta-b" alt="">
             </div>
           
         </div>
