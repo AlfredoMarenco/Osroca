@@ -24,9 +24,7 @@ p {
     font-family: "Montserrat";
 }
 
-.navbar-brand {
-    padding-left: 120px;
-}
+
 
 .bg-pink {
     background-color: #e5007d         
@@ -125,7 +123,7 @@ p {
 }
 
 .btn-pink {
-    background-color: #ee4a7b;
+    background-color: #e5007d ;
     color: white;
     font-size: 20px;
     padding-left: 60px;
@@ -172,7 +170,7 @@ svg {
     
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #ee4a7b;
+    background-color: #e5007d ;
 }
 
 .centro {
@@ -189,7 +187,7 @@ svg {
     
 }
 .linea-der {
-    background-color: #ee4a7b;
+    background-color: #e5007d ;
 }
 
 .btn-blue {
@@ -213,10 +211,10 @@ svg {
     padding-left: 20px;
 }
 .casitas-col {
-    text-align: right;
+    text-align: center;
 }
 .casitas-l {
-    width: 80%;
+    width: 45%;
     padding-bottom: 50px;
 }
 
@@ -386,7 +384,7 @@ svg {
 }
 
 .titulo-footer {
-    color: #ee4a7b;
+    color: #e5007d ;
 }
 
 .redes {
@@ -395,21 +393,16 @@ svg {
 
 }
 
-.mapa {
-    width: 400px;
-    height: 300px;
-    display: flex;
-    padding-bottom: 30px;
-}
+
 
 .fa-instagram {
-    color: #ee4a7b;
+    color: #e5007d ;
     font-size: 29px !important;
     padding-top: 10px;
 }
 
 .fa-facebook-official {
-    color: #ee4a7b;
+    color: #e5007d ;
     font-size: 29px !important;
 }
 
@@ -418,7 +411,7 @@ svg {
 }
 
 .fa-whatsapp {
-    color: #ee4a7b;
+    color: #e5007d ;
     font-size: 29px !important;
     padding-top: 1px;
 }
@@ -435,7 +428,7 @@ svg {
 }
 
 .oficina {
-    color: #ee4a7b;
+    color: #e5007d ;
 }
 
 .direccion {

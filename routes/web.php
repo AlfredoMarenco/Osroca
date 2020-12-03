@@ -11,8 +11,19 @@ Route::get('/almada', function () {
     return view('almada');
 });
 
+Route::get('/modelo-aguamarina', function () {
+    return view('aguamarina');
+});
+Route::get('/modelo-magenta', function () {
+    return view('magenta');
+});
+
 Route::get('/modelo-violeta', function () {
     return view('violeta');
+});
+
+Route::get('/modelo-violeta-plus', function () {
+    return view('violeta-plus');
 });
 
 Route::resource('casas', CasaController::class)->names([

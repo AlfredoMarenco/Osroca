@@ -1,5 +1,4 @@
 @extends('layouts.template-interior')
-
 @section('section')
 <section id="h-logo">
     <div class="container-fluid">
@@ -8,9 +7,11 @@
                 <img src="/img/Icons/Logo-Almada-inv.png" class="img-fluid logo-h" alt="">
             </div>
             <div class="col-lg-7 col-md-12 col-sm-12 p-0">
-                <img src="/img/violeta/GC_Violeta_Fachada-1.jpg" class="img-fluid fachada-violeta" alt="">
-            </div>   
+                <img src="/img/magenta/GC_Magenta_B1_Fachada-1.jpg" class="img-fluid fachada" alt="">
+            </div>
+        </div>
     </div>
+   
 </section>
 
 
@@ -18,36 +19,25 @@
     <div class="container-fluid">
         <div class="row ameni">
             <div class="col-lg-4 col-md-4 col-sm-6 imag-planta">
-                <img src="/img/violeta/GC_Violeta_Planta_Baja.png" class="img-fluid planta-b" alt="">
+                <img src="/img/magenta/GC_Perla_B1_Planta.png" class="img-fluid planta-b" alt="">
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 ameni-txt">
-                <h1>Modelo Violeta</h1>
+            <div class="col-lg-4 col-md-4 col-sm-6 ameni-txt magenta">
+                <h1>Modelo Aguamarina</h1>
                 <li>Terreno desde: 6 x 17 m </li>
-                <li>Construcción: 62.86 m2</li>
+                <li>Construcción: 45.82 m2
+                </li>
                 <br>
-                <li><b>Casa de 2 plantas <br>
-                    Amplio patio <br>
-                    Lista para ampliación</b> 
-                </li> <br>
                 <li style="font-weight: 600">Planta Arquitectónica</li> <br>
-                <li style="font-weight: 600">PLANTA BAJA</li>
-                <li>Sala / Comedor</li>
-                <li>Cocina</li>
-                <li>1/2</li>
-                <li style="font-weight: 600">PLANTA ALTA</li>
-                <li>Recámara principal con área
-                    para clóset y terraza</li>
-                <li>Recámara secundaria con área
-                    para clóset</li>
-                <li>1 Baño Completo</li>
                 
-               
+                <li>Sala / Comedor</li>
+                <li>Cocina independiente</li>
+                <li>1 Baño Completo</li>
+                <li>Recámara principal con área para clóset</li>
+                <li>Recámara secundaria</li>
+                
                 
 
                 <br>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 imag-planta">
-                <img src="/img/violeta/GC_Violeta_Planta_Alta2.png" class="img-fluid planta-b" alt="">
             </div>
           
         </div>

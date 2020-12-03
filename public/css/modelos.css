@@ -9,6 +9,7 @@
     width: 42%;
 }
 
+
 .ameni {
     
     padding-left: 80px;
@@ -22,23 +23,23 @@
 #amenidades-m {
     background-color: #5e5491;
     padding-bottom: 80px;
-    padding-top: 90px;
+    padding-top: 80px;
 }
 
 .imag-planta {
     text-align: center;
 }
 .planta-b {
-    width: 70%;
+    width: 80%;
 }
 .ameni-txt {
-    padding-top: 90px;
+   padding-top: 43px;
     color: white;
 }
 
 li {
     list-style-type: none;
-    font-size: 25px;
+    font-size: 23px;
     font-family: "Avenir";
     font-weight: 200;
 }
@@ -48,6 +49,10 @@ li {
 #amenidades-m h1 {
     font-size: 30px;
     padding-bottom: 15px;
+}
+
+.magenta {
+    padding-top: 200px;
 }
 
 /* Cotizaciones */
@@ -73,8 +78,28 @@ li {
     padding-bottom: 10px;
 }
 
+#formulario {
+    background-color: #5e5491;
+    padding-bottom: 90px;
+}
+
+.un-desarrollo {
+    color: white;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
 .circulo-calzada {
-    width: 45%;
+    width: 35%;
+}
+
+.recibe-una {
+    font-size: 25px;
+}
+
+.formulario-2 {
+   padding-right: 230px;
 }
 
 form {
@@ -82,3 +107,4 @@ form {
    margin-right: 30px;
    margin-left: 30px;
 }
+
