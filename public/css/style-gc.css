@@ -72,12 +72,16 @@ p {
 }
 
 .caracteristicas {
-    font-family: Avenir;
-    font-size: 25px;
+    font-family: "Montserrat";
+    font-size: 23px;
+}
+
+.dis-1 {
+    padding-top: 6px;
 }
 
 .caracteristicas-icon {
-    font-family: Avenir;
+    font-family: "Montserrat";
     font-size: 18px;
 }
 
@@ -115,6 +119,18 @@ p {
 .una-ciudad-1 {
     font-size: 55px;
     text-align: center;
+}
+
+.u-ciudad{
+    margin-top: 5px;
+}
+
+.u-concreto {
+    margin-top: 12px;
+}
+
+.u-planta {
+    margin-top: 2px;
 }
 
 .texto-derecha {
@@ -207,15 +223,18 @@ svg {
 
 .respaldados {
     font-size: 45px;
-    padding-top: 130px;
+    padding-top: 50px;
     padding-left: 20px;
+    font-family: "Montserrat";
+    font-weight: 800;
 }
 .casitas-col {
     text-align: center;
 }
 .casitas-l {
     width: 45%;
-    padding-bottom: 50px;
+    padding-top: 17px;
+    padding-bottom: 20px;
 }
 
 .grupo-casitas {
@@ -256,6 +275,10 @@ svg {
     text-align: center;
 }
 
+.boton-rosa {
+    margin-top: 20px;
+}
+
 .etapas{
     padding-top: 40px;
 }
@@ -285,10 +308,15 @@ svg {
 }
 .minuto {
     padding-top: 30px;
-    font-size: 38px;
+    font-size: 32px;
+}
+
+.montse {
+    font-family: "Montserrat";
 }
 .min-des {
     font-weight: 300;
+    font-size: 20px;
 }
 
 .cercania {

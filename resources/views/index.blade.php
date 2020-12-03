@@ -18,7 +18,7 @@
                         </div>
                         <div class="col-lg-6">
                             <img src="/img/Icons/3km.png" class="img-fluid icono-2" alt="">
-                            <p class="caracteristicas">Distancia<br> de periférico</p>
+                            <p class="caracteristicas dis-1">Distancia<br> de periférico</p>
                         </div>
                     </div>
                     <div class="row cont">
@@ -51,18 +51,18 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 right-one">
                     <div class="texto-derecha">
                         <h1 class="una-ciudad-1">Una ciudad solo para ti, <br> decídete vivir en ella</h1>
-                        <a href="#" class="boton-rosa"><button class="btn btn-pink">Precalifícate</button></a>
+                        <div class="boton-rosa"><a href="#" ><button class="btn btn-pink">Precalifícate</button></a></div>
                     </div>
 
                     <div class="row mt-5 inline-block">
                         {{-- primer icono de la primera fila --}}
                         <div class="col-2 text-right ">
-                            <img src="img/Icons/Icon-Planeacion.svg" class="img-fluid mt-2" width="65%" alt="">
+                            <img src="img/Icons/Icon-Planeacion.svg" class="img-fluid mt-1" width="65%" alt="">
                         </div>
-                        <p class="col-4 text-left caracteristicas-icon p-2">UNA CIUDAD PLANEADA</p>
+                        <p class="col-4 text-left caracteristicas-icon p-2 u-ciudad">UNA CIUDAD<br>PLANEADA</p>
                         {{-- segundo icono primera fila --}}
                         <div class="col-2 text-right ">
-                            <img src="img/Icons/Icon-Equipamiento.svg" class="img-fluid mt-2" width="65%" alt="">
+                            <img src="img/Icons/Icon-Equipamiento.svg" class="img-fluid" width="65%" alt="">
                         </div>
                         <p class="col-4 text-left caracteristicas-icon p-2 my-3">EQUIPAMENTO</p>
                     </div>
@@ -71,12 +71,12 @@
                          <div class="col-2 text-right ">
                             <img src="img/Icons/Icon-Concreto.svg" class="img-fluid mt-2" width="65%" alt="">
                         </div>
-                        <p class="col-4 text-left caracteristicas-icon p-12">CONCRETO HIDRÁULICO</p>
+                        <p class="col-4 text-left caracteristicas-icon p-12 u-concreto">CONCRETO<br>HIDRÁULICO</p>
                         {{-- segundo icono segunda fila --}}
                         <div class="col-2 text-right ">
                             <img src="img/Icons/Icon-Drenaje.svg" class="img-fluid mt-2" width="65%" alt="">
                         </div>
-                        <p class="col-4 text-left caracteristicas-icon p-2">PLANTA DE TRATAMIENTO</p>
+                        <p class="col-4 text-left caracteristicas-icon p-2 u-planta">PLANTA DE<br>TRATAMIENTO</p>
                     </div>
                 </div>
             </div>
@@ -151,8 +151,8 @@
             </div>
             <div class="col-lg-12">
                 <p class="grupo-casitas">Grupo Casitas Desarrollos®, empresa con 15 años de experiencia diseñando,
-                    planeando, contruyendo y comercializando comunidades, en busca siempre de la innovación y
-                    sustentabilidad para otogar a los habitantes de sus desarrollos beneficios excluivos de calidad,
+                    planeando, construyendo y comercializando comunidades, en busca siempre de la innovación y
+                    sustentabilidad para otogar a los habitantes de sus desarrollos beneficios exclusivos de calidad,
                     ubicación y diseño.</p>
             </div>
 
@@ -202,11 +202,11 @@
                     <div class="col-lg-4 col-md-4 col-sm-12 auto-p">
                         <img src="/img/Icons/Icon-Auto.svg" alt="" class="img-fluid auto">
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 minuto-p">
+                    <div class="col-lg-4 col-md-4 col-sm-12 minuto-p montse">
                         <h2 style="color: white" class="minuto">5<h2>
                                 <h4 style="color: white" class="min-des">MIN PERIFÉRICO</h4>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 minuto-p der">
+                    <div class="col-lg-4 col-md-4 col-sm-12 minuto-p der montse">
                         <h2 style="color: white" class="minuto">8<h2>
                                 <h4 style="color: white" class="min-des">MIN CIUDAD<br>INDUSTRIAL</h4>
                     </div>
@@ -215,11 +215,11 @@
                     <div class="col-lg-4 col-md-4 col-sm-12 auto-p">
                         <img src="/img/Icons/Icon-Bus.svg" alt="" class="img-fluid auto">
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 minuto-p">
+                    <div class="col-lg-4 col-md-4 col-sm-12 minuto-p montse">
                         <h2 style="color: white" class="minuto">15<h2>
                                 <h4 style="color: white" class="min-des">MIN PERIFÉRICO</h4>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 minuto-p der">
+                    <div class="col-lg-4 col-md-4 col-sm-12 minuto-p der montse">
                         <h2 style="color: white" class="minuto">17<h2>
                                 <h4 style="color: white" class="min-des">MIN CIUDAD<br>INDUSTRIAL</h4>
                     </div>
