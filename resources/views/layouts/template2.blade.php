@@ -17,37 +17,7 @@
 </head>
 
 <body>
-    <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-pink">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/">
-                <img src="/img/Icons/Calzada.svg" width="60" height="60" alt="Gran calzada" loading="lazy">
-              </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav m-auto">
-                    <li class="nav-item">
-                        <a class="nav-link mx-5" href="/">Ciudad Viva <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link mx-5" href="#casitas">El Desarrollador</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link mx-5" href="#ubicacion">Ubicación</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link mx-5" href="#desarrollos">Desarrollos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link ml-5" href="#contacto">Contacto</a>
-                    </li>
 
-                </ul>
-            </div>
-        </div>
-    </nav>
 
     <div>
         @yield('section')
