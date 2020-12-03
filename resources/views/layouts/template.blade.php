@@ -53,7 +53,6 @@
 
     <div>
         @yield('section')
-
     </div>
 
     <footer id="footer-section" class="bgfooter pt-5">
