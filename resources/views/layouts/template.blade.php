@@ -6,7 +6,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('img/Icons/favicon-32x32.png') }}">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style-gc.css') }}">
@@ -15,7 +14,6 @@
     <link rel="stylesheet" href="{{ asset('css/modelos.css') }}">
     <title>Gran Calzada</title>
 </head>
-
 <body>
     <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-pink">
         <div class="container-fluid">
@@ -48,12 +46,9 @@
             </div>
         </div>
     </nav>
-
     <div>
         @yield('section')
-
     </div>
-
     <footer id="footer-section" class="bgfooter pt-5">
         <div class="container-fluid" id="contacto">
           <div class="row footer-espacio" >
@@ -111,17 +106,17 @@
                 </div>
 
             <div class="col-lg-4">
-                <div class="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7451.3932299456565!2d-89.6253903!3d20.9646953!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x676469d86fc45aa3!2sGRUPO%20CASITAS%20DESARROLLOS!5e0!3m2!1ses!2smx!4v1606816390645!5m2!1ses!2smx" width="600" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="img-fluid"></iframe></div>
+                <div class="embed-responsive embed-responsive-4by3"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7451.3932299456565!2d-89.6253903!3d20.9646953!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x676469d86fc45aa3!2sGRUPO%20CASITAS%20DESARROLLOS!5e0!3m2!1ses!2smx!4v1606816390645!5m2!1ses!2smx" width="600" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="img-fluid"></iframe></div>
                 <h4 class="oficina">Oficina de Ventas <br> Dirección:</h4>
                 <p class="direccion">Calle 56 entre 61 y 63 Col Centro,<br> Mérida, Yucatán.</p>
             </div>
             <div class="col-lg-4">
-                <div class="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14902.728365377367!2d-89.62163499638639!3d20.96527821803639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671638a4bd525%3A0x8869213d7b04479b!2sGrupo%20Casitas!5e0!3m2!1ses!2smx!4v1606817830688!5m2!1ses!2smx" width="600" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="img-fluid"></iframe></div>
+                <div class="embed-responsive embed-responsive-4by3"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14902.728365377367!2d-89.62163499638639!3d20.96527821803639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671638a4bd525%3A0x8869213d7b04479b!2sGrupo%20Casitas!5e0!3m2!1ses!2smx!4v1606817830688!5m2!1ses!2smx" width="600" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="img-fluid"></iframe></div>
                 <h4 class="oficina">Oficina de Ventas <br> Dirección:</h4>
                 <p class="direccion">Calle 63-A entre 56 y 58 2da Calle<br> Nueva, Centro, Mérida, Yucatán.</p>
             </div>
             <div class="col-lg-4">
-                <div class="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d232.85681188382955!2d-89.623922!3d20.9641986!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4d6e8a6817cb205a!2sGRUPO%20CASITAS%20DESARROLLOS!5e0!3m2!1ses!2smx!4v1606817777639!5m2!1ses!2smx" width="600" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="img-fluid"></iframe></div>
+                <div class="embed-responsive embed-responsive-4by3"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d232.85681188382955!2d-89.623922!3d20.9641986!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4d6e8a6817cb205a!2sGRUPO%20CASITAS%20DESARROLLOS!5e0!3m2!1ses!2smx!4v1606817777639!5m2!1ses!2smx" width="600" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="img-fluid"></iframe></div>
                 <h4 class="oficina">Oficina de Ventas <br> Dirección:</h4>
                 <p class="direccion">Calle 60 entre 65 y 67 Frente a la<br>Japay Mérida, Yucatán.</p>
             </div>
@@ -156,12 +151,6 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
     -->
-
-
-
-
-
-
 </body>
 
 </html>
