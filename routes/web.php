@@ -9,7 +9,7 @@ Route::get('/', function () {
 
 Route::get('/almada', function () {
     return view('almada');
-});
+})->name('almada');
 
 Route::get('/modelo-aguamarina', function () {
     return view('aguamarina');
