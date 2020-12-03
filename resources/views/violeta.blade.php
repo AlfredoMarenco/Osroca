@@ -1,12 +1,17 @@
 @extends('layouts.template')
 
 <header id="h-logo">
-    <img src="/img/Icons/Logo-Almada-inv.png" class="img-fluid logo-h" alt="">
+    <div class="row">
+        <div class="col-lg-5 col-md-12 col-sm-12">
+            <img src="/img/Icons/Logo-Almada-inv.png" class="img-fluid logo-h" alt="">
+        </div>
+        <div class="col-lg-7 col-md-12 col-sm-12">
+            <img src="/img/aguamarina/GC_Aguamarina_fachada-1.jpg" class="img-fluid fachada" alt="">
+        </div>
+    </div>
+   
 </header>
 
-<section id="cabecera-img">
-    <img src="/img/aguamarina/GC_Aguamarina_fachada.jpg" class="img-fluid fachada" alt="">
-</section>
 
 <section id="amenidades-m">
     <div class="container-fluid">
@@ -61,6 +66,8 @@
 
 
             </div>
+
+            
             
                 
                 
@@ -70,6 +77,8 @@
     </div>
 
 </section>
+
+
 
 
 
