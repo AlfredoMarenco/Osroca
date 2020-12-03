@@ -21,22 +21,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Gran Calzada</title>
     <!-- Facebook Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '2821273661220502');
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=2821273661220502&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2821273661220502');
+        fbq('track', 'PageView');
+
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=2821273661220502&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
 
 
 </head>
@@ -82,9 +92,9 @@
         <div class="container-fluid">
             <div class="row footer-espacio">
 
-            <div class="col-lg-4 col-md-12 col-sm-12">
-              <h1 class="titulo-footer">Contáctanos</h1>
-              <br>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <h1 class="titulo-footer">Contáctanos</h1>
+                    <br>
 
 
                     <p class="redes"><i class="fa fa-instagram" aria-hidden="true" style="padding-right: 10px;"></i>
@@ -94,13 +104,14 @@
                             style="padding-right: 10px;"></i> @Grupocasitas</p>
                 </div>
 
-            <div class="col-lg-4 col-md-12 col-sm-12 correo">
-              <br>
-                <p class="redes">info@grupocasitas.com.mx</p>
-                <p class="redes"><i class="fa fa-whatsapp" aria-hidden="true" style="padding-right: 10px"></i>  Contacta a un asesor ahora</p>
-            </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 correo">
+                    <br>
+                    <p class="redes">info@grupocasitas.com.mx</p>
+                    <p class="redes"><i class="fa fa-whatsapp" aria-hidden="true" style="padding-right: 10px"></i>
+                        Contacta a un asesor ahora</p>
+                </div>
 
-            <div class="col-lg-4 col-md-12 col-sm-12 mx-right">
+                <div class="col-lg-4 col-md-12 col-sm-12 mx-right">
 
                     <form class="contact" name="contact-form" method="post" action="enviar.php">
                         <div class="form-group">
@@ -196,19 +207,9 @@
     -->
 
     <!-- Start of HubSpot Embed Code -->
-<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5510950.js"></script>
-<!-- End of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5510950.js"></script>
+    <!-- End of HubSpot Embed Code -->
 
+</body>
 
-
-
-
-
-
-    -->
-
-
-
-
-
-
+</html>
