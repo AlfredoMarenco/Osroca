@@ -1,15 +1,9 @@
 /* Fonts */
 
-@font-face {
-    font-family: Avenir;
-    src: url("../fonts/GranCalzada/Avenir/Avenir.ttc");
-    font-style: normal;
-    }
-
  @font-face {
-    font-family: clearface;
+    font-family: "clearface";
     src: url("../fonts/GranCalzada/clearface/Clearface-bold.ttc"); 
-    src: url("../fonts/GranCalzada/clearface/ClearfaceEFHeavy-Regular.otf");
+
     font-style: normal;
     font-weight: bold;
     }
@@ -23,7 +17,11 @@
     }
     
 h1 {
-    font-family: clearface;
+    font-family: "clearface";
+}
+
+p {
+    font-family: "Montserrat";
 }
 
 .navbar-brand {
