@@ -9,11 +9,8 @@ Route::get('/', function () {
 });
 
 Route::get('/almada', function () {
-    $aguamarina = Casa::findOrFail(1);
-    $magenta = Casa::findOrFail(2);
-    $violeta = Casa::findOrFail(3);
-    $violetaplus = Casa::findOrFail(4);
-    return view('almada', compact('aguamarina','magenta','violeta','violetaplus'));
+    $modelos = Casa::all();
+    return view('almada', compact('modelos'));
 })->name('almada');
 
 Route::get('/modelo-aguamarina', function () {
