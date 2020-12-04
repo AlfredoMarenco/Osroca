@@ -72,7 +72,7 @@
                          <div class="col-12 col-lg-2 text-center text-lg-right">
                             <img src="img/Icons/Icon-Concreto.svg" class="mt-2" style="max-width: 4.3rem;"  alt="">
                         </div>
-                        <p class="col-12 col-lg-4 text-center text-lg-left caracteristicas-icon p-12 u-concreto">CONCRETO<br>HIDRÁULICO</p>
+                        <p class="col-12 col-lg-4 text-center text-lg-left caracteristicas-icon p-2 u-concreto">CONCRETO<br>HIDRÁULICO</p>
                         {{-- segundo icono segunda fila --}}
                         <div class="col-12 col-lg-2 text-center text-lg-right">
                             <img src="img/Icons/Icon-Drenaje.svg" class="mt-2" style="max-width: 4.3rem;" alt="">
