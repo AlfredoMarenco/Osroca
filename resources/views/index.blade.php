@@ -146,7 +146,7 @@
                         Gran Desarrollador</h2>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 casitas-col">
-                    <img src="img/Icons/Logo-Casitas.png" class="img-fluid casitas-l" alt="">
+                    <img src="{{ asset('img/Icons/Logo-Casitas.png') }}" class="img-fluid casitas-l" alt="">
                 </div>
             </div>
             <div class="col-lg-12">
@@ -158,7 +158,7 @@
 
             <div class="row">
                 <div class="col-lg-12 comunidades">
-                    <img src="img/creando-comunidades.png" alt="" class="img-fluid ">
+                    <img src="{{ asset('img/creando-comunidades.png') }}" alt="" class="img-fluid ">
                 </div>
             </div>
         </div>
@@ -185,7 +185,7 @@
 
         <!-- Linea de etapas -->
         <div class="bg-etapas" style="text-align: center">
-            <img src="/img/etapas-3.png" class="img-fluid etapas" alt="">
+            <img src="{{ asset('img/etapas-3.png') }}" class="img-fluid etapas" alt="">
 
         </div>
         <!-- Fin Linea de etapas -->
@@ -200,7 +200,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-12 auto-p">
-                        <img src="/img/Icons/Icon-Auto.svg" alt="" class="img-fluid auto">
+                        <img src="{{ asset('img/Icons/Icon-Auto.svg') }}" alt="" class="img-fluid auto">
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 minuto-p montse">
                         <h2 style="color: white" class="minuto">5<h2>
@@ -213,7 +213,7 @@
                 </div>
                 <div class="row cercania">
                     <div class="col-lg-4 col-md-4 col-sm-12 auto-p">
-                        <img src="/img/Icons/Icon-Bus.svg" alt="" class="img-fluid auto">
+                        <img src="{{ asset('img/Icons/Icon-Bus.svg') }}" alt="" class="img-fluid auto">
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 minuto-p montse">
                         <h2 style="color: white" class="minuto">15<h2>
@@ -238,7 +238,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12 cal-rosa-1">
-                    <img src="img/Icons/Calzada-2.svg" class="img-fluid cal-rosa" alt="">
+                    <img src="{{ asset('img/Icons/Calzada-2.svg') }}" class="img-fluid cal-rosa" alt="">
                 </div>
                 <div class="col-lg-8 col-md-6 col-sm-12">
                     <h2 class="titulo-desarrollos">Dos desarrollos <b><br>Para disfrutar la vida</b></h2>
@@ -249,14 +249,14 @@
             <div class="pad">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12 fo-a  almada-c">
-                        <img src="/img/Icons/Logo-Almada.png" class="almada img-fluid" alt="">
+                        <img src="{{ asset('img/Icons/Logo-Almada.png') }}" class="almada img-fluid" alt="">
                         <h3 class="lead costo">DESDE <B>$360,000</B></h3>
                         <div class="boton-2">
                             <a href="/almada"><button class="btn btn-primary">Encuentra tu casa</button></a>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 fo-v almada-c">
-                        <img src="/img/Icons/Logo-Miraverde.png" class="miraverde img-fluid" alt="">
+                        <img src="{{ asset('img/Icons/Logo-Miraverde.png') }}" class="miraverde img-fluid" alt="">
 
                         <div class="boton-2">
                             <a href="#"><button class="btn btn-primary b-mira">P R O X Í M A M E N T E</button></a>
