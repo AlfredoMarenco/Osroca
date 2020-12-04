@@ -54,7 +54,7 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 right-one">
                     <div class="texto-derecha">
                         <h1 class="una-ciudad-1">Una ciudad solo para ti, <br> decídete vivir en ella</h1>
-                        <div class="boton-rosa"><a href="#"><button class="btn btn-pink">Precalifícate</button></a></div>
+                        <div class="boton-rosa"><a href="{{ route('almada') }}"><button class="btn btn-pink">Precalifícate</button></a></div>
                     </div>
 
                     <div class="row mt-5">
