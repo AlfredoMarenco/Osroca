@@ -59,27 +59,27 @@
 
                     <div class="row mt-5">
                         {{-- primer icono de la primera fila --}}
-                        <div class="col-2 text-right ">
-                            <img src="{{ asset('img/Icons/Icon-Planeacion.svg') }}" class="img-fluid mt-1" alt="">
+                        <div class="col-12 col-lg-2 text-center text-lg-right ">
+                            <img src="{{ asset('img/Icons/Icon-Planeacion.svg') }}" class="img-fluid mt-1" style="width: 5.0rem;" alt="">
                         </div>
-                        <p class="col-4 text-left caracteristicas-icon p-2">UNA CIUDAD<br>PLANEADA</p>
+                        <p class="col-12 col-lg-4 text-center text-lg-left caracteristicas-icon p-2">UNA CIUDAD<br>PLANEADA</p>
                         {{-- segundo icono primera fila --}}
-                        <div class="col-2 text-right ">
-                            <img src="{{ asset('img/Icons/Icon-Equipamiento.svg') }}" class="img-fluid" alt="">
+                        <div class="col-12 col-lg-2 text-center text-lg-right ">
+                            <img src="{{ asset('img/Icons/Icon-Equipamiento.svg') }}" class="img-fluid" style="width: 5.0rem;" alt="">
                         </div>
-                        <p class="col-4 text-left caracteristicas-icon p-2 my-3">EQUIPAMENTO</p>
+                        <p class="col-12 col-lg-4 text-center text-lg-left caracteristicas-icon p-2 my-3">EQUIPAMENTO</p>
                     </div>
                     <div class="row">
                         {{-- primer icono de la segunda fila --}}
-                        <div class="col-2 text-right ">
-                            <img src="{{ asset('img/Icons/Icon-concreto.svg') }}" class="img-fluid mt-2" alt="">
+                        <div class="col-12 col-lg-2 text-center text-lg-right ">
+                            <img src="{{ asset('img/Icons/Icon-concreto.svg') }}" class="img-fluid mt-2" style="width: 5.0rem;" alt="">
                         </div>
-                        <p class="col-4 text-left caracteristicas-icon p-2">CONCRETO<br>HIDRÁULICO</p>
+                        <p class="col-12 col-lg-4 text-center text-lg-left caracteristicas-icon p-2">CONCRETO<br>HIDRÁULICO</p>
                         {{-- segundo icono segunda fila --}}
-                        <div class="col-2 text-right ">
-                            <img src="{{ asset('img/Icons/Icon-Drenaje.svg') }}" class="img-fluid mt-2" alt="">
+                        <div class="col-12 col-lg-2 text-center text-lg-right ">
+                            <img src="{{ asset('img/Icons/Icon-Drenaje.svg') }}" class="img-fluid mt-2"  style="width: 5.0rem;"alt="">
                         </div>
-                        <p class="col-4 text-left caracteristicas-icon p-2">PLANTA DE<br>TRATAMIENTO</p>
+                        <p class="col-12 col-lg-4 text-center text-lg-left caracteristicas-icon p-2 ">PLANTA DE<br>TRATAMIENTO</p>
                     </div>
                 </div>
             </div>

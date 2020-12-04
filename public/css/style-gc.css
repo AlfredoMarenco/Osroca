@@ -96,7 +96,7 @@ p {
 
 .caracteristicas-icon {
     font-family: "Montserrat";
-    font-size: 0.8rem;
+    font-size: 1.2rem;
 }
 
 .cont {
@@ -151,7 +151,7 @@ p {
 .u-ciudad{
     margin-top: 16px;
     font-size: 17px;
-} 
+}
 
 .u-concreto {
     margin-top: 22px;
@@ -161,7 +161,7 @@ p {
 .u-planta {
     margin-top: 16px;
     font-size: 17px;
-} 
+}
 
 .texto-derecha {
     text-align: center;
