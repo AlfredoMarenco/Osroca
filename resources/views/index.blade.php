@@ -8,7 +8,7 @@
         </div>
         </div>
     </section>
-    
+
     <section id="s-sec">
         <div class="container-fluid">
             <div class="row">
@@ -62,24 +62,24 @@
                         <div class="col-2 text-right ">
                             <img src="{{ asset('img/Icons/Icon-Planeacion.svg') }}" class="img-fluid mt-1" alt="">
                         </div>
-                        <p class="col-4 text-left caracteristicas-icon p-2 u-ciudad">UNA CIUDAD<br>PLANEADA</p>
+                        <p class="col-4 text-left caracteristicas-icon p-2">UNA CIUDAD<br>PLANEADA</p>
                         {{-- segundo icono primera fila --}}
                         <div class="col-2 text-right ">
                             <img src="{{ asset('img/Icons/Icon-Equipamiento.svg') }}" class="img-fluid" alt="">
                         </div>
-                        <p class="col-4 text-left caracteristicas-icon u-planta p-2 my-3">EQUIPAMENTO</p>
+                        <p class="col-4 text-left caracteristicas-icon p-2 my-3">EQUIPAMENTO</p>
                     </div>
                     <div class="row">
                         {{-- primer icono de la segunda fila --}}
                         <div class="col-2 text-right ">
                             <img src="{{ asset('img/Icons/Icon-concreto.svg') }}" class="img-fluid mt-2" alt="">
                         </div>
-                        <p class="col-4 text-left caracteristicas-icon p-2 u-concreto">CONCRETO<br>HIDRÁULICO</p>
+                        <p class="col-4 text-left caracteristicas-icon p-2">CONCRETO<br>HIDRÁULICO</p>
                         {{-- segundo icono segunda fila --}}
                         <div class="col-2 text-right ">
                             <img src="{{ asset('img/Icons/Icon-Drenaje.svg') }}" class="img-fluid mt-2" alt="">
                         </div>
-                        <p class="col-4 text-left caracteristicas-icon p-2 u-planta">PLANTA DE<br>TRATAMIENTO</p>
+                        <p class="col-4 text-left caracteristicas-icon p-2">PLANTA DE<br>TRATAMIENTO</p>
                     </div>
                 </div>
             </div>
