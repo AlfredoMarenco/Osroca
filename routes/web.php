@@ -10,7 +10,8 @@ Route::get('/', function () {
 
 Route::get('/almada', function () {
     $modelos = Casa::all();
-    return view('almada', compact('modelos'));
+    $desde = Casa::orderBy('price', 'asc')->first();
+    return view('almada', compact('modelos','desde'));
 })->name('almada');
 
 Route::get('/modelo-aguamarina', function () {

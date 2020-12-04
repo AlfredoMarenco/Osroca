@@ -7,7 +7,7 @@
                 <div class="row espacio">
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <h1 class="titular">Tu nuevo hogar <br>está aquí</h1>
-                        <h2 class="desde lead">desde <b>$360,000</b></h2>
+                        <h2 class="desde lead">desde <b>${{ number_format($desde->price) }}</b></h2>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 alm">
                         <img src="{{ asset('img/Icons/Logo-Almada-inv.png') }}" class="img-fluid alm-inv" alt="">
