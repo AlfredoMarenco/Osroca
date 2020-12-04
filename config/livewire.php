@@ -42,7 +42,7 @@ return [
     |
     */
 
-    'asset_url'  => 'https://grancalzada.mx/',
+    'asset_url'  => 'https://grancalzada.mx/public',
 
     /*
     |--------------------------------------------------------------------------
