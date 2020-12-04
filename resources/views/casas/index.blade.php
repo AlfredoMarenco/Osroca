@@ -24,10 +24,10 @@
                                                 class="px-6 py-3 text-center bg-gray-50  text-xs font-medium text-gray-500 uppercase tracking-wider">
                                                 Precio
                                             </th>
-                                            <th scope="col"
+                                            {{-- <th scope="col"
                                                 class="px-6 py-3 text-center bg-gray-50 text-xs font-medium text-gray-500 uppercase tracking-wider">
                                                 Color
-                                            </th>
+                                            </th> --}}
                                             <th scope="col" class="px-6 py-3 bg-gray-50">
                                                 <span class="sr-only">Edit</span>
                                             </th>
@@ -47,11 +47,11 @@
                                                         $ {{ number_format($casa->price, 2) }}
                                                     </div>
                                                 </td>
-                                                <td class="px-6 py-4 whitespace-nowrap">
+                                                {{-- <td class="px-6 py-4 whitespace-nowrap">
                                                     <div class="flex-shrink-0 mx-auto h-10 w-10" style="background-color: {{ $casa->bgcolor }};">
 
                                                     </div>
-                                                </td>
+                                                </td> --}}
                                                 <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
                                                     <a href="{{ route('casas.edit',$casa) }}" class="text-indigo-600 hover:text-indigo-900">Edit</a>
                                                 </td>
