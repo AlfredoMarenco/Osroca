@@ -67,7 +67,7 @@
     <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-pink">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">
-                <img src="/img/Icons/Calzada.svg" width="60" height="60" alt="Gran calzada" loading="lazy">
+                <img src="{{ asset('/img/Icons/Calzada.svg') }}" width="60" height="60" alt="Gran calzada" loading="lazy">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -195,13 +195,13 @@
             <div style="color: white">
               <p class="copyright" style="text-align: center;"><small>
 
-            UN DESARROLLO DE <img src="/img/Icons/Logo-Casitas.svg" class="img-fluid casitas-footer" style="padding-bottom: 8px" alt="">
+            UN DESARROLLO DE <img src="{{ asset('/img/Icons/Logo-Casitas.svg') }}" class="img-fluid casitas-footer" style="padding-bottom: 8px" alt="">
 
             <div class="row pt-5 mt-2 text-center ">
                 <div class="col-md-12">
                     <div style="color: white">
                         UN DESARROLLO DE
-                        <img src="/img/Icons/Logo-Casitas.svg" class="img-fluid casitas-footer"
+                        <img src="{{ asset('/img/Icons/Logo-Casitas.svg') }}" class="img-fluid casitas-footer"
                             style="padding-bottom: 8px" alt="">
                     </div>
                 </div>
@@ -218,7 +218,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
 
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
