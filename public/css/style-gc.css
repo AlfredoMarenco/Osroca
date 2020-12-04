@@ -359,7 +359,7 @@ svg {
     padding-top: 40px;
 }
 .bg-etapas {
-    background-image: url(/img/linea-etapas.png);
+    background-image: url(../img/linea-etapas.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #0b2650;
