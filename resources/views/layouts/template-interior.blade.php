@@ -9,13 +9,16 @@
 
     <meta property="og:title" content="Gran Calzada una ciudad viva">
     <meta property="og:type" content="website" />
-    <meta name="description" content="La Gran Calzada® está creada para conectarte con todo lo que necesitas diariamente: comercios, escuelas, supermercados, etc."/>
-    <meta name="og:description" content="La Gran Calzada® está creada para conectarte con todo lo que necesitas diariamente: comercios, escuelas, supermercados, etc."/>
-    <meta name="og:url" content="https://www.grancalzada.mx"/>
-    <meta name="og:site_name" content="Gran Calzada"/>
-    <meta name="og:image" content="/img/gran-calzada-tumb.png"/>
+    <meta name="description"
+        content="La Gran Calzada® está creada para conectarte con todo lo que necesitas diariamente: comercios, escuelas, supermercados, etc." />
+    <meta name="og:description"
+        content="La Gran Calzada® está creada para conectarte con todo lo que necesitas diariamente: comercios, escuelas, supermercados, etc." />
+    <meta name="og:url" content="https://www.grancalzada.mx" />
+    <meta name="og:site_name" content="Gran Calzada" />
+    <meta name="og:image" content="/img/gran-calzada-tumb.png" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:description" content="La Gran Calzada® está creada para conectarte con todo lo que necesitas diariamente: comercios, escuelas, supermercados, etc." />
+    <meta name="twitter:description"
+        content="La Gran Calzada® está creada para conectarte con todo lo que necesitas diariamente: comercios, escuelas, supermercados, etc." />
     <meta name="twitter:title" content="Gran Calzada una ciudad viva" />
     <meta name="twitter:image" content="/img/gran-calzada-tumb.png" />
 
@@ -63,7 +66,8 @@
     <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-pink">
         <div class="container-fluid">
             <a class="navbar-brand" href="{{ route('index') }}">
-                <img src="{{ asset('img/Icons/Calzada.svg') }}" width="60" height="60" alt="Gran calzada" loading="lazy">
+                <img src="{{ asset('img/Icons/Calzada.svg') }}" width="60" height="60" alt="Gran calzada"
+                    loading="lazy">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,15 +75,15 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                  <li class="nav-item">
-                    <a class="nav-link mx-5" href="#azul">Inicio <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link mx-5" href="#amenidades-m">Ficha técnica</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link mx-5" href="#formulario">Recibe una cotización</a>
-              </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-5" href="#azul">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-5" href="#amenidades-m">Ficha técnica</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-5" href="#formulario">Recibe una cotización</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -184,8 +188,8 @@
                     <div style="color: white">
                         <p class="copyright" style="text-align: center;"><small>
 
-                                UN DESARROLLO DE<img src="{{ asset('img/Icons/Logo-Casitas.svg') }}" class="img-fluid casitas-footer"
-                                    style="padding-bottom: 8px" alt="">
+                                UN DESARROLLO DE<img src="/img/Icons/Logo-Casitas-bco.svg"
+                                    class="img-fluid casitas-footer" style="padding-bottom: 8px" alt="">
 
 
                     </div>
@@ -213,6 +217,24 @@
 
     <!-- Start of HubSpot Embed Code -->
     <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5510950.js"></script>
+    <!-- End of HubSpot Embed Code -->
+
+
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+    </script>
+
+
 </body>
 
 </html>

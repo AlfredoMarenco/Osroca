@@ -156,11 +156,28 @@
                     ubicación y diseño.</p>
             </div>
 
-            <div class="row">
-                <div class="col-lg-12 comunidades">
-                    <img src="{{ asset('img/creando-comunidades.png') }}" alt="" class="img-fluid ">
+
+                <div class="container-fluid">
+                    <div class="row amenidades-2">
+                        <!-- uno -->
+                        <div class="col-3">
+                            <img src="/img/Icons/c-1.png" alt="2 escuelas" class="i-resumen img-fluid">
+                        </div>
+                        <!-- uno -->
+                        <div class="col-3">
+                            <img src="/img/Icons/c-2.png" alt="2 escuelas" class="i-resumen img-fluid">
+                        </div>
+                        <!-- uno -->
+                        <div class="col-3">
+                            <img src="/img/Icons/c-3.png" alt="2 escuelas" class="i-resumen img-fluid">
+                        </div>
+                        <!-- uno -->
+                        <div class="col-3">
+                            <img src="/img/Icons/c-4.png" alt="2 escuelas" class="i-resumen img-fluid">
+                        </div>
+                    </div>
                 </div>
-            </div>
+
         </div>
 
     </section>
