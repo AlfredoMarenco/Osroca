@@ -64,19 +64,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="#f-sec">Ciudad Viva <span class="sr-only">(current)</span></a>
+                        <a class="nav-link mx-5" href="/#f-sec">Ciudad Viva <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="#casitas">El Desarrolloador</a>
+                        <a class="nav-link mx-5" href="/#casitas">El Desarrolloador</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link mx-5" href="#ubicacion">Ubicación</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="#desarrollos">Desarrollos</a>
+                        <a class="nav-link mx-5" href="/#desarrollos">Desarrollos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ml-5" href="#">Contacto</a>
+                        <a class="nav-link ml-5" href="#contacto">Contacto</a>
                     </li>
 
                 </ul>
@@ -89,7 +89,7 @@
     </div>
 
     <footer id="footer-section" class="bgfooter pt-5">
-        <div class="container-fluid">
+        <div class="container-fluid" id="contacto">
             <div class="row footer-espacio">
 
                 <div class="col-lg-4 col-md-12 col-sm-12">

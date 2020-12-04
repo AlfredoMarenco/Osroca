@@ -55,29 +55,29 @@
                         <div class="boton-rosa"><a href="#" ><button class="btn btn-pink">Precalifícate</button></a></div>
                     </div>
 
-                    <div class="row mt-5 inline-block">
+                    <div class="row container mt-5 inline-block">
                         {{-- primer icono de la primera fila --}}
-                        <div class="col-2 text-right ">
-                            <img src="img/Icons/Icon-Planeacion.svg" class="img-fluid mt-1" width="65%" alt="">
+                        <div class="col-12 col-lg-2 text-center text-lg-right">
+                            <img src="img/Icons/Icon-Planeacion.svg" class="mt-1" style="max-width: 4.3rem;"  alt="">
                         </div>
-                        <p class="col-4 text-left caracteristicas-icon p-2 u-ciudad">UNA CIUDAD<br>PLANEADA</p>
+                        <p class="col-12 col-lg-4 text-center text-lg-left caracteristicas-icon p-2 u-ciudad">UNA CIUDAD<br>PLANEADA</p>
                         {{-- segundo icono primera fila --}}
-                        <div class="col-2 text-right ">
-                            <img src="img/Icons/Icon-Equipamiento.svg" class="img-fluid" width="65%" alt="">
+                        <div class="col-12 col-lg-2 text-center text-lg-right">
+                            <img src="img/Icons/Icon-Equipamiento.svg" class="" style="max-width: 4.3rem;"  alt="">
                         </div>
-                        <p class="col-4 text-left caracteristicas-icon p-2 my-3">EQUIPAMENTO</p>
+                        <p class="col-12 col-lg-4 text-center text-lg-left caracteristicas-icon p-2 my-3">EQUIPAMENTO</p>
                     </div>
-                    <div class="row">
+                    <div class="row container">
                          {{-- primer icono de la segunda fila --}}
-                         <div class="col-2 text-right ">
-                            <img src="img/Icons/Icon-Concreto.svg" class="img-fluid mt-2" width="65%" alt="">
+                         <div class="col-12 col-lg-2 text-center text-lg-right">
+                            <img src="img/Icons/Icon-Concreto.svg" class="mt-2" style="max-width: 4.3rem;"  alt="">
                         </div>
-                        <p class="col-4 text-left caracteristicas-icon p-12 u-concreto">CONCRETO<br>HIDRÁULICO</p>
+                        <p class="col-12 col-lg-4 text-center text-lg-left caracteristicas-icon p-12 u-concreto">CONCRETO<br>HIDRÁULICO</p>
                         {{-- segundo icono segunda fila --}}
-                        <div class="col-2 text-right ">
-                            <img src="img/Icons/Icon-Drenaje.svg" class="img-fluid mt-2" width="65%" alt="">
+                        <div class="col-12 col-lg-2 text-center text-lg-right">
+                            <img src="img/Icons/Icon-Drenaje.svg" class="mt-2" style="max-width: 4.3rem;" alt="">
                         </div>
-                        <p class="col-4 text-left caracteristicas-icon p-2 u-planta">PLANTA DE<br>TRATAMIENTO</p>
+                        <p class="col-12 col-lg-4 text-center text-lg-left caracteristicas-icon p-2 u-planta">PLANTA DE<br>TRATAMIENTO</p>
                     </div>
                 </div>
             </div>
@@ -252,7 +252,7 @@
                         <img src="/img/Icons/Logo-Almada.png" class="almada img-fluid" alt="">
                         <h3 class="lead costo">DESDE <B>$360,000</B></h3>
                         <div class="boton-2">
-                            <a href="{{ route('') }}"><button class="btn btn-primary">Encuentra tu casa</button></a>
+                            <a href="{{ route('almada') }}"><button class="btn btn-primary">Encuentra tu casa</button></a>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 fo-v almada-c">

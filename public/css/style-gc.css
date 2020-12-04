@@ -2,7 +2,7 @@
 
  @font-face {
     font-family: "clearface";
-    src: url("../fonts/GranCalzada/clearface/Clearface-bold.ttc"); 
+    src: url("../fonts/GranCalzada/clearface/Clearface-bold.ttc");
 
     font-style: normal;
     font-weight: bold;
@@ -10,12 +10,12 @@
 
 @font-face {
     font-family: 'Minion-Pro';
-    src: url("../fonts/GranCalzada/Minionpro/MinionPro-Regular.otf"); 
+    src: url("../fonts/GranCalzada/Minionpro/MinionPro-Regular.otf");
     src: url("../fonts/GranCalzada/clearface/ClearfaceEFHeavy-Regular.otf");
     font-style: normal;
     font-weight: bold;
     }
-    
+
 h1 {
     font-family: "clearface";
 }
@@ -27,7 +27,7 @@ p {
 
 
 .bg-pink {
-    background-color: #e5007d         
+    background-color: #e5007d
 !important;
 }
 
@@ -46,11 +46,11 @@ p {
 
 .banner {
     text-align: center;
-} 
+}
 
 .logo-banner {
     width: 50%;
-    
+
 }
 
 /* Fin Primera sección */
@@ -82,7 +82,7 @@ p {
 
 .caracteristicas-icon {
     font-family: "Montserrat";
-    font-size: 18px;
+    font-size: 1.3rem;
 }
 
 .cont {
@@ -168,7 +168,7 @@ p {
 
 .amenidades {
     text-align: center;
-   
+
 }
 
 .i-resumen {
@@ -183,7 +183,7 @@ svg {
    display: block;
 }
 .fondo-1 {
-    
+
     background-repeat: no-repeat;
     background-position: center;
     background-color: #e5007d ;
@@ -200,7 +200,7 @@ svg {
     color: white;
     font-size: 40px;
     margin-top: 15px;
-    
+
 }
 .linea-der {
     background-color: #e5007d ;
@@ -292,7 +292,7 @@ svg {
 .auto {
     padding-top: 20px;
     width: 35%;
-    
+
 }
 
 .der {
@@ -374,7 +374,7 @@ svg {
 }
 
 .btn-primary {
-    
+
     font-size: 23px;
     padding-right: 40px;
     padding-left: 40px;
@@ -400,7 +400,7 @@ svg {
 #footer-section {
     background-color: #0b2650;
     padding-top: 130px;
-} 
+}
 
 .casitas-footer {
     width: 5%;
