@@ -80,7 +80,8 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="{{ route('index') }}#s-sec">Ciudad Viva <span class="sr-only">(current)</span></a>
+                        <a class="nav-link mx-5" href="{{ route('index') }}#s-sec">Ciudad Viva <span
+                                class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link mx-5" href="#casitas">El Desarrollador</a>
@@ -197,15 +198,11 @@
         <div class="row pt-5 mt-2 text-center ">
             <div class="col-md-12">
                 <div style="color: white">
-                    <p class="copyright" style="text-align: center;"><small>
-
-                            UN DESARROLLO DE <img src="{{ asset('/img/Icons/Logo-Casitas.svg') }}"
-                                class="img-fluid casitas-footer" style="padding-bottom: 8px" alt="">
+                    <p class="copyright" style="text-align: center;">UN DESARROLLO DE</p>
+                    <img src="{{ asset('/img/Icons/Logo-Casitas.svg') }}" class="img-fluid casitas-footer" style="padding-bottom: 8px" alt="">
                 </div>
             </div>
-
         </div>
-
     </footer>
     <!--Page end-->
 
@@ -225,23 +222,21 @@
     -->
 
     <!-- Start of HubSpot Embed Code -->
-<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5510950.js"></script>
-<!-- End of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5510950.js"></script>
+    <!-- End of HubSpot Embed Code -->
 
-<script>
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function (e) {
-      e.preventDefault();
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
 
-      document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
-      });
-  });
-});
-</script>
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
 
-
-
+    </script>
 
 </body>
 

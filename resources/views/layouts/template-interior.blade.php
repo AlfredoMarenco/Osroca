@@ -15,12 +15,12 @@
         content="La Gran Calzada® está creada para conectarte con todo lo que necesitas diariamente: comercios, escuelas, supermercados, etc." />
     <meta name="og:url" content="https://www.grancalzada.mx" />
     <meta name="og:site_name" content="Gran Calzada" />
-    <meta name="og:image" content="/img/gran-calzada-tumb.png" />
+    <meta name="og:image" content="{{ asset('img/gran-calzada-tumb.png')}}" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:description"
         content="La Gran Calzada® está creada para conectarte con todo lo que necesitas diariamente: comercios, escuelas, supermercados, etc." />
     <meta name="twitter:title" content="Gran Calzada una ciudad viva" />
-    <meta name="twitter:image" content="/img/gran-calzada-tumb.png" />
+    <meta name="twitter:image" content="{{ asset('img/gran-calzada-tumb.png')}}" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
@@ -186,12 +186,8 @@
             <div class="row pt-5 mt-2 text-center ">
                 <div class="col-md-12">
                     <div style="color: white">
-                        <p class="copyright" style="text-align: center;"><small>
-
-                                UN DESARROLLO DE<img src="/img/Icons/Logo-Casitas-bco.svg"
-                                    class="img-fluid casitas-footer" style="padding-bottom: 8px" alt="">
-
-
+                        <p class="copyright" style="text-align: center;">UN DESARROLLO DE</p>
+                        <img src="{{ asset('img/Icons/Logo-Casitas-bco.svg') }}" class="img-fluid casitas-footer" style="padding-bottom: 8px" alt="">
                     </div>
                 </div>
 
@@ -207,7 +203,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
 
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
