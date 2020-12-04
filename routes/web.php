@@ -5,7 +5,8 @@ use App\Models\Casa;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('index');
+    $desde = Casa::orderBy('price', 'asc')->first();
+    return view('index',compact('desde'));
 })->name('index');
 
 Route::get('/almada', function () {
