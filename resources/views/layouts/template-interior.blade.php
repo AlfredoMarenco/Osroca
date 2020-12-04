@@ -76,10 +76,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="#azul">Inicio <span class="sr-only">(current)</span></a>
+                        <a class="nav-link mx-5" href="{{ route('index') }}">Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="#amenidades-m">Modelos</a>
+                        <a class="nav-link mx-5" href="{{ route('almada') }}">Modelos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link mx-5" href="#amenidades-m">Características</a>
