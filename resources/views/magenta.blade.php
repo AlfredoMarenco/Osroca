@@ -4,10 +4,10 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-5 col-md-12 col-sm-12">
-                <img src="{{ asset('img/Icons/Logo-Almada-inv.png') }}" class="img-fluid logo-h" alt="">
+                <img src="/img/Icons/Logo-Almada-inv.png" class="img-fluid logo-h" alt="">
             </div>
             <div class="col-lg-7 col-md-12 col-sm-12 p-0">
-                <img src="{{ asset('img/magenta/GC_Magenta_B1_Fachada-1.jpg') }}" class="img-fluid fachada" alt="">
+                <img src="/img/magenta/GC_Magenta_B1_Fachada-1.jpg" class="img-fluid fachada" alt="">
             </div>
         </div>
     </div>
@@ -19,7 +19,7 @@
     <div class="container-fluid">
         <div class="row ameni">
             <div class="col-lg-4 col-md-4 col-sm-6 imag-planta">
-                <img src="{{ asset('img/magenta/GC_Perla_B1_Planta.png') }}" class="img-fluid planta-b" alt="">
+                <img src="/img/magenta/GC_Perla_B1_Planta.png" class="img-fluid planta-b" alt="">
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 ameni-txt magenta">
                 <h1>Modelo Aguamarina</h1>
@@ -55,7 +55,7 @@
 
                 <h2 class="un-desarrollo" style="text-align: center;">Un desarrollo de</h2>
                 <div style="text-align: center">
-                    <img src="{{ asset('img/Icons/Logo-Calzada.svg') }}" alt="" class="img-fluid circulo-calzada">
+                    <img src="/img/Icons/Logo-Calzada.svg" alt="" class="img-fluid circulo-calzada">
                 </div>
            </div>
            <div class="col-lg-6 col-md-12 col-sm-12 formulario-2">
