@@ -62,7 +62,7 @@
 <body>
     <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-pink">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="{{ route('index') }}">
                 <img src="{{ asset('img/Icons/Calzada.svg') }}" width="60" height="60" alt="Gran calzada" loading="lazy">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
