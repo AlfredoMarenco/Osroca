@@ -2,10 +2,11 @@
 <html lang="en">
 
 <head>
-  
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('img/Icons/favicon-32x32.png') }}">
+
     <meta property="og:title" content="Gran Calzada una ciudad viva">
     <meta property="og:type" content="website" />
     <meta name="description" content="La Gran Calzada® está creada para conectarte con todo lo que necesitas diariamente: comercios, escuelas, supermercados, etc."/>   
@@ -17,10 +18,6 @@
     <meta name="twitter:description" content="La Gran Calzada® está creada para conectarte con todo lo que necesitas diariamente: comercios, escuelas, supermercados, etc." />
     <meta name="twitter:title" content="Gran Calzada una ciudad viva" />
     <meta name="twitter:image" content="/img/gran-calzada-tumb.png" />
-   
-
-
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('img/Icons/favicon-32x32.png') }}">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -30,8 +27,7 @@
     <link rel="stylesheet" href="css/modelos.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <title>Gran Calzada - Una ciudad viva</title>
-
+    <title>Gran Calzada</title>
     <!-- Facebook Pixel Code -->
 <script>
   !function(f,b,e,v,n,t,s)
@@ -64,23 +60,22 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav m-auto">
-                    <li class="nav-item">
-                        <a class="nav-link mx-5" href="#s-sec">Ciudad Viva <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link mx-5" href="#casitas">El Desarrollador</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link mx-5" href="#">Ubicación</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link mx-5" href="#desarrollos">Desarrollos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link ml-5" href="#footer-section">Contacto</a>
-                    </li>
-
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link mx-5" href="#azul">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-5" href="#aguamarina">Aguamarina</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-5" href="#magenta">Magenta</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-5" href="#Violeta">Violeta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-5" href="#Violeta-plus">Violeta Plus</a>
+          </li>
                 </ul>
             </div>
         </div>
@@ -88,13 +83,14 @@
 
     <div>
         @yield('section')
+
     </div>
 
     <footer id="footer-section" class="bgfooter pt-5">
         <div class="container-fluid">
           <div class="row footer-espacio">
 
-            <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="col-lg-4 col-md-12 col-sm-6">
               <h1 class="titulo-footer">Contáctanos</h1>
               <br>
 
@@ -104,13 +100,13 @@
                <p class="redes"><i class="fa fa-facebook-official" aria-hidden="true" style="padding-right: 10px;"></i>  @Grupocasitas</p>
             </div>
 
-            <div class="col-lg-4 col-md-12 col-sm-12 correo">
+            <div class="col-lg-4 col-md-12 col-sm-6 correo">
               <br>
                 <p class="redes">info@grupocasitas.com.mx</p>
                 <p class="redes"><i class="fa fa-whatsapp" aria-hidden="true" style="padding-right: 10px"></i>  Contacta a un asesor ahora</p>
             </div>
 
-            <div class="col-lg-4 col-md-12 col-sm-12 mx-right">
+            <div class="col-lg-4 col-md-12 col-sm-6 mx-right">
 
                 <form class="contact" name="contact-form" method="post" action="enviar.php">
                 <div class="form-group">
@@ -168,7 +164,7 @@
             <div style="color: white">
               <p class="copyright" style="text-align: center;"><small>
 
-            UN DESARROLLO DE <img src="/img/Icons/Logo-Casitas-bco.svg" class="img-fluid casitas-footer" style="padding-bottom: 8px" alt="">
+            UN DESARROLLO DE<img src="/img/Icons/Logo-Casitas-bco.svg" class="img-fluid casitas-footer" style="padding-bottom: 8px" alt="">
 
 
             </div>
@@ -197,6 +193,8 @@
 <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5510950.js"></script>
 <!-- End of HubSpot Embed Code -->
 
+
+
 <script>
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
@@ -208,8 +206,6 @@
   });
 });
 </script>
-
-
 
 
 </body>

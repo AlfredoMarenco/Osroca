@@ -208,7 +208,11 @@ p {
 
 .amenidades {
     text-align: center;
-   
+}
+
+.amenidades-2 {
+    text-align: center;
+    padding-top: 20px;
 }
 
 .i-resumen {
@@ -292,11 +296,15 @@ svg {
 .grupo-casitas {
     text-align: justify;
     color: gray;
-    font-size: 24px;
+    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 } @media (max-width: 500px) { 
     .grupo-casitas  {
         font-size: 19px;
         text-align: justify;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 }
 
@@ -470,6 +478,7 @@ svg {
     width: 55%;
 }
 .costo {
+    font-family: "Montserrat";
     font-size: 40px;
     color: #5e5491;
     text-align: center;

@@ -158,7 +158,7 @@
             <div style="color: white">
               <p class="copyright" style="text-align: center;"><small>
 
-            UN DESARROLLO DE<img src="/img/Icons/Logo-Casitas.svg" class="img-fluid casitas-footer" style="padding-bottom: 8px" alt="">
+            UN DESARROLLO DE<img src="/img/Icons/Logo-Casitas-bco.svg" class="img-fluid casitas-footer" style="padding-bottom: 8px" alt="">
 
 
             </div>
@@ -189,7 +189,17 @@
 
 
 
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault();
 
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+      });
+  });
+});
+</script>
 
 
 </body>
