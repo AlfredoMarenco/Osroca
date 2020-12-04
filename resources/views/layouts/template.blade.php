@@ -80,7 +80,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="#s-sec">Ciudad Viva <span class="sr-only">(current)</span></a>
+                        <a class="nav-link mx-5" href="{{ route('index') }}#s-sec">Ciudad Viva <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link mx-5" href="#casitas">El Desarrollador</a>
@@ -89,7 +89,7 @@
                         <a class="nav-link mx-5" href="#ubicacion">Ubicación</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="#desarrollos">Desarrollos</a>
+                        <a class="nav-link mx-5" href="/#desarrollos">Desarrollos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link ml-5" href="#footer-section">Contacto</a>
