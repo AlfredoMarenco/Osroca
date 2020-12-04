@@ -455,11 +455,13 @@ svg {
     background-image: url(../img/f-rosa.png);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 .fo-v{
     background-image: url(../img/f-verde.png);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .almada-c {

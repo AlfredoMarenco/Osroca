@@ -3,7 +3,9 @@
 @section('section')
     <section id="f-sec">
         <div class="col-lg-12 col-md-12 col-sm-12 banner">
-            <img src="{{ asset('img/Icons/Logo-GranCalzada.svg') }}" class="img-fluid logo-banner" alt="Gran Calzada | Ciudad Viva">
+            <img src="{{ asset('img/Icons/Logo-GranCalzada.svg') }}" class="img-fluid logo-banner"
+                alt="Gran Calzada | Ciudad Viva">
+        </div>
         </div>
     </section>
     <section id="s-sec">
@@ -51,13 +53,13 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 right-one">
                     <div class="texto-derecha">
                         <h1 class="una-ciudad-1">Una ciudad solo para ti, <br> decídete vivir en ella</h1>
-                        <div class="boton-rosa"><a href="#" ><button class="btn btn-pink">Precalifícate</button></a></div>
+                        <div class="boton-rosa"><a href="#"><button class="btn btn-pink">Precalifícate</button></a></div>
                     </div>
 
-                    <div class="row mt-5 inline-block">
+                    <div class="row mt-5">
                         {{-- primer icono de la primera fila --}}
                         <div class="col-2 text-right ">
-                            <img src="{{ asset('img/Icons/Icon-Planeacion.svg') }}" class="img-fluid mt-1"  alt="">
+                            <img src="{{ asset('img/Icons/Icon-Planeacion.svg') }}" class="img-fluid mt-1" alt="">
                         </div>
                         <p class="col-4 text-left caracteristicas-icon p-2 u-ciudad">UNA CIUDAD<br>PLANEADA</p>
                         {{-- segundo icono primera fila --}}
@@ -67,7 +69,7 @@
                         <p class="col-4 text-left caracteristicas-icon p-2 my-3">EQUIPAMENTO</p>
                     </div>
                     <div class="row">
-                         {{-- primer icono de la segunda fila --}}
+                        {{-- primer icono de la segunda fila --}}
                         <div class="col-2 text-right ">
                             <img src="{{ asset('img/Icons/Icon-concreto.svg') }}" class="img-fluid mt-2" alt="">
                         </div>
@@ -118,7 +120,8 @@
             <div class="container-fluid">
                 <div class="row texto">
                     <div class="col-lg-12 col-md-12 col-sm-12 centro">
-                        <img src="{{ asset('img/Icons/Calzada.svg') }}" class="img-fluid calzada-rosa" alt="Gran Calzada | Ciudad Viva">
+                        <img src="{{ asset('img/Icons/Calzada.svg') }}" class="img-fluid calzada-rosa"
+                            alt="Gran Calzada | Ciudad Viva">
                         <h1 class="estas-en">Estás en el camino correcto <br> para
                             cambiar y mejorar tu estilo de vida,<br>
                             es el momento de vivir otro entorno.</h1>
@@ -157,26 +160,26 @@
             </div>
 
 
-                <div class="container-fluid">
-                    <div class="row amenidades-2">
-                        <!-- uno -->
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <img src="{{ asset('img/Icons/c-1.png') }}" alt="2 escuelas" class="i-resumen img-fluid">
-                        </div>
-                        <!-- uno -->
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <img src="{{ asset('img/Icons/c-2.png') }}" alt="2 escuelas" class="i-resumen img-fluid">
-                        </div>
-                        <!-- uno -->
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <img src="{{ asset('img/Icons/c-3.png') }}" alt="2 escuelas" class="i-resumen img-fluid">
-                        </div>
-                        <!-- uno -->
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <img src="{{ asset('img/Icons/c-4.png') }}" alt="2 escuelas" class="i-resumen img-fluid">
-                        </div>
+            <div class="container-fluid">
+                <div class="row amenidades-2">
+                    <!-- uno -->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <img src="{{ asset('img/Icons/c-1.png') }}" alt="2 escuelas" class="i-resumen img-fluid">
+                    </div>
+                    <!-- uno -->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <img src="{{ asset('img/Icons/c-2.png') }}" alt="2 escuelas" class="i-resumen img-fluid">
+                    </div>
+                    <!-- uno -->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <img src="{{ asset('img/Icons/c-3.png') }}" alt="2 escuelas" class="i-resumen img-fluid">
+                    </div>
+                    <!-- uno -->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <img src="{{ asset('img/Icons/c-4.png') }}" alt="2 escuelas" class="i-resumen img-fluid">
                     </div>
                 </div>
+            </div>
 
         </div>
 
@@ -193,7 +196,7 @@
                 <div class="col-lg-12">
                     <h1 class="t-urb">Urbanización y Gran <br>Conectividad Interior</h1>
                     <p class="p-urb">Trasládate caminando dentro de amplias y arboladas banquetas, o rodando en familia
-                        por la ciclopista. <br>  La Gran Calzada® está creada para conectarte con todo lo que necesitas
+                        por la ciclopista. <br> La Gran Calzada® está creada para conectarte con todo lo que necesitas
                         diariamente: comercios, escuelas, supermercados, etc.</p>
                     <div class="boton"><a href="#"> <button class="btn btn-pink"> Encuentra tu hogar </button> </a></div>
                 </div>
@@ -210,8 +213,10 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="t-urb">Gran Ubicación Privilegiada</h1>
-                    <p class="p-urb dos">Ubicado el poniente de la ciudad y se centra en una zona de alto crecimiento en el <br class="enter">
-                        estado, reconocida por su abundante generación de empleos y gran conexión.</p>
+                    <p class="p-urb dos">Ubicado el poniente de la ciudad y se centra en una zona de alto crecimiento en el
+                        <br class="enter">
+                        estado, reconocida por su abundante generación de empleos y gran conexión.
+                    </p>
                 </div>
             </div>
             <div class="container">
@@ -263,25 +268,26 @@
             </div>
 
             <!-- DESARROLLOS -->
-            <div class="pad container-fluid">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 fo-a  almada-c">
-                        <img src="{{ asset('img/Icons/Logo-Almada.png') }}" class="almada img-fluid" alt="">
+            <div class="row">
+                <div class="col-12 col-lg-6 text-center ">
+                    <div class="fo-a py-5">
+                        <img src="{{ asset('img/Icons/Logo-Almada.png') }}" class="almada my-5 img-fluid" alt="">
                         <h3 class="lead costo">DESDE <B>$360,000</B></h3>
                         <div class="boton-2">
                             <a href="#"><button class="btn btn-primary">Encuentra tu casa</button></a>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 fo-v almada-c">
-                        <img src="{{ asset('img/Icons/Logo-Miraverde.png') }}" class="miraverde img-fluid" alt="">
-
+                </div>
+                <div class="col-12 col-lg-6 text-center">
+                    <div class="fo-v py-5">
+                        <img src="{{ asset('img/Icons/Logo-Miraverde.png') }}" class="miraverde my-5 img-fluid" alt="">
                         <div class="boton-2">
                             <a href="#"><button class="btn btn-primary b-mira">P R O X Í M A M E N T E</button></a>
                         </div>
                     </div>
-
                 </div>
             </div>
+            <!--nanna-->
         </div>
     </section>
 

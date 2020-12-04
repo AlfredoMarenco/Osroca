@@ -101,15 +101,15 @@
         </div>
     </nav>
 
-    <div style="margin-right: 0px">
+    <div>
         @yield('section')
     </div>
 
     <footer id="footer-section" class="bgfooter pt-5">
-        <div class="container-fluid" id="contacto">
+        <div class="container-fluid">
             <div class="row footer-espacio">
 
-                <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="col-lg-4 col-md-12 col-sm-6">
                     <h1 class="titulo-footer">Contáctanos</h1>
                     <br>
 
@@ -121,14 +121,14 @@
                             style="padding-right: 10px;"></i> @Grupocasitas</p>
                 </div>
 
-                <div class="col-lg-4 col-md-12 col-sm-12 correo">
+                <div class="col-lg-4 col-md-12 col-sm-6 correo">
                     <br>
                     <p class="redes">info@grupocasitas.com.mx</p>
                     <p class="redes"><i class="fa fa-whatsapp" aria-hidden="true" style="padding-right: 10px"></i>
                         Contacta a un asesor ahora</p>
                 </div>
 
-                <div class="col-lg-4 col-md-12 col-sm-12 mx-right">
+                <div class="col-lg-4 col-md-12 col-sm-6 mx-right">
 
                     <form class="contact" name="contact-form" method="post" action="enviar.php">
                         <div class="form-group">
@@ -162,7 +162,7 @@
 
             </div>
 
-            <div class="row mt-5 pt-2 oficinas" id="ubicacion">
+            <div class="row mt-5 pt-2 oficinas ">
 
                 <div class="col-lg-12" style="text-align: center">
                     <h2 class="puntos-de-venta">Encuentra nuestros puntos de venta</h2>
@@ -193,17 +193,17 @@
                     <p class="direccion">Calle 60 entre 65 y 67 Frente a la<br>Japay Mérida, Yucatán.</p>
                 </div>
             </div>
-        </div>
 
-        <div class="row pt-5 mt-2 text-center ">
-            <div class="col-md-12">
-                <div style="color: white">
-                    <p class="copyright" style="text-align: center;"><small>
-                    UN DESARROLLO DE<img src="{{ asset('img/Icons/Logo-Casitas-bco.svg') }}" class="img-fluid casitas-footer"
-                            style="padding-bottom: 8px" alt="">
+            <div class="row pt-5 mt-2 text-center ">
+                <div class="col-md-12">
+                    <div style="color: white">
+                        <p class="copyright" style="text-align: center;">UN DESARROLLO DE<small>
+                        <img src="{{ asset('img/Icons/Logo-Casitas-bco.svg') }}" class="img-fluid casitas-footer" style="padding-bottom: 8px" alt="">
+                    </div>
                 </div>
+
             </div>
-        </div>
+
     </footer>
     <!--Page end-->
 
