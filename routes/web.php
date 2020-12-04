@@ -1,7 +1,7 @@
 <?php
 
 use App\Http\Controllers\CasaController;
-use App\Models\Casa;
+useuse App\Models\Casa;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -13,7 +13,7 @@ Route::get('/almada', function () {
     $magenta = Casa::findOrFail(2);
     $violeta = Casa::findOrFail(3);
     $violetaplus = Casa::findOrFail(4);
-    return view('almada');
+    return view('almada', compact('aguamarina','magenta','violeta','violetaplus'));
 })->name('almada');
 
 Route::get('/modelo-aguamarina', function () {
@@ -32,7 +32,7 @@ Route::get('/modelo-violeta-plus', function () {
     return view('violeta-plus');
 })->name('violetaplus');
 
-Route::resource('casas', CasaController::class)->names([
+CasaController::class)->names([
     'index' => 'casas.index',
     'edit' => 'casas.edit',
     'update' =>  'casas.update'
