@@ -101,7 +101,9 @@
         </div>
     </nav>
 
+    <div style="margin-right: 0px">
         @yield('section')
+    </div>
 
     <footer id="footer-section" class="bgfooter pt-5">
         <div class="container-fluid" id="contacto">
