@@ -160,7 +160,7 @@
                 <div class="container-fluid">
                     <div class="row amenidades-2">
                         <!-- uno -->
-                        <div class="col-3col-lg-3 col-md-6 col-sm-12">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
                             <img src="{{ asset('img/Icons/c-1.png') }}" alt="2 escuelas" class="i-resumen img-fluid">
                         </div>
                         <!-- uno -->
