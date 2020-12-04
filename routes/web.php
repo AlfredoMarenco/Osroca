@@ -13,7 +13,7 @@ Route::get('/almada', function () {
     $magenta = Casa::findOrFail(2);
     $violeta = Casa::findOrFail(3);
     $violetaplus = Casa::findOrFail(4);
-    return view('almada', compact('aguamarina','magenta','violeta','violetaplus'));
+    return view('almada');
 })->name('almada');
 
 Route::get('/modelo-aguamarina', function () {
