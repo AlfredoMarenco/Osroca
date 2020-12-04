@@ -20,11 +20,11 @@
     <meta name="twitter:image" content="/img/gran-calzada-tumb.png" />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style-gc.css">
-    <link rel="stylesheet" href="css/almada.css">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style-gc.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/almada.css') }}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/modelos.css">
+    <link rel="stylesheet" href="{{ asset('css/modelos.css') }}">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Gran Calzada</title>
@@ -63,7 +63,7 @@
     <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-pink">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="/img/Icons/Calzada.svg" width="60" height="60" alt="Gran calzada" loading="lazy">
+                <img src="{{ asset('img/Icons/Calzada.svg') }}" width="60" height="60" alt="Gran calzada" loading="lazy">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -184,7 +184,7 @@
                     <div style="color: white">
                         <p class="copyright" style="text-align: center;"><small>
 
-                                UN DESARROLLO DE<img src="/img/Icons/Logo-Casitas.svg" class="img-fluid casitas-footer"
+                                UN DESARROLLO DE<img src="{{ asset('img/Icons/Logo-Casitas.svg') }}" class="img-fluid casitas-footer"
                                     style="padding-bottom: 8px" alt="">
 
 
