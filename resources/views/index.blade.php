@@ -3,7 +3,7 @@
 @section('section')
     <section id="f-sec">
         <div class="col-lg-12 col-md-12 col-sm-12 banner">
-            <img src="/img/Icons/Logo-GranCalzada.svg" class="img-fluid logo-banner" alt="Gran Calzada | Ciudad Viva">
+            <img src="{{ asset('img/Icons/Logo-GranCalzada.svg') }}" class="img-fluid logo-banner" alt="Gran Calzada | Ciudad Viva">
         </div>
     </section>
 
