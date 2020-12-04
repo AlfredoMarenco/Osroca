@@ -54,19 +54,19 @@
                                     </div>
                                     <div class="grid grid-cols-5 gap-6 mt-6">
                                         <div class="col-span-4 sm:col-span-2">
-                                            <label class="block text-sm font-medium leading-5 text-gray-700">
+                                            <label class="hidden text-sm font-medium leading-5 text-gray-700">
                                                 Color de fondo
                                             </label>
                                             <div class="mt-1 flex rounded-md w-full shadow-sm">
-                                                <input type="color" name="bgcolor" value="{{ $casa->bgcolor }}">
+                                                <input hidden type="color" name="bgcolor" value="{{ $casa->bgcolor }}">
                                             </div>
                                         </div>
                                         <div class="col-span-6 sm:col-span-2">
-                                            <label class="block text-sm font-medium leading-5 text-gray-700">
+                                            <label class="hidden text-sm font-medium leading-5 text-gray-700">
                                                 Color de texto
                                             </label>
                                             <div class="mt-1 flex rounded-md w-full shadow-sm">
-                                                <input type="color" name="textcolor" value="{{ $casa->textcolor }}">
+                                                <input hidden type="color" name="textcolor" value="{{ $casa->textcolor }}">
                                             </div>
                                         </div>
                                     </div>

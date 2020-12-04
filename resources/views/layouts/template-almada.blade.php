@@ -65,7 +65,7 @@
 <body>
     <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-pink">
         <div class="container-fluid">
-            <a class="navbar-brand" href="{{ route('index') }}">
+            <a class="navbar-brand" href="#">
                 <img src="{{ asset('img/Icons/Calzada.svg') }}" width="60" height="60" alt="Gran calzada"
                     loading="lazy">
             </a>
@@ -79,13 +79,16 @@
                         <a class="nav-link mx-5" href="{{ route('index') }}">Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="{{ route('almada') }}">Modelos</a>
+                        <a class="nav-link mx-5" href="#aguamarina">Aguamarina</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="#amenidades-m">Características</a>
+                        <a class="nav-link mx-5" href="#magenta">Magenta</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="#formulario">Recibe una cotización</a>
+                        <a class="nav-link mx-5" href="#Violeta">Violeta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-5" href="#Violeta-plus">Violeta Plus</a>
                     </li>
                 </ul>
             </div>
@@ -189,9 +192,9 @@
             <div class="row pt-5 mt-2 text-center ">
                 <div class="col-md-12">
                     <div style="color: white">
-                        <p class="copyright" style="text-align: center;">UN DESARROLLO DE<small>
-                                <img src="{{ asset('img/Icons/Logo-Casitas-bco.svg') }}"
-                                    class="img-fluid casitas-footer" style="padding-bottom: 8px" alt="">
+                        <p class="copyright" style="text-align: center;"><small>
+                        UN DESARROLLO DE<img src="{{ asset('img/Icons/Logo-Casitas-bco.svg') }}" class="img-fluid casitas-footer"
+                            style="padding-bottom: 8px" alt="">
                     </div>
                 </div>
 

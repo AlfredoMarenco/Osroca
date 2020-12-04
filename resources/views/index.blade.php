@@ -3,7 +3,9 @@
 @section('section')
     <section id="f-sec">
         <div class="col-lg-12 col-md-12 col-sm-12 banner">
-            <img src="/img/Icons/Logo-GranCalzada.svg" class="img-fluid logo-banner" alt="Gran Calzada | Ciudad Viva">
+            <img src="{{ asset('img/Icons/Logo-GranCalzada.svg') }}" class="img-fluid logo-banner"
+                alt="Gran Calzada | Ciudad Viva">
+        </div>
         </div>
     </section>
 
@@ -13,29 +15,29 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 left-one">
                     <h1 class="una-ciudad">¡Una Ciudad Viva!</h1>
                     <div class="row cont">
-                        <div class="col-lg-6 ">
-                            <img src="/img/Icons/Calzada-1.png" class="img-fluid icono" alt="">
+                        <div class="col-6">
+                            <img src="{{ asset('img/Icons/Calzada-1.png') }}" class="img-fluid icono" alt="">
                             <p class="caracteristicas">Poniente <br> de la ciudad</p>
                         </div>
-                        <div class="col-lg-6">
-                            <img src="/img/Icons/3km.png" class="img-fluid icono-2" alt="">
+                        <div class="col-6">
+                            <img src="{{ asset('img/Icons/3km.png') }}" class="img-fluid icono-2" alt="">
                             <p class="caracteristicas dis-1">Distancia<br> de periférico</p>
                         </div>
                     </div>
                     <div class="row cont">
-                        <div class="col-lg-6 ">
-                            <img src="/img/Icons/116.png" class="img-fluid icono-1" alt="">
+                        <div class="col-6 ">
+                            <img src="{{ asset('img/Icons/116.png') }}" class="img-fluid icono-1" alt="">
                             <p class="caracteristicas">Hectáreas</p>
                         </div>
-                        <div class="col-lg-6">
-                            <img src="/img/Icons/Calzada-1.png" class="img-fluid icono" alt="">
+                        <div class="col-6">
+                            <img src="{{ asset('img/Icons/vivienda.png') }}" class="img-fluid icono vivienda" alt="">
                             <p class="caracteristicas">Más de 4,000 viviendas<br>
                                 divididas en dos desarollos</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 right-one">
-                    <img src="/img/1.png" alt="Gran Calzada | Ciudad Viva" class="img-fluid">
+                    <img src="{{ asset('img/1.png') }}" alt="Gran Calzada | Ciudad Viva" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -46,38 +48,38 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12 right-one">
-                    <img src="/img/2.png" alt="Gran Calzada | Ciudad Viva" class="img-fluid arboleda">
+                    <img src="{{ asset('img/2.png') }}" alt="Gran Calzada | Ciudad Viva" class="img-fluid arboleda">
                 </div>
 
                 <div class="col-lg-6 col-md-12 col-sm-12 right-one">
                     <div class="texto-derecha">
                         <h1 class="una-ciudad-1">Una ciudad solo para ti, <br> decídete vivir en ella</h1>
-                        <div class="boton-rosa"><a href="#" ><button class="btn btn-pink">Precalifícate</button></a></div>
+                        <div class="boton-rosa"><a href="{{ route('almada') }}"><button class="btn btn-pink">Precalifícate</button></a></div>
                     </div>
 
-                    <div class="row container mt-5 inline-block">
+                    <div class="row mt-5">
                         {{-- primer icono de la primera fila --}}
-                        <div class="col-12 col-lg-2 text-center text-lg-right">
-                            <img src="img/Icons/Icon-Planeacion.svg" class="mt-1" style="max-width: 4.3rem;"  alt="">
+                        <div class="col-12 col-lg-2 text-center text-lg-right ">
+                            <img src="{{ asset('img/Icons/Icon-Planeacion.svg') }}" class="img-fluid mt-1" style="width: 5.0rem;" alt="">
                         </div>
-                        <p class="col-12 col-lg-4 text-center text-lg-left caracteristicas-icon p-2 u-ciudad">UNA CIUDAD<br>PLANEADA</p>
+                        <p class="col-12 col-lg-4 text-center text-lg-left caracteristicas-icon p-2">UNA CIUDAD<br>PLANEADA</p>
                         {{-- segundo icono primera fila --}}
-                        <div class="col-12 col-lg-2 text-center text-lg-right">
-                            <img src="img/Icons/Icon-Equipamiento.svg" class="" style="max-width: 4.3rem;"  alt="">
+                        <div class="col-12 col-lg-2 text-center text-lg-right ">
+                            <img src="{{ asset('img/Icons/Icon-Equipamiento.svg') }}" class="img-fluid" style="width: 5.0rem;" alt="">
                         </div>
                         <p class="col-12 col-lg-4 text-center text-lg-left caracteristicas-icon p-2 my-3">EQUIPAMENTO</p>
                     </div>
-                    <div class="row container">
-                         {{-- primer icono de la segunda fila --}}
-                         <div class="col-12 col-lg-2 text-center text-lg-right">
-                            <img src="img/Icons/Icon-Concreto.svg" class="mt-2" style="max-width: 4.3rem;"  alt="">
+                    <div class="row">
+                        {{-- primer icono de la segunda fila --}}
+                        <div class="col-12 col-lg-2 text-center text-lg-right ">
+                            <img src="{{ asset('img/Icons/Icon-concreto.svg') }}" class="img-fluid mt-2" style="width: 5.0rem;" alt="">
                         </div>
-                        <p class="col-12 col-lg-4 text-center text-lg-left caracteristicas-icon p-12 u-concreto">CONCRETO<br>HIDRÁULICO</p>
+                        <p class="col-12 col-lg-4 text-center text-lg-left caracteristicas-icon p-2">CONCRETO<br>HIDRÁULICO</p>
                         {{-- segundo icono segunda fila --}}
-                        <div class="col-12 col-lg-2 text-center text-lg-right">
-                            <img src="img/Icons/Icon-Drenaje.svg" class="mt-2" style="max-width: 4.3rem;" alt="">
+                        <div class="col-12 col-lg-2 text-center text-lg-right ">
+                            <img src="{{ asset('img/Icons/Icon-Drenaje.svg') }}" class="img-fluid mt-2"  style="width: 5.0rem;"alt="">
                         </div>
-                        <p class="col-12 col-lg-4 text-center text-lg-left caracteristicas-icon p-2 u-planta">PLANTA DE<br>TRATAMIENTO</p>
+                        <p class="col-12 col-lg-4 text-center text-lg-left caracteristicas-icon p-2 ">PLANTA DE<br>TRATAMIENTO</p>
                     </div>
                 </div>
             </div>
@@ -85,24 +87,25 @@
     </section>
 
     <!-- Escuelas - Zonas Comerciales - Ciclopista - Parques Interactivos -->
+
     <section id="resumen">
         <div class="container-fluid">
             <div class="row amenidades">
                 <!-- uno -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <img src="/img/2-escuelas.png" alt="2 escuelas" class="i-resumen img-fluid">
+                <div class="col-lg-3 col-md-6 col-sm-4">
+                    <img src="{{ asset('img/2-escuelas.png') }}" alt="2 escuelas" class="i-resumen img-fluid">
                 </div>
                 <!-- uno -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <img src="/img/21-zonas-comerciales.png" alt="2 escuelas" class="i-resumen img-fluid">
+                <div class="col-lg-3 col-md-6 col-sm-4">
+                    <img src="{{ asset('img/21-zonas-comerciales.png') }}" alt="2 escuelas" class="i-resumen img-fluid">
                 </div>
                 <!-- uno -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <img src="/img/1-ciclopista.png" alt="2 escuelas" class="i-resumen img-fluid">
+                <div class="col-lg-3 col-md-6 col-sm-4">
+                    <img src="{{ asset('img/1-ciclopista.png') }}" alt="2 escuelas" class="i-resumen img-fluid">
                 </div>
                 <!-- uno -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <img src="/img/8-parques.png" alt="2 escuelas" class="i-resumen img-fluid">
+                <div class="col-lg-3 col-md-6 col-sm-4">
+                    <img src="{{ asset('img/8-parques.png') }}" alt="2 escuelas" class="i-resumen img-fluid">
                 </div>
             </div>
         </div>
@@ -118,11 +121,12 @@
             <div class="container-fluid">
                 <div class="row texto">
                     <div class="col-lg-12 col-md-12 col-sm-12 centro">
-                        <img src="/img/Icons/Calzada.svg" class="img-fluid calzada-rosa" alt="Gran Calzada | Ciudad Viva">
+                        <img src="{{ asset('img/Icons/Calzada.svg') }}" class="img-fluid calzada-rosa"
+                            alt="Gran Calzada | Ciudad Viva">
                         <h1 class="estas-en">Estás en el camino correcto <br> para
                             cambiar y mejorar tu estilo de vida,<br>
                             es el momento de vivir otro entorno.</h1>
-                        <a href="#" class="boton-rosa"><button class="btn btn-blue">Conoce los desarrollos</button></a>
+                        <a href="#desarrollos" class="boton-rosa"><button class="btn btn-blue">Conoce los desarrollos</button></a>
                     </div>
                 </div>
             </div>
@@ -142,11 +146,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12">
-                    <h2 class="respaldados">Respaldados por un <br>
+                    <h2 class="respaldados">Respaldados por un <br class="espaciado">
                         Gran Desarrollador</h2>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 casitas-col">
-                    <img src="img/Icons/Logo-Casitas.png" class="img-fluid casitas-l" alt="">
+                    <img src="{{ asset('img/Icons/Logo-Casitas.png') }}" class="img-fluid casitas-l" alt="">
                 </div>
             </div>
             <div class="col-lg-12">
@@ -156,11 +160,28 @@
                     ubicación y diseño.</p>
             </div>
 
-            <div class="row">
-                <div class="col-lg-12 comunidades">
-                    <img src="img/creando-comunidades.png" alt="" class="img-fluid ">
+
+            <div class="container-fluid">
+                <div class="row amenidades-2">
+                    <!-- uno -->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <img src="{{ asset('img/Icons/c-1.png') }}" alt="2 escuelas" class="i-resumen img-fluid">
+                    </div>
+                    <!-- uno -->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <img src="{{ asset('img/Icons/c-2.png') }}" alt="2 escuelas" class="i-resumen img-fluid">
+                    </div>
+                    <!-- uno -->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <img src="{{ asset('img/Icons/c-3.png') }}" alt="2 escuelas" class="i-resumen img-fluid">
+                    </div>
+                    <!-- uno -->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <img src="{{ asset('img/Icons/c-4.png') }}" alt="2 escuelas" class="i-resumen img-fluid">
+                    </div>
                 </div>
             </div>
+
         </div>
 
     </section>
@@ -175,17 +196,17 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="t-urb">Urbanización y Gran <br>Conectividad Interior</h1>
-                    <p class="p-urb">Trasládate caminando dentro de amplias y arboladas banquetas, <br> o rodando en familia
-                        por la ciclopista. La Gran Calzada® está creada para conectarte con todo lo <br> que necesitas
+                    <p class="p-urb">Trasládate caminando dentro de amplias y arboladas banquetas, o rodando en familia
+                        por la ciclopista. <br> La Gran Calzada® está creada para conectarte con todo lo que necesitas
                         diariamente: comercios, escuelas, supermercados, etc.</p>
-                    <div class="boton"><a href="#"> <button class="btn btn-pink"> Encuentra tu hogar </button> </a></div>
+                    <div class="boton"><a href="{{ route('almada') }}"> <button class="btn btn-pink"> Encuentra tu hogar </button> </a></div>
                 </div>
             </div>
         </div>
 
         <!-- Linea de etapas -->
         <div class="bg-etapas" style="text-align: center">
-            <img src="/img/etapas-3.png" class="img-fluid etapas" alt="">
+            <img src="{{ asset('img/etapas-3.png') }}" class="img-fluid etapas" alt="">
 
         </div>
         <!-- Fin Linea de etapas -->
@@ -193,14 +214,16 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="t-urb">Gran Ubicación Privilegiada</h1>
-                    <p class="p-urb">Ubicado el poniente de la ciudad y se centra en una zona de alto crecimiento en el <br>
-                        estado, reconocida por su abundante generación de empleos y gran conexión.</p>
+                    <p class="p-urb dos">Ubicado el poniente de la ciudad y se centra en una zona de alto crecimiento en el
+                        <br class="enter">
+                        estado, reconocida por su abundante generación de empleos y gran conexión.
+                    </p>
                 </div>
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-12 auto-p">
-                        <img src="/img/Icons/Icon-Auto.svg" alt="" class="img-fluid auto">
+                        <img src="{{ asset('img/Icons/Icon-Auto.svg') }}" alt="" class="img-fluid auto">
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 minuto-p montse">
                         <h2 style="color: white" class="minuto">5<h2>
@@ -213,7 +236,7 @@
                 </div>
                 <div class="row cercania">
                     <div class="col-lg-4 col-md-4 col-sm-12 auto-p">
-                        <img src="/img/Icons/Icon-Bus.svg" alt="" class="img-fluid auto">
+                        <img src="{{ asset('img/Icons/Icon-Bus.svg') }}" alt="" class="img-fluid auto">
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 minuto-p montse">
                         <h2 style="color: white" class="minuto">15<h2>
@@ -238,7 +261,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12 cal-rosa-1">
-                    <img src="img/Icons/Calzada-2.svg" class="img-fluid cal-rosa" alt="">
+                    <img src="{{ asset('img/Icons/Calzada-2.svg') }}" class="img-fluid cal-rosa" alt="">
                 </div>
                 <div class="col-lg-8 col-md-6 col-sm-12">
                     <h2 class="titulo-desarrollos">Dos desarrollos <b><br>Para disfrutar la vida</b></h2>
@@ -246,25 +269,26 @@
             </div>
 
             <!-- DESARROLLOS -->
-            <div class="pad">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 fo-a  almada-c">
-                        <img src="/img/Icons/Logo-Almada.png" class="almada img-fluid" alt="">
+            <div class="row">
+                <div class="col-12 col-lg-6 text-center ">
+                    <div class="fo-a py-5">
+                        <img src="{{ asset('img/Icons/Logo-Almada.png') }}" class="almada mt-5 img-fluid" alt="">
                         <h3 class="lead costo">DESDE <B>$360,000</B></h3>
                         <div class="boton-2">
-                            <a href="/almada"><button class="btn btn-primary">Encuentra tu casa</button></a>
+                            <a href="{{ route('almada') }}"><button class="btn btn-primary mb-5">Encuentra tu casa</button></a>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 fo-v almada-c">
-                        <img src="/img/Icons/Logo-Miraverde.png" class="miraverde img-fluid" alt="">
-
+                </div>
+                <div class="col-12 col-lg-6 text-center">
+                    <div class="fo-v py-5">
+                        <img src="{{ asset('img/Icons/Logo-Miraverde.png') }}" class="miraverde mt-5 img-fluid" alt="">
                         <div class="boton-2">
-                            <a href="#"><button class="btn btn-primary b-mira">P R O X Í M A M E N T E</button></a>
+                            <a href="#"><button class="btn btn-primary mb-5 b-mira">PROXÍMAMENTE</button></a>
                         </div>
                     </div>
-
                 </div>
             </div>
+            <!--nanna-->
         </div>
     </section>
 
