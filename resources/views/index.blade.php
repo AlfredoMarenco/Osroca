@@ -126,7 +126,7 @@
                         <h1 class="estas-en">Estás en el camino correcto <br> para
                             cambiar y mejorar tu estilo de vida,<br>
                             es el momento de vivir otro entorno.</h1>
-                        <a href="#" class="boton-rosa"><button class="btn btn-blue">Conoce los desarrollos</button></a>
+                        <a href="#desarrollos" class="boton-rosa"><button class="btn btn-blue">Conoce los desarrollos</button></a>
                     </div>
                 </div>
             </div>
@@ -275,7 +275,7 @@
                         <img src="{{ asset('img/Icons/Logo-Almada.png') }}" class="almada mt-5 img-fluid" alt="">
                         <h3 class="lead costo">DESDE <B>$360,000</B></h3>
                         <div class="boton-2">
-                            <a href="#"><button class="btn btn-primary mb-5">Encuentra tu casa</button></a>
+                            <a href="{{ route('almada') }}"><button class="btn btn-primary mb-5">Encuentra tu casa</button></a>
                         </div>
                     </div>
                 </div>
