@@ -93,7 +93,7 @@
                     <img src="{{ asset('img/2-escuelas.png') }}" alt="2 escuelas" class="i-resumen img-fluid">
                 </div>
                 <!-- uno -->
-                <div class="col-lg-3 col-md-6 col-sm-">
+                <div class="col-lg-3 col-md-6 col-sm-4">
                     <img src="{{ asset('img/21-zonas-comerciales.png') }}" alt="2 escuelas" class="i-resumen img-fluid">
                 </div>
                 <!-- uno -->
