@@ -9,10 +9,10 @@ Route::get('/', function () {
 });
 
 Route::get('/almada', function () {
-    $aguamarina = Casa::find(1);
-    $magenta = Casa::find(2);
-    $violeta = Casa::find(3);
-    $violetaplus = Casa::find(4);
+    $aguamarina = Casa::findOrFail(1);
+    $magenta = Casa::findOrFail(2);
+    $violeta = Casa::findOrFail(3);
+    $violetaplus = Casa::findOrFail(4);
     return view('almada', compact('aguamarina','magenta','violeta','violetaplus'));
 })->name('almada');
 
