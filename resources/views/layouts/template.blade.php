@@ -8,13 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta property="og:title" content="Gran Calzada una ciudad viva">
     <meta property="og:type" content="website" />
-    <meta name="description" content="La Gran Calzada® está creada para conectarte con todo lo que necesitas diariamente: comercios, escuelas, supermercados, etc."/>
-    <meta name="og:description" content="La Gran Calzada® está creada para conectarte con todo lo que necesitas diariamente: comercios, escuelas, supermercados, etc."/>
-    <meta name="og:url" content="https://www.grancalzada.mx"/>
-    <meta name="og:site_name" content="Gran Calzada"/>
-    <meta name="og:image" content="/img/gran-calzada-tumb.png"/>
+    <meta name="description"
+        content="La Gran Calzada® está creada para conectarte con todo lo que necesitas diariamente: comercios, escuelas, supermercados, etc." />
+    <meta name="og:description"
+        content="La Gran Calzada® está creada para conectarte con todo lo que necesitas diariamente: comercios, escuelas, supermercados, etc." />
+    <meta name="og:url" content="https://www.grancalzada.mx" />
+    <meta name="og:site_name" content="Gran Calzada" />
+    <meta name="og:image" content="/img/gran-calzada-tumb.png" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:description" content="La Gran Calzada® está creada para conectarte con todo lo que necesitas diariamente: comercios, escuelas, supermercados, etc." />
+    <meta name="twitter:description"
+        content="La Gran Calzada® está creada para conectarte con todo lo que necesitas diariamente: comercios, escuelas, supermercados, etc." />
     <meta name="twitter:title" content="Gran Calzada una ciudad viva" />
     <meta name="twitter:image" content="/img/gran-calzada-tumb.png" />
 
@@ -67,7 +70,8 @@
     <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-pink">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">
-                <img src="{{ asset('/img/Icons/Calzada.svg') }}" width="60" height="60" alt="Gran calzada" loading="lazy">
+                <img src="{{ asset('/img/Icons/Calzada.svg') }}" width="60" height="60" alt="Gran calzada"
+                    loading="lazy">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -191,22 +195,16 @@
         </div>
 
         <div class="row pt-5 mt-2 text-center ">
-          <div class="col-md-12">
-            <div style="color: white">
-              <p class="copyright" style="text-align: center;"><small>
+            <div class="col-md-12">
+                <div style="color: white">
+                    <p class="copyright" style="text-align: center;"><small>
 
-            UN DESARROLLO DE <img src="{{ asset('/img/Icons/Logo-Casitas.svg') }}" class="img-fluid casitas-footer" style="padding-bottom: 8px" alt="">
-
-            <div class="row pt-5 mt-2 text-center ">
-                <div class="col-md-12">
-                    <div style="color: white">
-                        UN DESARROLLO DE
-                        <img src="{{ asset('/img/Icons/Logo-Casitas.svg') }}" class="img-fluid casitas-footer"
-                            style="padding-bottom: 8px" alt="">
-                    </div>
+                            UN DESARROLLO DE <img src="{{ asset('/img/Icons/Logo-Casitas.svg') }}"
+                                class="img-fluid casitas-footer" style="padding-bottom: 8px" alt="">
                 </div>
-
             </div>
+
+        </div>
 
     </footer>
     <!--Page end-->
