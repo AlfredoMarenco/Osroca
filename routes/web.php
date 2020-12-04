@@ -9,16 +9,8 @@ Route::get('/', function () {
 });
 
 Route::get('/almada', function () {
-<<<<<<< HEAD
-    $aguamarina = Casa::where('id','like',1)->get();
-    $magenta = Casa::where('id','like',2)->get();
-    $violeta = Casa::where('id','like',3)->get();
-    $violetaplus = Casa::where('id','like',4)->get();
-    return view('almada', compact('aguamarina','magenta','violeta','violetaplus'));
-=======
     $modelos = Casa::all();
     return view('almada', compact('modelos'));
->>>>>>> backend
 })->name('almada');
 
 Route::get('/modelo-aguamarina', function () {
