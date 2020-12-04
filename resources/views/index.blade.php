@@ -199,7 +199,7 @@
                     <p class="p-urb">Trasládate caminando dentro de amplias y arboladas banquetas, o rodando en familia
                         por la ciclopista. <br> La Gran Calzada® está creada para conectarte con todo lo que necesitas
                         diariamente: comercios, escuelas, supermercados, etc.</p>
-                    <div class="boton"><a href="#"> <button class="btn btn-pink"> Encuentra tu hogar </button> </a></div>
+                    <div class="boton"><a href="{{ route('almada') }}"> <button class="btn btn-pink"> Encuentra tu hogar </button> </a></div>
                 </div>
             </div>
         </div>
