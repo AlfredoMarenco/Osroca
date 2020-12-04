@@ -11,12 +11,12 @@
     .logo-h {
         margin-top:150px;
         width: 70%;
-        
-    } 
+
+    }
 }
 
 .ameni {
-    
+
     padding-left: 80px;
     padding-right: 80px;
 } @media (max-width:500px) {
@@ -24,8 +24,8 @@
         padding-left: 0px;
     padding-right: 0px;
     text-align: center;
-        
-    } 
+
+    }
 }
 
 .familia {
@@ -89,7 +89,7 @@ li {
 
 #cotizacion {
     background-color: #5e5491;
-    
+
     padding-bottom: 20px;
 }
 
