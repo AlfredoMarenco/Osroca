@@ -7,6 +7,11 @@ use Illuminate\Http\Request;
 
 class CasaController extends Controller
 {
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     /**
      * Display a listing of the resource.
      *
@@ -25,7 +30,6 @@ class CasaController extends Controller
      */
     public function create()
     {
-        
     }
 
     /**
@@ -58,7 +62,7 @@ class CasaController extends Controller
      */
     public function edit(Casa $casa)
     {
-        return view('casas.edit',compact('casa'));
+        return view('casas.edit', compact('casa'));
     }
 
     /**
@@ -82,7 +86,7 @@ class CasaController extends Controller
 
         $casa->update();
 
-        return back()->with('success','Datos actualizados correctamente');
+        return back()->with('success', 'Datos actualizados correctamente');
     }
 
     /**
