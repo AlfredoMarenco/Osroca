@@ -264,7 +264,7 @@
                             <a href="#"><button class="btn- btn-secondary">Cotiza tu casa</button></a>
                         </div>
                         <div class="col-lg-6 botones">
-                            <a href="{{ route('violeta-plus') }}"><button class="btn- btn-secondary">Ficha técnica</button></a>
+                            <a href="{{ route('violetaplus') }}"><button class="btn- btn-secondary">Ficha técnica</button></a>
                         </div>
                     </div>
 
