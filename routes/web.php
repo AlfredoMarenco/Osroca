@@ -1,7 +1,7 @@
 <?php
 
 use App\Http\Controllers\CasaController;
-useuse App\Models\Casa;
+use App\Models\Casa;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -32,7 +32,7 @@ Route::get('/modelo-violeta-plus', function () {
     return view('violeta-plus');
 })->name('violetaplus');
 
-CasaController::class)->names([
+Route::resource('casas', CasaController::class)->names([
     'index' => 'casas.index',
     'edit' => 'casas.edit',
     'update' =>  'casas.update'
