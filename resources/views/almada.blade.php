@@ -255,7 +255,7 @@
                 <div class="col-lg-7 col-md-12 col-sm-12 bg-violeta">
                     @foreach ($modelos as $modelo)
 
-                        @if ($modelo->id == 2)
+                        @if ($modelo->id == 4)
                             <h1 class="modelo-titulo-1" style="text-align: center">{{ $modelo->name }}</h1>
                             <div class="costo-modelo">
                                 <button class="boton-modelo-m">Desde: ${{ number_format($modelo->price) }}</button>

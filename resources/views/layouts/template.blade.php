@@ -87,9 +87,6 @@
                         <a class="nav-link mx-5" href="#casitas">El Desarrollador</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="#ubicacion">Ubicación</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link mx-5" href="#desarrollos">Desarrollos</a>
                     </li>
                     <li class="nav-item">
