@@ -15,12 +15,12 @@
         content="La Gran Calzada® está creada para conectarte con todo lo que necesitas diariamente: comercios, escuelas, supermercados, etc." />
     <meta name="og:url" content="https://www.grancalzada.mx" />
     <meta name="og:site_name" content="Gran Calzada" />
-    <meta name="og:image" content="{{ asset('img/gran-calzada-tumb.png')}}" />
+    <meta name="og:image" content="{{ asset('img/gran-calzada-tumb.png') }}" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:description"
         content="La Gran Calzada® está creada para conectarte con todo lo que necesitas diariamente: comercios, escuelas, supermercados, etc." />
     <meta name="twitter:title" content="Gran Calzada una ciudad viva" />
-    <meta name="twitter:image" content="{{ asset('img/gran-calzada-tumb.png')}}" />
+    <meta name="twitter:image" content="{{ asset('img/gran-calzada-tumb.png') }}" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
@@ -79,7 +79,10 @@
                         <a class="nav-link mx-5" href="#azul">Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="#amenidades-m">Ficha técnica</a>
+                        <a class="nav-link mx-5" href="#amenidades-m">Modelos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-5" href="#amenidades-m">Características</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link mx-5" href="#formulario">Recibe una cotización</a>
@@ -187,7 +190,8 @@
                 <div class="col-md-12">
                     <div style="color: white">
                         <p class="copyright" style="text-align: center;">UN DESARROLLO DE<small>
-                        <img src="{{ asset('img/Icons/Logo-Casitas-bco.svg') }}" class="img-fluid casitas-footer" style="padding-bottom: 8px" alt="">
+                                <img src="{{ asset('img/Icons/Logo-Casitas-bco.svg') }}"
+                                    class="img-fluid casitas-footer" style="padding-bottom: 8px" alt="">
                     </div>
                 </div>
 
