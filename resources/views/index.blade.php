@@ -272,7 +272,7 @@
             <div class="row">
                 <div class="col-12 col-lg-6 text-center ">
                     <div class="fo-a py-5">
-                        <img src="{{ asset('img/Icons/Logo-Almada.png') }}" class="almada my-5 img-fluid" alt="">
+                        <img src="{{ asset('img/Icons/Logo-Almada.png') }}" class="almada mt-5 img-fluid" alt="">
                         <h3 class="lead costo">DESDE <B>$360,000</B></h3>
                         <div class="boton-2">
                             <a href="#"><button class="btn btn-primary mb-5">Encuentra tu casa</button></a>
