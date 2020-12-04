@@ -39,8 +39,8 @@
 
     @stack('modals')
 
-    <div class="text-gray-600 text-center"><a href="https://agenciavandu.com">Sistema creado por Agencia Vandu - Todos
-            los derechos reservados</a></div>
+    {{-- <div class="text-gray-600 text-center"><a href="https://agenciavandu.com">Sistema creado por Agencia Vandu - Todos
+            los derechos reservados</a></div> --}}
     @livewireScripts
 </body>
 
