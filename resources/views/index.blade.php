@@ -68,10 +68,10 @@
                     </div>
                     <div class="row">
                          {{-- primer icono de la segunda fila --}}
-                         <div class="col-2 text-right ">
-                            <img src="{{ asset('img/Icons/Icon-Concreto.svg') }}" class="img-fluid mt-2" alt="">
+                        <div class="col-2 text-right ">
+                            <img src="{{ asset('img/Icons/Icon-concreto.svg') }}" class="img-fluid mt-2" alt="">
                         </div>
-                        <p class="col-4 text-left caracteristicas-icon p-12 u-concreto">CONCRETO<br>HIDRÁULICO</p>
+                        <p class="col-4 text-left caracteristicas-icon p-2 u-concreto">CONCRETO<br>HIDRÁULICO</p>
                         {{-- segundo icono segunda fila --}}
                         <div class="col-2 text-right ">
                             <img src="{{ asset('img/Icons/Icon-Drenaje.svg') }}" class="img-fluid mt-2" alt="">
