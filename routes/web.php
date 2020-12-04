@@ -17,11 +17,11 @@ Route::get('/', function () {
 // })->name('almada');
 
 Route::get('/almada', function () {
-    $aguamarina = Casa::findOrFail(1);
-    $magenta = Casa::findOrFail(2);
-    $violeta = Casa::findOrFail(3);
-    $violetaplus = Casa::findOrFail(4);
-    return view('violeta', compact('aguamarina','magenta','violeta','violetaplus'));
+    // $aguamarina = Casa::findOrFail(1);
+    // $magenta = Casa::findOrFail(2);
+    // $violeta = Casa::findOrFail(3);
+    // $violetaplus = Casa::findOrFail(4);
+    return view('violeta');
 })->name('almada');
 
 Route::get('/modelo-aguamarina', function () {
