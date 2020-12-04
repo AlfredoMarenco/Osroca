@@ -28,7 +28,7 @@
                 <li>Terreno desde: 5 x 17 m </li>
                 <li>Construcción: 42.94 m2</li>
                 <br>
-                <li><b>Planta Arquitectónica</b>
+                <li class="boold"><b>Planta Arquitectónica</b>
                 </li> <br>
 
                 <li>Sala/Comedor</li>
@@ -77,7 +77,7 @@
                   <input type="email" name="email" class="form-control" id="exampleFormControlInput1" required="required" placeholder="Correo">
                 </div>
 
-                <div class="form-group" style="text-align: right">
+                <div class="form-group botom" >
 
 
 
@@ -87,8 +87,3 @@
        </div>
    </div>
 </section>
-<<<<<<< HEAD
-
-=======
-@endsection
->>>>>>> c12925adf619c3cf8ad9b3d37396e7c3bfcb83e3

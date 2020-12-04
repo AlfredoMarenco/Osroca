@@ -27,7 +27,7 @@
                 <li>Construcción: 45.82 m2
                 </li>
                 <br>
-                <li style="font-weight: 600">Planta Arquitectónica</li> <br>
+                <li style="font-weight: 600" class="boold">Planta Arquitectónica</li> <br>
                 
                 <li>Sala / Comedor</li>
                 <li>Cocina independiente</li>
@@ -76,7 +76,7 @@
                   <input type="email" name="email" class="form-control" id="exampleFormControlInput1" required="required" placeholder="Correo">
                 </div>
 
-                <div class="form-group" style="text-align: right">
+                <div class="form-group botom">
       
                     
                 

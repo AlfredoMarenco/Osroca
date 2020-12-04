@@ -32,12 +32,12 @@
                 Pasillo lateral <br>
                 Amplio patio <br>
                 </li> <br>
-                <li style="font-weight: 600">Planta Arquitectónica</li> <br>
-                <li style="font-weight: 600">PLANTA BAJA</li>
+                <li style="font-weight: 600" class="boold">Planta Arquitectónica</li> <br>
+                <li style="font-weight: 600" class="boold">PLANTA BAJA</li>
                 <li>Sala / Comedor</li>
                 <li>Cocina</li>
                 <li>1/2 baño</li>
-                <li style="font-weight: 600">PLANTA ALTA</li>
+                <li style="font-weight: 600" class="boold">PLANTA ALTA</li>
                 <li>Recámara principal con área
                     para clóset y baño completo</li>
                 <li>Recámara secundaria con área
