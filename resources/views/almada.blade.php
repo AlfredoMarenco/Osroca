@@ -78,7 +78,7 @@
                             <a href="#"><button class="btn- btn-secondary">Cotiza tu casa</button></a>
                         </div>
                         <div class="col-lg-6 col-sm-12 botones">
-                            <a href="#"><button class="btn- btn-secondary">Ficha técnica</button></a>
+                            <a href="{{ route('aguamarina') }}"><button class="btn- btn-secondary">Ficha técnica</button></a>
                         </div>
                     </div>
 
@@ -138,7 +138,7 @@
                             <a href="#"><button class="btn- btn-secondary">Cotiza tu casa</button></a>
                         </div>
                         <div class="col-lg-6 botones">
-                            <a href="#"><button class="btn- btn-secondary">Ficha técnica</button></a>
+                            <a href="{{ route('magenta') }}"><button class="btn- btn-secondary">Ficha técnica</button></a>
                         </div>
                     </div>
 
@@ -203,7 +203,7 @@
                             <a href="#"><button class="btn- btn-secondary">Cotiza tu casa</button></a>
                         </div>
                         <div class="col-lg-6 botones">
-                            <a href="#"><button class="btn- btn-secondary">Ficha técnica</button></a>
+                            <a href="{{ route('violeta') }}"><button class="btn- btn-secondary">Ficha técnica</button></a>
                         </div>
                     </div>
 
@@ -264,7 +264,7 @@
                             <a href="#"><button class="btn- btn-secondary">Cotiza tu casa</button></a>
                         </div>
                         <div class="col-lg-6 botones">
-                            <a href="#"><button class="btn- btn-secondary">Ficha técnica</button></a>
+                            <a href="{{ route('violeta-plus') }}"><button class="btn- btn-secondary">Ficha técnica</button></a>
                         </div>
                     </div>
 
