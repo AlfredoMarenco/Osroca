@@ -9,10 +9,10 @@ Route::get('/', function () {
 });
 
 Route::get('/almada', function () {
-    $aguamarina = Casa::where('id','like',1)->first();
-    $magenta = Casa::where('id','like',2)->first();
-    $violeta = Casa::where('id','like',3)->first();
-    $violetaplus = Casa::where('id','like',4)->first();
+    $aguamarina = Casa::where('id','like',1)->get();
+    $magenta = Casa::where('id','like',2)->get();
+    $violeta = Casa::where('id','like',3)->get();
+    $violetaplus = Casa::where('id','like',4)->get();
     return view('almada', compact('aguamarina','magenta','violeta','violetaplus'));
 })->name('almada');
 
