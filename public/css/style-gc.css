@@ -2,7 +2,7 @@
 
  @font-face {
     font-family: "clearface";
-    src: url("../fonts/GranCalzada/clearface/Clearface-bold.ttc"); 
+    src: url("../fonts/GranCalzada/clearface/Clearface-bold.ttc");
 
     font-style: normal;
     font-weight: bold;
@@ -10,12 +10,12 @@
 
 @font-face {
     font-family: 'Minion-Pro';
-    src: url("../fonts/GranCalzada/Minionpro/MinionPro-Regular.otf"); 
+    src: url("../fonts/GranCalzada/Minionpro/MinionPro-Regular.otf");
     src: url("../fonts/GranCalzada/clearface/ClearfaceEFHeavy-Regular.otf");
     font-style: normal;
     font-weight: bold;
     }
-    
+
 h1 {
     font-family: "clearface";
 }
@@ -27,7 +27,7 @@ p {
 
 
 .bg-pink {
-    background-color: #e5007d         
+    background-color: #e5007d
 !important;
 }
 
@@ -46,11 +46,11 @@ p {
 
 .banner {
     text-align: center;
-} 
+}
 
 .logo-banner {
     width: 50%;
-    
+
 }
 
 /* Fin Primera sección */
@@ -72,13 +72,17 @@ p {
 }
 
 .caracteristicas {
-    font-family: Avenir;
-    font-size: 25px;
+    font-family: "Montserrat";
+    font-size: 23px;
+}
+
+.dis-1 {
+    padding-top: 6px;
 }
 
 .caracteristicas-icon {
-    font-family: Avenir;
-    font-size: 18px;
+    font-family: "Montserrat";
+    font-size: 1.3rem;
 }
 
 .cont {
@@ -117,6 +121,18 @@ p {
     text-align: center;
 }
 
+.u-ciudad{
+    margin-top: 5px;
+}
+
+.u-concreto {
+    margin-top: 12px;
+}
+
+.u-planta {
+    margin-top: 2px;
+}
+
 .texto-derecha {
     text-align: center;
     align-content: center;
@@ -152,7 +168,7 @@ p {
 
 .amenidades {
     text-align: center;
-   
+
 }
 
 .i-resumen {
@@ -167,7 +183,7 @@ svg {
    display: block;
 }
 .fondo-1 {
-    
+
     background-repeat: no-repeat;
     background-position: center;
     background-color: #e5007d ;
@@ -184,7 +200,7 @@ svg {
     color: white;
     font-size: 40px;
     margin-top: 15px;
-    
+
 }
 .linea-der {
     background-color: #e5007d ;
@@ -207,15 +223,18 @@ svg {
 
 .respaldados {
     font-size: 45px;
-    padding-top: 130px;
+    padding-top: 50px;
     padding-left: 20px;
+    font-family: "Montserrat";
+    font-weight: 800;
 }
 .casitas-col {
     text-align: center;
 }
 .casitas-l {
     width: 45%;
-    padding-bottom: 50px;
+    padding-top: 17px;
+    padding-bottom: 20px;
 }
 
 .grupo-casitas {
@@ -256,6 +275,10 @@ svg {
     text-align: center;
 }
 
+.boton-rosa {
+    margin-top: 20px;
+}
+
 .etapas{
     padding-top: 40px;
 }
@@ -269,7 +292,7 @@ svg {
 .auto {
     padding-top: 20px;
     width: 35%;
-    
+
 }
 
 .der {
@@ -285,10 +308,15 @@ svg {
 }
 .minuto {
     padding-top: 30px;
-    font-size: 38px;
+    font-size: 32px;
+}
+
+.montse {
+    font-family: "Montserrat";
 }
 .min-des {
     font-weight: 300;
+    font-size: 20px;
 }
 
 .cercania {
@@ -346,7 +374,7 @@ svg {
 }
 
 .btn-primary {
-    
+
     font-size: 23px;
     padding-right: 40px;
     padding-left: 40px;
@@ -372,7 +400,7 @@ svg {
 #footer-section {
     background-color: #0b2650;
     padding-top: 130px;
-} 
+}
 
 .casitas-footer {
     width: 5%;
