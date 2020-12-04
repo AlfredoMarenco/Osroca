@@ -40,67 +40,65 @@
                     <section id="modelos">
                         <div class="container">
                             <h1 class="familia">Tu familia merece un respiro</h1>
-                                    <div class="row mt-5">
-                                        <div class="col-lg-5 col-md-12 col-sm-12 padding-0 imagen">
-                                            <img src="/img/aguamarina/GC_Aguamarina_fachada.jpg" class="img-fluid" alt="">
+                            <div class="row mt-5">
+                                <div class="col-lg-5 col-md-12 col-sm-12 padding-0 imagen">
+                                    <img src="/img/aguamarina/GC_Aguamarina_fachada.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-lg-7 col-md-12 col-sm-12 bg-aqua padding-0">
+                                    <h1 class="modelo-titulo" style="text-align: center">{{ $modelo->name }}</h1>
+                                    <div class="costo-modelo">
+                                        <button class="boton-modelo">Desde:
+                                            ${{ number_format($modelo->price) }}</button>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-4 modelo-car-1">
+                                            <img src="/img/Icons/Icon-Planta-morado.png" alt=""
+                                                class="img-fluid caract-mod-1-1-p">
+                                            <p class="descri">1 Planta</p>
                                         </div>
-                                        <div class="col-lg-7 col-md-12 col-sm-12 bg-aqua padding-0">
-                                            <h1 class="modelo-titulo" style="text-align: center">{{ $modelo->name }}</h1>
-                                            <div class="costo-modelo">
-                                                <button class="boton-modelo">Desde:
-                                                    ${{ number_format($modelo->price) }}</button>
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-4 modelo-car-1">
-                                                    <img src="/img/Icons/Icon-Planta-morado.png" alt=""
-                                                        class="img-fluid caract-mod-1-1-p">
-                                                    <p class="descri">1 Planta</p>
-                                                </div>
-                                                <div class="col-4 modelo-car">
-                                                    <img src="/img/Icons/Icon-Recaramara-doble.png
-                        " alt="" class="img-fluid caract-mod">
-                                                    <p class="descri">2 Recámaras</p>
-                                                </div>
-                                                <div class="col-4 modelo-car-2">
-                                                    <img src="/img/Icons/Icon-Baño-mdo.png
-                        " alt="" class="img-fluid caract-mod-1-1">
-                                                    <p class="descri">1 Baño</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-4 modelo-car-1">
-                                                    <img src="/img/Icons/Icon-Sala-mdo.png" alt=""
-                                                        class="img-fluid caract-mod-1-s">
-                                                    <p class="descri espacio">Sala</p>
-                                                </div>
-                                                <div class="col-4 modelo-car-3">
-                                                    <img src="/img/Icons/Icon-Comedor-mdo.png" alt=""
-                                                        class="img-fluid caract-mod-2">
-                                                    <p class="descri">Comedor</p>
-                                                </div>
-                                                <div class="col-4 modelo-car-2">
-                                                    <img src="/img/Icons/Icon-Cocina-do.png" alt=""
-                                                        class="img-fluid caract-mod-1">
-                                                    <p class="descri">Cocina</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="row centro-b">
-                                                <div class="col-lg-6 col-sm-12 botones-1 ">
-                                                    <a href="#"><button class="btn- btn-secondary">Cotiza tu
-                                                            casa</button></a>
-                                                </div>
-                                                <div class="col-lg-6 col-sm-12 botones">
-                                                    <a href="#"><button class="btn- btn-secondary">Ficha
-                                                            técnica</button></a>
-                                                </div>
-                                            </div>
-
-
+                                        <div class="col-4 modelo-car">
+                                            <img src="/img/Icons/Icon-Recaramara-doble.png
+                            " alt="" class="img-fluid caract-mod">
+                                            <p class="descri">2 Recámaras</p>
+                                        </div>
+                                        <div class="col-4 modelo-car-2">
+                                            <img src="/img/Icons/Icon-Baño-mdo.png
+                            " alt="" class="img-fluid caract-mod-1-1">
+                                            <p class="descri">1 Baño</p>
                                         </div>
                                     </div>
+
+                                    <div class="row">
+                                        <div class="col-4 modelo-car-1">
+                                            <img src="/img/Icons/Icon-Sala-mdo.png" alt="" class="img-fluid caract-mod-1-s">
+                                            <p class="descri espacio">Sala</p>
+                                        </div>
+                                        <div class="col-4 modelo-car-3">
+                                            <img src="/img/Icons/Icon-Comedor-mdo.png" alt=""
+                                                class="img-fluid caract-mod-2">
+                                            <p class="descri">Comedor</p>
+                                        </div>
+                                        <div class="col-4 modelo-car-2">
+                                            <img src="/img/Icons/Icon-Cocina-do.png" alt="" class="img-fluid caract-mod-1">
+                                            <p class="descri">Cocina</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="row centro-b">
+                                        <div class="col-lg-6 col-sm-12 botones-1 ">
+                                            <a href="#"><button class="btn- btn-secondary">Cotiza tu
+                                                    casa</button></a>
+                                        </div>
+                                        <div class="col-lg-6 col-sm-12 botones">
+                                            <a href="#"><button class="btn- btn-secondary">Ficha
+                                                    técnica</button></a>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
                         </div>
                         <!--modelo magenta-->
 
@@ -257,7 +255,7 @@
                                     </div>
                                     <div class="col-4 modelo-car-3">
                                         <img src="/img/Icons/Icon-Comedor-bco.png
-                            " alt="" class="img-fluid caract-mod-2">
+                                " alt="" class="img-fluid caract-mod-2">
                                         <p class="descri">Comedor</p>
                                     </div>
                                     <div class="col-4 modelo-car-2">
