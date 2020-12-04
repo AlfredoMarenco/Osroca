@@ -89,7 +89,7 @@
                         <a class="nav-link mx-5" href="#ubicacion">Ubicación</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="/#desarrollos">Desarrollos</a>
+                        <a class="nav-link mx-5" href="{{ route('index') }}#desarrollos">Desarrollos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link ml-5" href="#footer-section">Contacto</a>
