@@ -12,22 +12,22 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 left-one">
                     <h1 class="una-ciudad">¡Una Ciudad Viva!</h1>
                     <div class="row cont">
-                        <div class="col-lg-6 ">
+                        <div class="col-6">
                             <img src="/img/Icons/Calzada-1.png" class="img-fluid icono" alt="">
                             <p class="caracteristicas">Poniente <br> de la ciudad</p>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-6">
                             <img src="/img/Icons/3km.png" class="img-fluid icono-2" alt="">
                             <p class="caracteristicas dis-1">Distancia<br> de periférico</p>
                         </div>
                     </div>
                     <div class="row cont">
-                        <div class="col-lg-6 ">
+                        <div class="col-6 ">
                             <img src="/img/Icons/116.png" class="img-fluid icono-1" alt="">
                             <p class="caracteristicas">Hectáreas</p>
                         </div>
-                        <div class="col-lg-6">
-                            <img src="/img/Icons/Calzada-1.png" class="img-fluid icono" alt="">
+                        <div class="col-6">
+                            <img src="/img/Icons/vivienda.png" class="img-fluid icono vivienda" alt="">
                             <p class="caracteristicas">Más de 4,000 viviendas<br>
                                 divididas en dos desarollos</p>
                         </div>
@@ -57,24 +57,24 @@
                     <div class="row mt-5 inline-block">
                         {{-- primer icono de la primera fila --}}
                         <div class="col-2 text-right ">
-                            <img src="img/Icons/Icon-Planeacion.svg" class="img-fluid mt-1" width="65%" alt="">
+                            <img src="img/Icons/Icon-Planeacion.svg" class="img-fluid mt-1"  alt="">
                         </div>
                         <p class="col-4 text-left caracteristicas-icon p-2 u-ciudad">UNA CIUDAD<br>PLANEADA</p>
                         {{-- segundo icono primera fila --}}
                         <div class="col-2 text-right ">
-                            <img src="img/Icons/Icon-Equipamiento.svg" class="img-fluid" width="65%" alt="">
+                            <img src="img/Icons/Icon-Equipamiento.svg" class="img-fluid" alt="">
                         </div>
                         <p class="col-4 text-left caracteristicas-icon p-2 my-3">EQUIPAMENTO</p>
                     </div>
                     <div class="row">
                          {{-- primer icono de la segunda fila --}}
                          <div class="col-2 text-right ">
-                            <img src="img/Icons/Icon-Concreto.svg" class="img-fluid mt-2" width="65%" alt="">
+                            <img src="img/Icons/Icon-Concreto.svg" class="img-fluid mt-2" alt="">
                         </div>
                         <p class="col-4 text-left caracteristicas-icon p-12 u-concreto">CONCRETO<br>HIDRÁULICO</p>
                         {{-- segundo icono segunda fila --}}
                         <div class="col-2 text-right ">
-                            <img src="img/Icons/Icon-Drenaje.svg" class="img-fluid mt-2" width="65%" alt="">
+                            <img src="img/Icons/Icon-Drenaje.svg" class="img-fluid mt-2" alt="">
                         </div>
                         <p class="col-4 text-left caracteristicas-icon p-2 u-planta">PLANTA DE<br>TRATAMIENTO</p>
                     </div>
@@ -89,19 +89,19 @@
         <div class="container-fluid">
             <div class="row amenidades">
                 <!-- uno -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-4">
                     <img src="/img/2-escuelas.png" alt="2 escuelas" class="i-resumen img-fluid">
                 </div>
                 <!-- uno -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-">
                     <img src="/img/21-zonas-comerciales.png" alt="2 escuelas" class="i-resumen img-fluid">
                 </div>
                 <!-- uno -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-4">
                     <img src="/img/1-ciclopista.png" alt="2 escuelas" class="i-resumen img-fluid">
                 </div>
                 <!-- uno -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-4">
                     <img src="/img/8-parques.png" alt="2 escuelas" class="i-resumen img-fluid">
                 </div>
             </div>
@@ -142,7 +142,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12">
-                    <h2 class="respaldados">Respaldados por un <br>
+                    <h2 class="respaldados">Respaldados por un <br class="espaciado">
                         Gran Desarrollador</h2>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 casitas-col">
@@ -175,8 +175,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="t-urb">Urbanización y Gran <br>Conectividad Interior</h1>
-                    <p class="p-urb">Trasládate caminando dentro de amplias y arboladas banquetas, <br> o rodando en familia
-                        por la ciclopista. La Gran Calzada® está creada para conectarte con todo lo <br> que necesitas
+                    <p class="p-urb">Trasládate caminando dentro de amplias y arboladas banquetas, o rodando en familia
+                        por la ciclopista. <br>  La Gran Calzada® está creada para conectarte con todo lo que necesitas
                         diariamente: comercios, escuelas, supermercados, etc.</p>
                     <div class="boton"><a href="#"> <button class="btn btn-pink"> Encuentra tu hogar </button> </a></div>
                 </div>
@@ -193,7 +193,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="t-urb">Gran Ubicación Privilegiada</h1>
-                    <p class="p-urb">Ubicado el poniente de la ciudad y se centra en una zona de alto crecimiento en el <br>
+                    <p class="p-urb dos">Ubicado el poniente de la ciudad y se centra en una zona de alto crecimiento en el <br class="enter">
                         estado, reconocida por su abundante generación de empleos y gran conexión.</p>
                 </div>
             </div>

@@ -20,7 +20,7 @@
             <div class="col-lg-4 col-md-4 col-sm-6 imag-planta">
                 <img src="/img/violeta/GC_Violeta_Planta_Baja.png" class="img-fluid planta-b" alt="">
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 ameni-txt">
+            <div class="col-lg-4 col-md-4 col-sm-6  violeta">
                 <h1>Modelo Violeta</h1>
                 <li>Terreno desde: 6 x 17 m </li>
                 <li>Construcción: 62.86 m2</li>
@@ -29,12 +29,12 @@
                     Amplio patio <br>
                     Lista para ampliación</b> 
                 </li> <br>
-                <li style="font-weight: 600">Planta Arquitectónica</li> <br>
-                <li style="font-weight: 600">PLANTA BAJA</li>
+                <li style="font-weight: 600" class="boold">Planta Arquitectónica</li> <br>
+                <li style="font-weight: 600" class="boold">PLANTA BAJA</li>
                 <li>Sala / Comedor</li>
                 <li>Cocina</li>
-                <li>1/2</li>
-                <li style="font-weight: 600">PLANTA ALTA</li>
+                <li>½ baño</li> <br>
+                <li style="font-weight: 600" class="boold">PLANTA ALTA</li>
                 <li>Recámara principal con área
                     para clóset y terraza</li>
                 <li>Recámara secundaria con área

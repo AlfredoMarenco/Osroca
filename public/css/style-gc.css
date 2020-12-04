@@ -50,7 +50,11 @@ p {
 
 .logo-banner {
     width: 50%;
-    
+} @media (max-width: 500px) { 
+    .logo-banner {
+        width: 85%;
+        padding-top: 90px;
+    }
 }
 
 /* Fin Primera sección */
@@ -64,11 +68,21 @@ p {
 
 .left-one {
     padding-left: 110px;
+} @media (max-width: 500px) { 
+    .left-one {
+        padding-left: 0px;
+        text-align: center;
+        order: 2;
+    }
 }
 
 .una-ciudad {
-    font-family: clearface;
+    
     font-size: 65px;
+} @media (max-width: 500px) { 
+        .una-ciudad {
+            font-size: 35px;
+        }
 }
 
 .caracteristicas {
@@ -82,7 +96,7 @@ p {
 
 .caracteristicas-icon {
     font-family: "Montserrat";
-    font-size: 18px;
+    font-size: 0.8rem;
 }
 
 .cont {
@@ -91,6 +105,11 @@ p {
 
 .icono {
     width: 15%;
+    padding-bottom: 10px;
+}
+
+.vivienda {
+    width: 37%;
     padding-bottom: 10px;
 }
 
@@ -113,16 +132,25 @@ p {
     padding-top: 150px;
     background-color: #0b2650;
     color: white;
+} @media (max-width: 500px) { 
+    #t-sec {
+        padding-top: 80px;
+    }
 }
 
 
 .una-ciudad-1 {
     font-size: 55px;
     text-align: center;
+} @media (max-width: 500px) { 
+    .una-ciudad-1 {
+        font-size: 30px;
+    }
 }
 
 .u-ciudad{
     margin-top: 5px;
+    font-size: 1,5em;
 }
 
 .u-concreto {
@@ -150,10 +178,18 @@ p {
 .btn-pink:hover {
     background-color: #fba740;
 }
-
-.right-one,
 .arboleda {
     text-align: center;
+}
+
+.right-one {
+    text-align: center;
+} 
+@media (max-width:500px) {
+    .right-one {
+        order: 1;
+        padding-bottom: 30px;
+    }
 }
 /* Fin tercera sección */
 
@@ -164,6 +200,10 @@ p {
     padding-top: 120px;
     padding-right: 50px;
     padding-left: 50px;
+} @media (max-width: 500px) { 
+    #resumen {
+        padding-top: 60px;
+    }
 }
 
 .amenidades {
@@ -200,7 +240,10 @@ svg {
     color: white;
     font-size: 40px;
     margin-top: 15px;
-    
+} @media (max-width: 500px) { 
+    .estas-en {
+        font-size: 26px;
+    }
 }
 .linea-der {
     background-color: #e5007d ;
@@ -215,6 +258,10 @@ svg {
     margin-bottom: 130px;
 }
 
+.btn-blue:hover {
+    background-color: #fba740;
+}
+
 .wave {
     background-color: white;
 }
@@ -227,6 +274,11 @@ svg {
     padding-left: 20px;
     font-family: "Montserrat";
     font-weight: 800;
+} @media (max-width: 500px) { 
+    .respaldados {
+        font-size: 30px;
+        text-align: justify;
+    }
 }
 .casitas-col {
     text-align: center;
@@ -241,6 +293,11 @@ svg {
     text-align: justify;
     color: gray;
     font-size: 24px;
+} @media (max-width: 500px) { 
+    .grupo-casitas  {
+        font-size: 19px;
+        text-align: justify;
+    }
 }
 
 .comunidades {
@@ -261,14 +318,33 @@ svg {
     text-align: center;
     color: white;
     padding-bottom: 20px;
+} @media (max-width: 500px) { 
+    .t-urb  {
+        font-size: 30px;
+        text-align: center;
+    }
 }
 
 .p-urb {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 200;
+    padding-left: 110px;
+    padding-right: 110px;
     text-align: center;
     color: white;
     padding-bottom: 20px;
+} @media (max-width: 500px) { 
+    .p-urb  {
+        font-size: 19px;
+        padding-left: 0px;
+        padding-right: 0px;
+    } 
+}
+
+@media (max-width: 500px) {
+    .enter {
+        display: none;
+    }
 }
 
 .boton {
@@ -292,19 +368,30 @@ svg {
 .auto {
     padding-top: 20px;
     width: 35%;
-    
+} @media (max-width: 500px) { 
+    .auto {
+        display: none;
+    } 
 }
 
 .der {
     padding-right: 210px;
+} @media (max-width: 500px) { 
+    .der {
+        padding-right: 15px;
+    } 
 }
 
 .auto-p {
     text-align: right;
-}
+} 
 
 .minuto-p {
     text-align: center;
+} @media (max-width: 500px) { 
+    .minuto-p {
+        text-align: center;
+    } 
 }
 .minuto {
     padding-top: 30px;
@@ -337,12 +424,23 @@ svg {
     text-align: right;
     padding-top: 8px;
     padding-right: 20px;
+} @media (max-width: 500px) { 
+    .cal-rosa-1 {
+        text-align: center;
+        padding-bottom: 10px;
+    } 
 }
 .titulo-desarrollos {
     padding-left: 25px;
     font-size: 50px;
     padding-bottom: 40px;
     color: #0b2650;
+} @media (max-width: 500px) { 
+    .titulo-desarrollos {
+        text-align: center;
+        padding-left: 0px;
+        
+    } 
 }
 
 .fo-a{
@@ -360,6 +458,12 @@ svg {
     padding-top: 100px;
     padding-bottom: 100px;
     text-align: center;
+} @media (max-width: 500px) { 
+    .almada-c {
+        padding-top: 150px;
+    padding-bottom: 150px;
+        
+    } 
 }
 
 .almada {
@@ -400,7 +504,7 @@ svg {
 #footer-section {
     background-color: #0b2650;
     padding-top: 130px;
-} 
+}  
 
 .casitas-footer {
     width: 5%;
@@ -409,6 +513,12 @@ svg {
 .footer-espacio {
     padding-right: 50px;
     padding-left: 50px;
+} @media (max-width: 500px) { 
+    .footer-espacio {
+    padding-right: 0px;
+    padding-left: 0px;
+        
+    } 
 }
 
 .titulo-footer {
@@ -463,8 +573,3 @@ svg {
     color: white;
     font-size: 18px;
 }
-
-
-
-
-

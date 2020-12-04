@@ -12,6 +12,10 @@
     padding-top: 230px;
     font-size: 60px;
     color: white;
+}  @media (max-width:500px) {
+    .titular {
+        padding-top: 110px;
+    }
 }
 .desde {
     text-transform: uppercase;
@@ -23,17 +27,25 @@
 
 .alm {
     text-align: center;
+} @media (max-width:500px) {
+    .alm {
+        padding-bottom: 50px;
+    }
 }
 .alm-inv {
     width: 80%;
-   
     padding-top: 150px;
-    
+} @media (max-width:500px) {
+    .alm-inv {
+        padding-top: 30px;
+    }
 }
 
 
 /* Modelos */
-
+#modelos {
+    padding-bottom: 80px;
+}
 .familia {
     text-align: center;
     font-size: 50px;
@@ -79,6 +91,11 @@
 .modelo-car {
     text-align: center;
     padding-top: 27px;
+} @media (max-width:500px) {
+    .modelo-car {
+        padding-top: 20px;
+        text-align: center;
+    }
 }
 .caract-mod {
     width: 50%;
@@ -113,10 +130,18 @@
 .modelo-car-1 {
     text-align: right;
     padding-top: 10px;
+} @media (max-width:500px) {
+    .modelo-car-1 {
+        text-align: center;
+    }
 }
 .modelo-car-2 {
     text-align: left;
     padding-top: 10px;
+} @media (max-width:500px) {
+    .modelo-car-2 {
+        text-align: center;
+    }
 }
 
 .modelo-car-3 {
@@ -128,7 +153,39 @@
     font-size: 20px;
     color: white;
     font-weight: 200;
+} @media (max-width:500px) {
+    .descri{
+        text-align: center;
+        font-size: 14px;
+    }
 }
+
+@media (max-width:500px) {
+    .uno-uno{
+        order: 1;
+    }
+}
+
+@media (max-width:500px) {
+    .uno-dos{
+        order: 2;
+    }
+}
+
+@media (max-width:500px) {
+    .botones-1{
+        text-align: center;
+    }
+}
+
+@media (max-width:500px) {
+    .botones{
+        text-align: center;
+    }
+}
+
+
+
 .espacio {
     padding-right: 12px;
 }
@@ -155,7 +212,7 @@
 /* modelo magenta */
 
 .bg-magenta {
-    background-color: #ec008c;
+    background-color: #e5007d;
 }
 
 .modelo-titulo-1 {
@@ -170,6 +227,10 @@
 
 .magenta-model {
     padding-top: 38px;
+}
+
+.vio {
+   color: white;
 }
 
 .boton-modelo-m {

@@ -6,7 +6,18 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+    <meta property="og:title" content="Gran Calzada una ciudad viva">
+    <meta property="og:type" content="website" />
+    <meta name="description" content="La Gran Calzada® está creada para conectarte con todo lo que necesitas diariamente: comercios, escuelas, supermercados, etc."/>   
+    <meta name="og:description" content="La Gran Calzada® está creada para conectarte con todo lo que necesitas diariamente: comercios, escuelas, supermercados, etc."/>
+    <meta name="og:url" content="https://www.grancalzada.mx"/>
+    <meta name="og:site_name" content="Gran Calzada"/>
+    <meta name="og:image" content="/img/gran-calzada-tumb.png"/>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content="La Gran Calzada® está creada para conectarte con todo lo que necesitas diariamente: comercios, escuelas, supermercados, etc." />
+    <meta name="twitter:title" content="Gran Calzada una ciudad viva" />
+    <meta name="twitter:image" content="/img/gran-calzada-tumb.png" />
+   
 
 
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('img/Icons/favicon-32x32.png') }}">
@@ -19,7 +30,8 @@
     <link rel="stylesheet" href="css/modelos.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <title>Gran Calzada</title>
+    <title>Gran Calzada - Una ciudad viva</title>
+
     <!-- Facebook Pixel Code -->
 <script>
   !function(f,b,e,v,n,t,s)
@@ -54,19 +66,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="#azul">Ciudad Viva <span class="sr-only">(current)</span></a>
+                        <a class="nav-link mx-5" href="#s-sec">Ciudad Viva <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="#blanco">El Desarrollo</a>
+                        <a class="nav-link mx-5" href="#casitas">El Desarrollador</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link mx-5" href="#">Ubicación</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="#">Desarrollos</a>
+                        <a class="nav-link mx-5" href="#desarrollos">Desarrollos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ml-5" href="#">Contacto</a>
+                        <a class="nav-link ml-5" href="#footer-section">Contacto</a>
                     </li>
 
                 </ul>
@@ -156,7 +168,7 @@
             <div style="color: white">
               <p class="copyright" style="text-align: center;"><small>
 
-            UN DESARROLLO DE<img src="/img/Icons/Logo-Casitas.svg" class="img-fluid casitas-footer" style="padding-bottom: 8px" alt="">
+            UN DESARROLLO DE <img src="/img/Icons/Logo-Casitas.svg" class="img-fluid casitas-footer" style="padding-bottom: 8px" alt="">
 
 
             </div>
