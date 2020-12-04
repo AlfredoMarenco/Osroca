@@ -23,11 +23,11 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('img/Icons/favicon-32x32.png') }}">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style-gc.css">
-    <link rel="stylesheet" href="css/almada.css">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style-gc.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/almada.css') }}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/modelos.css">
+    <link rel="stylesheet" href="{{ asset('css/modelos.css') }}">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Gran Calzada - Una ciudad viva</title>
