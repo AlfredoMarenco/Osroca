@@ -8,20 +8,12 @@ Route::get('/', function () {
     return view('index');
 });
 
-// Route::get('/almada', function () {
-//     $aguamarina = Casa::findOrFail(1);
-//     $magenta = Casa::findOrFail(2);
-//     $violeta = Casa::findOrFail(3);
-//     $violetaplus = Casa::findOrFail(4);
-//     return view('almada', compact('aguamarina','magenta','violeta','violetaplus'));
-// })->name('almada');
-
 Route::get('/almada', function () {
-    // $aguamarina = Casa::findOrFail(1);
-    // $magenta = Casa::findOrFail(2);
-    // $violeta = Casa::findOrFail(3);
-    // $violetaplus = Casa::findOrFail(4);
-    return view('violeta');
+    $aguamarina = Casa::where('id','like',1)->first();
+    $magenta = Casa::where('id','like',2)->first();
+    $violeta = Casa::where('id','like',3)->first();
+    $violetaplus = Casa::where('id','like',4)->first();
+    return view('almada', compact('aguamarina','magenta','violeta','violetaplus'));
 })->name('almada');
 
 Route::get('/modelo-aguamarina', function () {
