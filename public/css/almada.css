@@ -22,6 +22,7 @@
     color: white;
 }
 .desde {
+    font-family: "Montserrat";
     text-transform: uppercase;
     text-align: center;
     color: #f8b1a1;
@@ -165,7 +166,7 @@
 } @media (max-width:500px) {
     .descri{
         text-align: center;
-        font-size: 14px;
+        font-size: 13px;
     }
 }
 
@@ -220,8 +221,12 @@
 
 @media (max-width:500px) {
     .tipo{
-        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 11px;
         margin-bottom: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 }
 /* modelo magenta */

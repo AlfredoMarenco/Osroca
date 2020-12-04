@@ -86,9 +86,7 @@
                   <input type="email" name="email" class="form-control" id="exampleFormControlInput1" required="required" placeholder="Correo">
                 </div>
 
-                <div class="form-group" style="text-align: right">
-
-
+                <div class="form-group botom">
 
                 <button type="submit" class="btn btn-pink">Enviar</button>
               </form>
