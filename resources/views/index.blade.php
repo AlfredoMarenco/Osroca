@@ -8,6 +8,7 @@
         </div>
         </div>
     </section>
+    
     <section id="s-sec">
         <div class="container-fluid">
             <div class="row">
@@ -66,7 +67,7 @@
                         <div class="col-2 text-right ">
                             <img src="{{ asset('img/Icons/Icon-Equipamiento.svg') }}" class="img-fluid" alt="">
                         </div>
-                        <p class="col-4 text-left caracteristicas-icon p-2 my-3">EQUIPAMENTO</p>
+                        <p class="col-4 text-left caracteristicas-icon u-planta p-2 my-3">EQUIPAMENTO</p>
                     </div>
                     <div class="row">
                         {{-- primer icono de la segunda fila --}}

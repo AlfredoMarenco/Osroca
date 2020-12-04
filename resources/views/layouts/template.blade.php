@@ -197,8 +197,9 @@
             <div class="row pt-5 mt-2 text-center ">
                 <div class="col-md-12">
                     <div style="color: white">
-                        <p class="copyright" style="text-align: center;">UN DESARROLLO DE<small>
-                        <img src="{{ asset('img/Icons/Logo-Casitas-bco.svg') }}" class="img-fluid casitas-footer" style="padding-bottom: 8px" alt="">
+                        <p class="copyright" style="text-align: center;"><small>
+                        UN DESARROLLO DE<img src="{{ asset('img/Icons/Logo-Casitas-bco.svg') }}" class="img-fluid casitas-footer"
+                            style="padding-bottom: 8px" alt="">
                     </div>
                 </div>
 

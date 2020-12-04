@@ -149,17 +149,19 @@ p {
 }
 
 .u-ciudad{
-    margin-top: 5px;
-    font-size: 1,5em;
-}
+    margin-top: 16px;
+    font-size: 17px;
+} 
 
 .u-concreto {
-    margin-top: 12px;
+    margin-top: 22px;
+    font-size: 17px;
 }
 
 .u-planta {
-    margin-top: 2px;
-}
+    margin-top: 16px;
+    font-size: 17px;
+} 
 
 .texto-derecha {
     text-align: center;
@@ -499,6 +501,10 @@ svg {
     border-color: #5e5491;
     border-width: 4px;
 }
+.btn-primary:hover {
+    color: #0b2650 !important;
+    border-color: #0b2650;
+}
 
 .miraverde {
     width: 76%;
@@ -508,6 +514,11 @@ svg {
     margin-top: 95px;
     color: #215a36 !important;
     border-color: #215a36 !important;
+} @media (max-width: 500px) {
+    .b-mira {
+        font-size: 20px;
+
+    }
 }
 
 /* Footer */
