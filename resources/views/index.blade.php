@@ -14,28 +14,28 @@
                     <h1 class="una-ciudad">¡Una Ciudad Viva!</h1>
                     <div class="row cont">
                         <div class="col-6">
-                            <img src="/img/Icons/Calzada-1.png" class="img-fluid icono" alt="">
+                            <img src="{{ asset('/img/Icons/Calzada-1.png') }}" class="img-fluid icono" alt="">
                             <p class="caracteristicas">Poniente <br> de la ciudad</p>
                         </div>
                         <div class="col-6">
-                            <img src="/img/Icons/3km.png" class="img-fluid icono-2" alt="">
+                            <img src="{{ asset('/img/Icons/3km.png') }}" class="img-fluid icono-2" alt="">
                             <p class="caracteristicas dis-1">Distancia<br> de periférico</p>
                         </div>
                     </div>
                     <div class="row cont">
                         <div class="col-6 ">
-                            <img src="/img/Icons/116.png" class="img-fluid icono-1" alt="">
+                            <img src="{{ asset('/img/Icons/116.png') }}" class="img-fluid icono-1" alt="">
                             <p class="caracteristicas">Hectáreas</p>
                         </div>
                         <div class="col-6">
-                            <img src="/img/Icons/vivienda.png" class="img-fluid icono vivienda" alt="">
+                            <img src="{{ asset('/img/Icons/vivienda.png') }}" class="img-fluid icono vivienda" alt="">
                             <p class="caracteristicas">Más de 4,000 viviendas<br>
                                 divididas en dos desarollos</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 right-one">
-                    <img src="/img/1.png" alt="Gran Calzada | Ciudad Viva" class="img-fluid">
+                    <img src="{{ asset('/img/1.png') }}" alt="Gran Calzada | Ciudad Viva" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -46,7 +46,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12 right-one">
-                    <img src="/img/2.png" alt="Gran Calzada | Ciudad Viva" class="img-fluid arboleda">
+                    <img src="{{ asset('/img/2.png') }}" alt="Gran Calzada | Ciudad Viva" class="img-fluid arboleda">
                 </div>
 
                 <div class="col-lg-6 col-md-12 col-sm-12 right-one">
@@ -58,24 +58,24 @@
                     <div class="row container mt-5 inline-block">
                         {{-- primer icono de la primera fila --}}
                         <div class="col-2 text-right ">
-                            <img src="img/Icons/Icon-Planeacion.svg" class="img-fluid mt-1"  alt="">
+                            <img src="{{ asset('img/Icons/Icon-Planeacion.svg') }}" class="img-fluid mt-1"  alt="">
                         </div>
                         <p class="col-12 col-lg-4 text-center text-lg-left caracteristicas-icon p-2 u-ciudad">UNA CIUDAD<br>PLANEADA</p>
                         {{-- segundo icono primera fila --}}
                         <div class="col-2 text-right ">
-                            <img src="img/Icons/Icon-Equipamiento.svg" class="img-fluid" alt="">
+                            <img src="{{ asset('img/Icons/Icon-Equipamiento.svg') }}" class="img-fluid" alt="">
                         </div>
                         <p class="col-12 col-lg-4 text-center text-lg-left caracteristicas-icon p-2 my-3">EQUIPAMENTO</p>
                     </div>
                     <div class="row container">
                          {{-- primer icono de la segunda fila --}}
                          <div class="col-2 text-right ">
-                            <img src="img/Icons/Icon-Concreto.svg" class="img-fluid mt-2" alt="">
+                            <img src="{{ asset('img/Icons/Icon-Concreto.svg') }}" class="img-fluid mt-2" alt="">
                         </div>
                         <p class="col-12 col-lg-4 text-center text-lg-left caracteristicas-icon p-2 u-concreto">CONCRETO<br>HIDRÁULICO</p>
                         {{-- segundo icono segunda fila --}}
                         <div class="col-2 text-right ">
-                            <img src="img/Icons/Icon-Drenaje.svg" class="img-fluid mt-2" alt="">
+                            <img src="{{ asset('img/Icons/Icon-Drenaje.svg') }}" class="img-fluid mt-2" alt="">
                         </div>
                         <p class="col-12 col-lg-4 text-center text-lg-left caracteristicas-icon p-2 u-planta">PLANTA DE<br>TRATAMIENTO</p>
                     </div>
@@ -90,19 +90,19 @@
             <div class="row amenidades">
                 <!-- uno -->
                 <div class="col-lg-3 col-md-6 col-sm-4">
-                    <img src="/img/2-escuelas.png" alt="2 escuelas" class="i-resumen img-fluid">
+                    <img src="{{ asset('img/2-escuelas.png') }}" alt="2 escuelas" class="i-resumen img-fluid">
                 </div>
                 <!-- uno -->
                 <div class="col-lg-3 col-md-6 col-sm-">
-                    <img src="/img/21-zonas-comerciales.png" alt="2 escuelas" class="i-resumen img-fluid">
+                    <img src="{{ asset('img/21-zonas-comerciales.png') }}" alt="2 escuelas" class="i-resumen img-fluid">
                 </div>
                 <!-- uno -->
                 <div class="col-lg-3 col-md-6 col-sm-4">
-                    <img src="/img/1-ciclopista.png" alt="2 escuelas" class="i-resumen img-fluid">
+                    <img src="{{ asset('img/1-ciclopista.png') }}" alt="2 escuelas" class="i-resumen img-fluid">
                 </div>
                 <!-- uno -->
                 <div class="col-lg-3 col-md-6 col-sm-4">
-                    <img src="/img/8-parques.png" alt="2 escuelas" class="i-resumen img-fluid">
+                    <img src="{{ asset('img/8-parques.png') }}" alt="2 escuelas" class="i-resumen img-fluid">
                 </div>
             </div>
         </div>
@@ -118,7 +118,7 @@
             <div class="container-fluid">
                 <div class="row texto">
                     <div class="col-lg-12 col-md-12 col-sm-12 centro">
-                        <img src="/img/Icons/Calzada.svg" class="img-fluid calzada-rosa" alt="Gran Calzada | Ciudad Viva">
+                        <img src="{{ asset('img/Icons/Calzada.svg') }}" class="img-fluid calzada-rosa" alt="Gran Calzada | Ciudad Viva">
                         <h1 class="estas-en">Estás en el camino correcto <br> para
                             cambiar y mejorar tu estilo de vida,<br>
                             es el momento de vivir otro entorno.</h1>
