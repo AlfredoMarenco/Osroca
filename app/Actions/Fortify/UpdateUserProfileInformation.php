@@ -28,8 +28,9 @@ class UpdateUserProfileInformation implements UpdatesUserProfileInformation
             $user->updateProfilePhoto($input['photo']);
         }
 
-        if ($input['username'] !== $user->username &&
-            $user instanceof MustVerifyusername) {
+        if (
+            $input['username'] !== $user->username &&
+            $user instanceof MustVerifyEmail) {
             $this->updateVerifiedUser($user, $input);
         } else {
             $user->forceFill([
