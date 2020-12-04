@@ -263,7 +263,7 @@
             </div>
 
             <!-- DESARROLLOS -->
-            <div class="pad">
+            <div class="pad container-fluid">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12 fo-a  almada-c">
                         <img src="{{ asset('img/Icons/Logo-Almada.png') }}" class="almada img-fluid" alt="">
