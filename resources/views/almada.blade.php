@@ -10,7 +10,7 @@
                     <h2 class="desde lead">desde <b>$360,000</b></h2>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 alm">
-                    <img src="img/Icons/Logo-Almada-inv.png" class="img-fluid alm-inv" alt="">
+                    <img src="{{ asset('img/Icons/Logo-Almada-inv.png') }}" class="img-fluid alm-inv" alt="">
                 </div>
             </div>
         </div>
