@@ -76,7 +76,8 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="{{ route('index') }}">Inicio <span class="sr-only">(current)</span></a>
+                        <a class="nav-link mx-5" href="{{ route('index') }}">Inicio <span
+                                class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link mx-5" href="#aguamarina">Aguamarina</a>
@@ -125,33 +126,14 @@
 
                 <div class="col-lg-4 col-md-12 col-sm-6 mx-right">
 
-                    <form class="contact" name="contact-form" method="post" action="enviar.php">
-                        <div class="form-group">
+                    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+                    <script>
+                        hbspt.forms.create({
+                            portalId: "5510950",
+                            formId: "90ff5895-6821-490e-b0e1-e13cf421bb52"
+                        });
 
-                            <input type="name" name="nombre" class="form-control" id="exampleFormControlInput1"
-                                required="required" placeholder="Nombre">
-                        </div>
-
-                        <div class="form-group">
-
-                            <input type="tel" name="telefono" class="form-control" id="phone"
-                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="required" placeholder="Teléfono">
-                        </div>
-
-                        <div class="form-group">
-
-                            <input type="email" name="email" class="form-control" id="exampleFormControlInput1"
-                                required="required" placeholder="¿Tienes algún crédito?">
-                        </div>
-
-                        <div class="form-group">
-
-                            <input type="name" name="nombre" class="form-control" id="exampleFormControlInput1"
-                                required="required" placeholder="Presupuesto">
-                        </div>
-
-                        <button type="submit" class="btn btn-pink">Enviar</button>
-                    </form>
+                    </script>
                 </div>
 
 
@@ -193,8 +175,8 @@
                 <div class="col-md-12">
                     <div style="color: white">
                         <p class="copyright" style="text-align: center;"><small>
-                        UN DESARROLLO DE<img src="{{ asset('img/Icons/Logo-Casitas-bco.svg') }}" class="img-fluid casitas-footer"
-                            style="padding-bottom: 8px" alt="">
+                                UN DESARROLLO DE<img src="{{ asset('img/Icons/Logo-Casitas-bco.svg') }}"
+                                    class="img-fluid casitas-footer" style="padding-bottom: 8px" alt="">
                     </div>
                 </div>
 
