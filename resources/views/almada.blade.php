@@ -316,7 +316,7 @@
 
                 </div>
                 <div class="col-lg-5 col-md-12 col-sm-12 p-0 imagen padding-0 margen-prop">
-                    <img src="{{ asset('img/magenta/GC_Magenta_B1_Fachada.jpg') }}" class="img-fluid" alt="">
+                    <img src="{{ asset('img/magenta/GC_Violeta_Plus_Fachada.jpg') }}" class="img-fluid" alt="">
                 </div>
 
             </div>
