@@ -1,6 +1,6 @@
 <div class="p-6 sm:px-20 bg-white border-b border-gray-200 text-center">
-    <div class="mt-8 mx-auto text-5xl">
-        Gran Calzada - Ciuadad Viva
+    <div class="mt-8 mx-auto">
+        <p class="text-5xl sm:text-lg"> Calzada - Ciuadad Viva </p>
     </div>
 
     <div class="mt-6 text-gray-500">
