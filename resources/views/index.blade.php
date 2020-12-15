@@ -54,32 +54,40 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 right-one">
                     <div class="texto-derecha">
                         <h1 class="una-ciudad-1">Una ciudad solo para ti, <br> decídete vivir en ella</h1>
-                        <div class="boton-rosa"><a href="{{ route('almada') }}"><button class="btn btn-pink">Precalifícate</button></a></div>
+                        <div class="boton-rosa"><a href="{{ route('almada') }}"><button
+                                    class="btn btn-pink">Precalifícate</button></a></div>
                     </div>
 
                     <div class="row mt-5">
                         {{-- primer icono de la primera fila --}}
                         <div class="col-12 col-lg-2 text-center text-lg-right ">
-                            <img src="{{ asset('img/Icons/Icon-Planeacion.svg') }}" class="img-fluid mt-1" style="width: 5.0rem;" alt="">
+                            <img src="{{ asset('img/Icons/Icon-Planeacion.svg') }}" class="img-fluid mt-1"
+                                style="width: 5.0rem;" alt="">
                         </div>
-                        <p class="col-12 col-lg-4 text-center text-lg-left caracteristicas-icon p-2">UNA CIUDAD<br>PLANEADA</p>
+                        <p class="col-12 col-lg-4 text-center text-lg-left caracteristicas-icon p-2">UNA CIUDAD<br>PLANEADA
+                        </p>
                         {{-- segundo icono primera fila --}}
                         <div class="col-12 col-lg-2 text-center text-lg-right ">
-                            <img src="{{ asset('img/Icons/Icon-Equipamiento.svg') }}" class="img-fluid" style="width: 5.0rem;" alt="">
+                            <img src="{{ asset('img/Icons/Icon-Equipamiento.svg') }}" class="img-fluid"
+                                style="width: 5.0rem;" alt="">
                         </div>
                         <p class="col-12 col-lg-4 text-center text-lg-left caracteristicas-icon p-2 my-3">EQUIPAMENTO</p>
                     </div>
                     <div class="row">
                         {{-- primer icono de la segunda fila --}}
                         <div class="col-12 col-lg-2 text-center text-lg-right ">
-                            <img src="{{ asset('img/Icons/Icon-concreto.svg') }}" class="img-fluid mt-2" style="width: 5.0rem;" alt="">
+                            <img src="{{ asset('img/Icons/Icon-concreto.svg') }}" class="img-fluid mt-2"
+                                style="width: 5.0rem;" alt="">
                         </div>
-                        <p class="col-12 col-lg-4 text-center text-lg-left caracteristicas-icon p-2">CONCRETO<br>HIDRÁULICO</p>
+                        <p class="col-12 col-lg-4 text-center text-lg-left caracteristicas-icon p-2">CONCRETO<br>HIDRÁULICO
+                        </p>
                         {{-- segundo icono segunda fila --}}
                         <div class="col-12 col-lg-2 text-center text-lg-right ">
-                            <img src="{{ asset('img/Icons/Icon-Drenaje.svg') }}" class="img-fluid mt-2"  style="width: 5.0rem;"alt="">
+                            <img src="{{ asset('img/Icons/Icon-Drenaje.svg') }}" class="img-fluid mt-2"
+                                style="width: 5.0rem;" alt="">
                         </div>
-                        <p class="col-12 col-lg-4 text-center text-lg-left caracteristicas-icon p-2 ">PLANTA DE<br>TRATAMIENTO</p>
+                        <p class="col-12 col-lg-4 text-center text-lg-left caracteristicas-icon p-2 ">PLANTA
+                            DE<br>TRATAMIENTO</p>
                     </div>
                 </div>
             </div>
@@ -126,7 +134,8 @@
                         <h1 class="estas-en">Estás en el camino correcto <br> para
                             cambiar y mejorar tu estilo de vida,<br>
                             es el momento de vivir otro entorno.</h1>
-                        <a href="#desarrollos" class="boton-rosa"><button class="btn btn-blue">Conoce los desarrollos</button></a>
+                        <a href="#desarrollos" class="boton-rosa"><button class="btn btn-blue">Conoce los
+                                desarrollos</button></a>
                     </div>
                 </div>
             </div>
@@ -199,7 +208,8 @@
                     <p class="p-urb">Trasládate caminando dentro de amplias y arboladas banquetas, o rodando en familia
                         por la ciclopista. <br> La Gran Calzada® está creada para conectarte con todo lo que necesitas
                         diariamente: comercios, escuelas, supermercados, etc.</p>
-                    <div class="boton"><a href="{{ route('almada') }}"> <button class="btn btn-pink"> Encuentra tu hogar </button> </a></div>
+                    <div class="boton"><a href="{{ route('almada') }}"> <button class="btn btn-pink"> Encuentra tu hogar
+                            </button> </a></div>
                 </div>
             </div>
         </div>
@@ -273,9 +283,14 @@
                 <div class="col-12 col-lg-6 text-center ">
                     <div class="fo-a py-5">
                         <img src="{{ asset('img/Icons/Logo-Almada.png') }}" class="almada mt-5 img-fluid" alt="">
-                        <h3 class="lead costo">DESDE <B>${{ number_format($desde->price) }}</B></h3>
+                        @if ($desde->visible == 0)
+                            <h3 class="lead costo">Consulta precios</B></h3>
+                        @else
+                            <h3 class="lead costo">DESDE <B>${{ number_format($desde->price) }}</B></h3>
+                        @endif
                         <div class="boton-2">
-                            <a href="{{ route('almada') }}"><button class="btn btn-primary mb-5">Encuentra tu casa</button></a>
+                            <a href="{{ route('almada') }}"><button class="btn btn-primary mb-5">Encuentra tu
+                                    casa</button></a>
                         </div>
                     </div>
                 </div>

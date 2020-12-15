@@ -53,6 +53,17 @@
                                         </div>
                                     </div>
                                     <div class="grid grid-cols-5 gap-6 mt-6">
+                                        <div class="col-span-6 sm:col-span-2">
+                                            <label class="text-sm font-medium leading-5 text-gray-700">
+                                                ¿Visible?
+                                            </label>
+                                            <div class="mt-1 flex rounded-md w-full shadow-sm">
+                                                <select name="visible" class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                                                    <option value=1 {{ $casa->visible == 1 ? 'selected' : ''  }}>Sí</option>
+                                                    <option value=0 {{ $casa->visible == 0 ? 'selected' : ''  }}>No</option>
+                                                </select>
+                                            </div>
+                                        </div>
                                         <div class="col-span-4 sm:col-span-2">
                                             <label class="hidden text-sm font-medium leading-5 text-gray-700">
                                                 Color de fondo
@@ -66,7 +77,8 @@
                                                 Color de texto
                                             </label>
                                             <div class="mt-1 flex rounded-md w-full shadow-sm">
-                                                <input hidden type="color" name="textcolor" value="{{ $casa->textcolor }}">
+                                                <input hidden type="color" name="textcolor"
+                                                    value="{{ $casa->textcolor }}">
                                             </div>
                                         </div>
                                     </div>

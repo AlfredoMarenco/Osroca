@@ -24,6 +24,10 @@
                                                 class="px-6 py-3 text-center bg-gray-50  text-xs font-medium text-gray-500 uppercase tracking-wider">
                                                 Precio
                                             </th>
+                                            <th scope="col"
+                                                class="px-6 py-3 text-center bg-gray-50  text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                                ¿Visible?
+                                            </th>
                                             {{-- <th scope="col"
                                                 class="px-6 py-3 text-center bg-gray-50 text-xs font-medium text-gray-500 uppercase tracking-wider">
                                                 Color
@@ -45,6 +49,15 @@
                                                 <td class="px-6 py-4 whitespace-nowrap">
                                                     <div class="text-sm text-gray-900">
                                                         $ {{ number_format($casa->price, 2) }}
+                                                    </div>
+                                                </td>
+                                                <td class="px-6 py-4 whitespace-nowrap">
+                                                    <div class="text-sm text-gray-900">
+                                                        @if ($casa->visible == 0)
+                                                        No
+                                                        @else
+                                                        Sí
+                                                        @endif
                                                     </div>
                                                 </td>
                                                 {{-- <td class="px-6 py-4 whitespace-nowrap">

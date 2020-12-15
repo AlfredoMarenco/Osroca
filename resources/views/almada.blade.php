@@ -7,7 +7,11 @@
                 <div class="row espacio">
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <h1 class="titular">Tu nuevo hogar <br>está aquí</h1>
-                        <h2 class="desde lead">desde <b>${{ number_format($desde->price) }}</b></h2>
+                        @if ($desde->visible == 1)
+                            <h2 class="desde lead">desde <b>${{ number_format($desde->price) }}</b></h2>
+                        @else
+                            <h2 class="desde lead">Pregunta por nuestros precios</b></h2>
+                        @endif
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 alm">
                         <img src="{{ asset('img/Icons/Logo-Almada-inv.png') }}" class="img-fluid alm-inv" alt="">
@@ -40,7 +44,11 @@
 
                             <h1 class="modelo-titulo" style="text-align: center">{{ $modelo->name }}</h1>
                             <div class="costo-modelo">
-                                <button class="boton-modelo">Desde: ${{ number_format($modelo->price) }}</button>
+                                @if ($modelo->visible == 1)
+                                    <button class="boton-modelo">Desde: ${{ number_format($modelo->price) }}</button>
+                                @else
+
+                                @endif
                             </div>
 
                             <div class="costo-modelo">
@@ -55,12 +63,12 @@
                                 </div>
                                 <div class="col-4 modelo-car">
                                     <img src="{{ asset('img/Icons/Icon-Recaramara-doble.png') }}
-                                           " alt="" class="img-fluid caract-mod">
+                                                   " alt="" class="img-fluid caract-mod">
                                     <p class="descri">2 Recámaras</p>
                                 </div>
                                 <div class="col-4 modelo-car-2">
                                     <img src="{{ asset('img/Icons/Icon-Baño-mdo.png') }}
-                                           " alt="" class="img-fluid caract-mod-1-1">
+                                                   " alt="" class="img-fluid caract-mod-1-1">
                                     <p class="descri">1 Baño</p>
                                 </div>
                             </div>
@@ -85,7 +93,8 @@
 
                             <div class="row centro-b">
                                 <div class="col-6 botones-1 ">
-                                    <a href="{{ route('aguamarina') }}"><button class="btn- btn-secondary tipo">Cotiza tu casa</button></a>
+                                    <a href="{{ route('aguamarina') }}"><button class="btn- btn-secondary tipo">Cotiza tu
+                                            casa</button></a>
                                 </div>
                                 <div class="col-6 botones">
                                     <a href="{{ asset('download/Aguamarina.pdf') }}" target="_blanK"><button
@@ -110,7 +119,11 @@
                         @if ($modelo->id == 2)
                             <h1 class="modelo-titulo-1" style="text-align: center">{{ $modelo->name }}</h1>
                             <div class="costo-modelo">
-                                <button class="boton-modelo-m">Desde: ${{ number_format($modelo->price) }}</button>
+                                @if ($modelo->visible == 1)
+                                    <button class="boton-modelo">Desde: ${{ number_format($modelo->price) }}</button>
+                                @else
+
+                                @endif
                             </div>
 
                             <div class="costo-modelo">
@@ -156,7 +169,8 @@
 
                             <div class="row centro-b">
                                 <div class="col-6 botones-1 ">
-                                    <a href="{{ route('magenta') }}"><button class="btn- btn-secondary tipo">Cotiza tu casa</button></a>
+                                    <a href="{{ route('magenta') }}"><button class="btn- btn-secondary tipo">Cotiza tu
+                                            casa</button></a>
                                 </div>
                                 <div class="col-6 botones">
                                     <a href="{{ asset('download/Magenta.pdf') }}" target="_blanK"><button
@@ -187,7 +201,11 @@
                         @if ($modelo->id == 3)
                             <h1 class="modelo-titulo" style="text-align: center; color: white;">{{ $modelo->name }}</h1>
                             <div class="costo-modelo">
-                                <button class="boton-modelo-m">Desde: ${{ number_format($modelo->price) }}</button>
+                                @if ($modelo->visible == 1)
+                                    <button class="boton-modelo">Desde: ${{ number_format($modelo->price) }}</button>
+                                @else
+
+                                @endif
                             </div>
 
                             <div class="costo-modelo">
@@ -202,12 +220,12 @@
                                 </div>
                                 <div class="col-4 modelo-car">
                                     <img src="{{ asset('img/Icons/Icon-Recaramara-doble-bco.png') }}
-                                           " alt="" class="img-fluid caract-mod">
+                                                   " alt="" class="img-fluid caract-mod">
                                     <p class="descri">2 Recámaras</p>
                                 </div>
                                 <div class="col-4 modelo-car-2">
                                     <img src="{{ asset('img/Icons/Icon-Baño-bco.png') }}
-                                           " alt="" class="img-fluid caract-mod-1-1">
+                                                   " alt="" class="img-fluid caract-mod-1-1">
                                     <p class="descri">1 ½ Baño</p>
                                 </div>
                             </div>
@@ -232,7 +250,8 @@
 
                             <div class="row centro-b">
                                 <div class="col-6 botones-1 ">
-                                    <a href="{{ route('violeta') }}"><button class="btn- btn-secondary tipo">Cotiza tu casa</button></a>
+                                    <a href="{{ route('violeta') }}"><button class="btn- btn-secondary tipo">Cotiza tu
+                                            casa</button></a>
                                 </div>
                                 <div class="col-6 botones">
                                     <a href="{{ asset('download/Violeta.pdf') }}" target="_blanK"><button
@@ -258,7 +277,11 @@
                         @if ($modelo->id == 4)
                             <h1 class="modelo-titulo-1" style="text-align: center">{{ $modelo->name }}</h1>
                             <div class="costo-modelo">
-                                <button class="boton-modelo-m">Desde: ${{ number_format($modelo->price) }}</button>
+                                @if ($modelo->visible == 1)
+                                    <button class="boton-modelo">Desde: ${{ number_format($modelo->price) }}</button>
+                                @else
+
+                                @endif
                             </div>
 
                             <div class="costo-modelo">
@@ -304,7 +327,8 @@
 
                             <div class="row centro-b">
                                 <div class="col-6 botones-1 ">
-                                    <a href="{{ route('violetaplus') }}"><button class="btn- btn-secondary tipo">Cotiza tu casa</button></a>
+                                    <a href="{{ route('violetaplus') }}"><button class="btn- btn-secondary tipo">Cotiza tu
+                                            casa</button></a>
                                 </div>
                                 <div class="col-6 botones">
                                     <a href="{{ asset('download/Violeta-plus.pdf') }}" target="_blanK"><button

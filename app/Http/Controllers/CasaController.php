@@ -76,11 +76,12 @@ class CasaController extends Controller
     {
         $request->validate([
             'name' => 'required',
-            'price' => 'required'
+            'price' => 'required',
         ]);
 
         $casa->name = $request->name;
         $casa->price = $request->price;
+        $casa->visible = $request->visible;
         $casa->bgcolor = $request->bgcolor;
         $casa->textcolor = $request->textcolor;
 
