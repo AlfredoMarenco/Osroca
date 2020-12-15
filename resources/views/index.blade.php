@@ -284,7 +284,7 @@
                     <div class="fo-a py-5">
                         <img src="{{ asset('img/Icons/Logo-Almada.png') }}" class="almada mt-5 img-fluid" alt="">
                         @if ($desde->visible == 0)
-                            <h3 class="lead costo">Consulta precios</B></h3>
+                            <h3 class="lead costo"></B></h3>
                         @else
                             <h3 class="lead costo">DESDE <B>${{ number_format($desde->price) }}</B></h3>
                         @endif

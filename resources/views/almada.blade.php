@@ -10,7 +10,7 @@
                         @if ($desde->visible == 1)
                             <h2 class="desde lead">desde <b>${{ number_format($desde->price) }}</b></h2>
                         @else
-                            <h2 class="desde lead">Pregunta por nuestros precios</b></h2>
+                            <h2 class="desde lead"></b></h2>
                         @endif
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 alm">
