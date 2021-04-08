@@ -24,7 +24,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/style-gc.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style-gc-miraverde.css') }}">
     <link rel="stylesheet" href="{{ asset('css/miraverde.css') }}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ asset('css/modelos-miraverde.css') }}">
@@ -80,16 +80,16 @@
                                 class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="#aguamarina">Aguamarina</a>
+                        <a class="nav-link mx-5" href="#aguamarina">Balché</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="#magenta">Magenta</a>
+                        <a class="nav-link mx-5" href="#magenta">Bugambilia Plus</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="#Violeta">Violeta</a>
+                        <a class="nav-link mx-5" href="#Violeta">Flamboyán Plus</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="#Violeta-plus">Violeta Plus</a>
+                        <a class="nav-link mx-5" href="#Violeta-plus">Ceiba Plus</a>
                     </li>
                 </ul>
             </div>

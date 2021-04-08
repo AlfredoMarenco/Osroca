@@ -1,8 +1,8 @@
 .bg-mora {
-    background-color: #51488b;
+    background-color: #215a35;
 }
 .bg-violeta {
-    background-color: #6f2282;
+    background-color: #f8b2a2;
 }
 .espacio {
     padding-top: 10px;
@@ -25,7 +25,7 @@
     font-family: "Montserrat";
     text-transform: uppercase;
     text-align: center;
-    color: #f8b1a1;
+    color: #f8b2a2;
     padding-top: 30px;
     font-size: 40px;
 }
@@ -71,7 +71,7 @@
     padding-bottom: 30px;
 }
 .bg-aqua {
-    background-color: #24cfd8;
+    background-color: #f8b2a2;
 }
 
 .modelo-titulo {
@@ -89,9 +89,22 @@
     color: white;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: #349ebc;
+    background-color: #215a35;
     border: none;
 }
+
+/* Desde fondo rosa */
+
+.boton-modelo-rosa {
+    font-size: 20px;
+    color: #215a35;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f8b2a2;
+    border: none;
+}
+
+
 
 .espacio-terreno {
     padding-top: 10px;
@@ -232,7 +245,7 @@
 /* modelo magenta */
 
 .bg-magenta {
-    background-color: #e5007d;
+    background-color: #215a35;
 }
 
 .modelo-titulo-1 {
