@@ -94,7 +94,7 @@
 
                             <div class="row centro-b">
                                 <div class="col-6 botones-1 ">
-                                    <a href="{{ route('aguamarina') }}"><button class="btn- btn-secondary tipo">Cotiza tu
+                                    <a href="{{ route('balche') }}"><button class="btn- btn-secondary tipo">Cotiza tu
                                             casa</button></a>
                                 </div>
                                 <div class="col-6 botones">
@@ -170,7 +170,7 @@
 
                             <div class="row centro-b">
                                 <div class="col-6 botones-1 ">
-                                    <a href="{{ route('magenta') }}"><button class="btn- btn-secondary tipo">Cotiza tu
+                                    <a href="{{ route('bugambilia') }}"><button class="btn- btn-secondary tipo">Cotiza tu
                                             casa</button></a>
                                 </div>
                                 <div class="col-6 botones">
@@ -251,7 +251,7 @@
 
                             <div class="row centro-b">
                                 <div class="col-6 botones-1 ">
-                                    <a href="{{ route('violeta') }}"><button class="btn- btn-secondary tipo">Cotiza tu
+                                    <a href="{{ route('flamboyan') }}"><button class="btn- btn-secondary tipo">Cotiza tu
                                             casa</button></a>
                                 </div>
                                 <div class="col-6 botones">
@@ -328,7 +328,7 @@
 
                             <div class="row centro-b">
                                 <div class="col-6 botones-1 ">
-                                    <a href="{{ route('violetaplus') }}"><button class="btn- btn-secondary tipo">Cotiza tu
+                                    <a href="{{ route('ceiba') }}"><button class="btn- btn-secondary tipo">Cotiza tu
                                             casa</button></a>
                                 </div>
                                 <div class="col-6 botones">
