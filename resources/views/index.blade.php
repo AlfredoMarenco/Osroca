@@ -298,7 +298,8 @@
                     <div class="fo-v py-5">
                         <img src="{{ asset('img/Icons/Logo-Miraverde.png') }}" class="miraverde mt-5 img-fluid" alt="">
                         <div class="boton-2">
-                            <a href="#"><button class="btn btn-primary mb-5 b-mira">PROXÍMAMENTE</button></a>
+                            <a href="{{ route('miraverde') }}"><button class="btn btn-primary mb-5 b-mira">Encuentra tu
+                                casa</button></a>
                         </div>
                     </div>
                 </div>

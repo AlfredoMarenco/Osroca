@@ -35,12 +35,12 @@
             <h1 class="familia" id="aguamarina">Tu familia merece un respiro</h1>
             <div class="row p-0">
                 <div class="col-lg-5 col-md-12 col-sm-12 uno-dos imagen padding-0">
-                    <img src="{{ asset('img/aguamarina/GC_Aguamarina_fachada.jpg') }}" class="img-fluid" alt="">
+                    <img src="{{ asset('img/balche/1-balche.jpg') }}" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-7 col-md-12 col-sm-12 bg-aqua uno-uno">
                     @foreach ($modelos as $modelo)
 
-                        @if ($modelo->id == 1)
+                        @if ($modelo->id == 5)
 
                             <h1 class="modelo-titulo-1" style="text-align: center">{{ $modelo->name }}</h1>
                             <div class="costo-modelo">
@@ -116,7 +116,7 @@
                 <div class="col-lg-7 col-md-12 col-sm-12 bg-magenta">
                     @foreach ($modelos as $modelo)
 
-                        @if ($modelo->id == 2)
+                        @if ($modelo->id == 6)
                             <h1 class="modelo-titulo-1" style="text-align: center">{{ $modelo->name }}</h1>
                             <div class="costo-modelo">
                                 @if ($modelo->visible == 1)
@@ -183,7 +183,7 @@
 
                 </div>
                 <div class="col-lg-5 col-md-12 col-sm-12 p-0 imagen padding-0 margen-prop">
-                    <img src="{{ asset('img/magenta/GC_Magenta_B1_Fachada.jpg') }}" class="img-fluid" alt="">
+                    <img src="{{ asset('img/bugambilia-plus/2-bugambilia.jpg') }}" class="img-fluid" alt="">
                 </div>
 
             </div>
@@ -193,12 +193,12 @@
             <!--modelo Flamboyán Plus -->
             <div class="row p-0" id="Violeta" style="margin-top: 30px">
                 <div class="col-lg-5 col-md-12 col-sm-12 uno-dos imagen padding-0">
-                    <img src="{{ asset('img/violeta/GC_Violeta_Fachada-2.jpg') }}" class="img-fluid" alt="">
+                    <img src="{{ asset('img/flamboyan-plus/3-flamboyan.jpg') }}" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-7 col-md-12 col-sm-12 bg-violeta uno-uno">
                     @foreach ($modelos as $modelo)
 
-                        @if ($modelo->id == 3)
+                        @if ($modelo->id == 7)
                             <h1 class="modelo-titulo" style="text-align: center; color: white;">{{ $modelo->name }}</h1>
                             <div class="costo-modelo">
                                 @if ($modelo->visible == 1)
@@ -274,7 +274,7 @@
                 <div class="col-lg-7 col-md-12 col-sm-12 bg-magenta">
                     @foreach ($modelos as $modelo)
 
-                        @if ($modelo->id == 4)
+                        @if ($modelo->id == 8)
                             <h1 class="modelo-titulo-1" style="text-align: center">{{ $modelo->name }}</h1>
                             <div class="costo-modelo">
                                 @if ($modelo->visible == 1)
@@ -340,7 +340,7 @@
 
                 </div>
                 <div class="col-lg-5 col-md-12 col-sm-12 p-0 imagen padding-0 margen-prop">
-                    <img src="{{ asset('img/violeta-plus/GC_Violeta_Plus_Fachada.jpg') }}" class="img-fluid" alt="">
+                    <img src="{{ asset('img/ceiba-plus/4-ceiba-plus.jpg') }}" class="img-fluid" alt="">
                 </div>
 
             </div>
