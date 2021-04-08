@@ -47,3 +47,7 @@ Route::get('/miraverde', function () {
     $desde = Casa::orderBy('price', 'asc')->first();
     return view('miraverde.miraverde', compact('modelos','desde'));
 })->name('miraverde');
+
+Route::get('/modelo-balche', function () {
+    return view('miraverde.balche');
+})->name('balche');

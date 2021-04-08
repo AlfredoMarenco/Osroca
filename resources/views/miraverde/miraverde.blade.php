@@ -67,6 +67,7 @@
                                     <p class="descri">2 Recámaras</p>
                                 </div>
                                 <div class="col-4 modelo-car-2">
+                                    hola
                                     <img src="{{ asset('img/Icons/Icon-Baño-bco.png') }}
                                                    " alt="" class="img-fluid caract-mod-1-1">
                                     <p class="descri">1 Baño</p>
@@ -345,5 +346,4 @@
 
             </div>
     </section>
-
 @endsection

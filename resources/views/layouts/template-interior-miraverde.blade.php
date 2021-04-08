@@ -24,10 +24,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/style-gc.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/almada.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style-gc-miraverde.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/miraverde.css') }}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="{{ asset('css/modelos.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/modelos-miraverde.css') }}">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Gran Calzada</title>
@@ -80,7 +80,7 @@
                                 class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="{{ route('almada') }}">Modelos</a>
+                        <a class="nav-link mx-5" href="{{ route('miraverde') }}">Modelos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link mx-5" href="#amenidades-m">Características</a>
