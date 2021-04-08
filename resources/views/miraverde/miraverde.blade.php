@@ -35,7 +35,7 @@
             <h1 class="familia" id="aguamarina">Tu familia merece un respiro</h1>
             <div class="row p-0">
                 <div class="col-lg-5 col-md-12 col-sm-12 uno-dos imagen padding-0">
-                    <img src="{{ asset('img/balche/1-balche.jpg') }}" class="img-fluid" alt="">
+                    <img src="{{ asset('img/miraverde/balche/pagina-modelos.jpg') }}" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-7 col-md-12 col-sm-12 bg-aqua uno-uno">
                     @foreach ($modelos as $modelo)
@@ -184,7 +184,7 @@
 
                 </div>
                 <div class="col-lg-5 col-md-12 col-sm-12 p-0 imagen padding-0 margen-prop">
-                    <img src="{{ asset('img/bugambilia-plus/2-bugambilia.jpg') }}" class="img-fluid" alt="">
+                    <img src="{{ asset('img/miraverde/bugambilia-plus/pagina-modelos.jpg') }}" class="img-fluid" alt="">
                 </div>
 
             </div>
@@ -194,7 +194,7 @@
             <!--modelo Flamboyán Plus -->
             <div class="row p-0" id="Violeta" style="margin-top: 30px">
                 <div class="col-lg-5 col-md-12 col-sm-12 uno-dos imagen padding-0">
-                    <img src="{{ asset('img/flamboyan-plus/3-flamboyan.jpg') }}" class="img-fluid" alt="">
+                    <img src="{{ asset('img/miraverde/flamboyan-plus/pagina-modelos.jpg') }}" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-7 col-md-12 col-sm-12 bg-violeta uno-uno">
                     @foreach ($modelos as $modelo)
@@ -341,7 +341,7 @@
 
                 </div>
                 <div class="col-lg-5 col-md-12 col-sm-12 p-0 imagen padding-0 margen-prop">
-                    <img src="{{ asset('img/ceiba-plus/4-ceiba-plus.jpg') }}" class="img-fluid" alt="">
+                    <img src="{{ asset('img/miraverde/ceiba-plus/pagina-modelos.jpg') }}" class="img-fluid" alt="">
                 </div>
 
             </div>
