@@ -346,5 +346,4 @@
 
             </div>
     </section>
-hola
 @endsection
