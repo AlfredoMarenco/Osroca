@@ -20,6 +20,7 @@ class CasaSeeder extends Seeder
             'bgcolor' => '#773703',
             'textcolor' => '#ffffff',
             'visible' => 1,
+            'developing' => 'almada'
         ]);
         Casa::create([
             'name' => 'Modelo Magenta',
@@ -27,6 +28,7 @@ class CasaSeeder extends Seeder
             'bgcolor' => '#773703',
             'textcolor' => '#ffffff',
             'visible' => 1,
+            'developing' => 'almada'
         ]);
         Casa::create([
             'name' => 'Modelo Violeta',
@@ -34,6 +36,7 @@ class CasaSeeder extends Seeder
             'bgcolor' => '#773703',
             'textcolor' => '#ffffff',
             'visible' => 1,
+            'developing' => 'almada'
         ]);
         Casa::create([
             'name' => 'Modelo Violeta Plus',
@@ -41,6 +44,7 @@ class CasaSeeder extends Seeder
             'bgcolor' => '#773703',
             'textcolor' => '#ffffff',
             'visible' => 1,
+            'developing' => 'almada'
         ]);
         Casa::create([
             'name' => 'Modelo Miraverde1',
@@ -48,6 +52,7 @@ class CasaSeeder extends Seeder
             'bgcolor' => '#773703',
             'textcolor' => '#ffffff',
             'visible' => 1,
+            'developing' => 'miraverde'
         ]);
         Casa::create([
             'name' => 'Modelo Miraverde2',
@@ -55,6 +60,7 @@ class CasaSeeder extends Seeder
             'bgcolor' => '#773703',
             'textcolor' => '#ffffff',
             'visible' => 1,
+            'developing' => 'miraverde'
         ]);
         Casa::create([
             'name' => 'Modelo Miraverde3',
@@ -62,6 +68,7 @@ class CasaSeeder extends Seeder
             'bgcolor' => '#773703',
             'textcolor' => '#ffffff',
             'visible' => 1,
+            'developing' => 'miraverde'
         ]);
         Casa::create([
             'name' => 'Modelo Miraverde4',
@@ -69,6 +76,7 @@ class CasaSeeder extends Seeder
             'bgcolor' => '#773703',
             'textcolor' => '#ffffff',
             'visible' => 1,
+            'developing' => 'miraverde'
         ]);
     }
 }

@@ -283,10 +283,12 @@
                 <div class="col-12 col-lg-6 text-center ">
                     <div class="fo-a py-5">
                         <img src="{{ asset('img/Icons/Logo-Almada.png') }}" class="almada mt-5 img-fluid" alt="">
-                        @if ($desde->visible == 0)
-                            <h3 class="lead costo"><B><br></B></h3>
-                        @else
-                            <h3 class="lead costo">DESDE <B>${{ number_format($desde->price) }}</B></h3>
+                        @if ($desde->developing == 'almada')
+                            @if ($desde->visible == 0)
+                                <h3 class="lead costo"><B><br></B></h3>
+                            @else
+                                <h3 class="lead costo">DESDE <B>${{ number_format($desde->price) }}</B></h3>
+                            @endif
                         @endif
                         <div class="boton-2">
                             <a href="{{ route('almada') }}"><button class="btn btn-primary mb-5">Encuentra tu
@@ -297,9 +299,16 @@
                 <div class="col-12 col-lg-6 text-center">
                     <div class="fo-v py-5">
                         <img src="{{ asset('img/Icons/Logo-Miraverde.png') }}" class="miraverde mt-5 img-fluid" alt="">
+                        @if ($desde->developing == 'miraverde')
+                            @if ($desde->visible == 0)
+                                <h3 class="lead costo"><B><br></B></h3>
+                            @else
+                                <h3 class="lead costo">DESDE <B>${{ number_format($desde->price) }}</B></h3>
+                            @endif
+                        @endif
                         <div class="boton-2">
-                            <a href="{{ route('miraverde') }}"><button class="btn btn-primary mb-5 b-mira">Encuentra tu
-                                casa</button></a>
+                            <a href="{{ route('miraverde') }}"><button class="btn btn-primary mb-5">Encuentra tu
+                                    casa</button></a>
                         </div>
                     </div>
                 </div>

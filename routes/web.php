@@ -11,7 +11,7 @@ Route::get('/', function () {
 
 Route::get('/almada', function () {
     $modelos = Casa::all();
-    $desde = Casa::orderBy('price', 'asc')->first();
+    $desde = Casa::where('developing','like','almada')->orderBy('price', 'asc')->first();
     return view('almada', compact('modelos','desde'));
 })->name('almada');
 
@@ -44,7 +44,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 // RUTAS MIRAVERDE
 Route::get('/miraverde', function () {
     $modelos = Casa::all();
-    $desde = Casa::orderBy('price', 'asc')->first();
+    $desde = Casa::where('developing','like','miraverde')->orderBy('price', 'asc')->first();
     return view('miraverde.miraverde', compact('modelos','desde'));
 })->name('miraverde');
 
