@@ -51,3 +51,15 @@ Route::get('/miraverde', function () {
 Route::get('/modelo-balche', function () {
     return view('miraverde.balche');
 })->name('balche');
+
+Route::get('/modelo-bugambilia', function () {
+    return view('miraverde.bugambilia');
+})->name('bugambilia');
+
+Route::get('/modelo-flamboyan', function () {
+    return view('miraverde.flamboyan');
+})->name('flamboyan');
+
+Route::get('/modelo-ceiba', function () {
+    return view('miraverde.ceiba');
+})->name('ceiba');
