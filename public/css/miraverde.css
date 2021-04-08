@@ -1,0 +1,265 @@
+.bg-mora {
+    background-color: #51488b;
+}
+.bg-violeta {
+    background-color: #6f2282;
+}
+.espacio {
+    padding-top: 10px;
+}
+.titular {
+    text-align: center;
+    padding-top: 230px;
+    font-size: 60px;
+    color: white;
+}  @media (max-width:500px) {
+    .titular {
+        padding-top: 110px;
+    }
+}
+
+.violeta-3 {
+    color: white;
+}
+.desde {
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    text-align: center;
+    color: #f8b1a1;
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+.alm {
+    text-align: center;
+} @media (max-width:500px) {
+    .alm {
+        padding-bottom: 50px;
+    }
+}
+.alm-inv {
+    width: 80%;
+    padding-top: 150px;
+} @media (max-width:500px) {
+    .alm-inv {
+        padding-top: 30px;
+    }
+}
+
+
+/* Modelos */
+#modelos {
+    padding-bottom: 80px;
+}
+.familia {
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+
+.padding-0 {
+    padding-right:0;
+    padding-left:0;
+}
+
+.margen-prop {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.imagen {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.bg-aqua {
+    background-color: #24cfd8;
+}
+
+.modelo-titulo {
+    padding-top: 50px;
+    color: #51488b;
+}
+
+.costo-modelo {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.boton-modelo {
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #349ebc;
+    border: none;
+}
+
+.espacio-terreno {
+    padding-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+.modelo-car {
+    text-align: center;
+    padding-top: 27px;
+} @media (max-width:500px) {
+    .modelo-car {
+        padding-top: 20px;
+        text-align: center;
+    }
+}
+.caract-mod {
+    width: 50%;
+    padding-bottom: 10px;
+}
+.caract-mod-1 {
+    width: 30%;
+    padding-bottom: 9px;
+}
+.caract-mod-1-s {
+    width: 30%;
+    padding-bottom: 3px;
+}
+.caract-mod-1-1 {
+    width: 30%;
+    padding-bottom: 9px;
+}
+.caract-mod-1-1-p {
+    width: 30%;
+    padding-bottom: 10px;
+}
+
+.caract-mod-2 {
+    width: 35%;
+    padding-bottom: 9px;
+}
+.caract-mod-2-1 {
+    width: 35%;
+    padding-bottom: 11px;
+}
+
+.modelo-car-1 {
+    text-align: right;
+    padding-top: 10px;
+} @media (max-width:500px) {
+    .modelo-car-1 {
+        text-align: center;
+    }
+}
+.modelo-car-2 {
+    text-align: left;
+    padding-top: 10px;
+} @media (max-width:500px) {
+    .modelo-car-2 {
+        text-align: center;
+    }
+}
+
+.modelo-car-3 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.descri {
+    font-size: 20px;
+    color: white;
+    font-weight: 200;
+} @media (max-width:500px) {
+    .descri{
+        text-align: center;
+        font-size: 13px;
+    }
+}
+
+@media (max-width:500px) {
+    .uno-uno{
+        order: 1;
+    }
+}
+
+@media (max-width:500px) {
+    .uno-dos{
+        order: 2;
+    }
+}
+
+@media (max-width:500px) {
+    .botones-1{
+        text-align: center;
+    }
+}
+
+@media (max-width:500px) {
+    .botones{
+        text-align: center;
+    }
+}
+
+
+
+.espacio {
+    padding-right: 12px;
+}
+
+.botones {
+    margin-top: 40px;
+    text-align: left;
+}
+.botones-1 {
+    margin-top: 40px;
+    text-align: right;
+}
+
+.btn-secondary {
+    font-size: 23px;
+    padding-right: 40px;
+    padding-left: 40px;
+    color: #5e5491;
+    background: white;
+    border-radius: 20px;
+    border: none;
+}
+
+@media (max-width:500px) {
+    .tipo{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 11px;
+        margin-bottom: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+/* modelo magenta */
+
+.bg-magenta {
+    background-color: #e5007d;
+}
+
+.modelo-titulo-1 {
+    padding-top: 65px;
+    color: white;
+}
+
+.costo-modelo {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.magenta-model {
+    padding-top: 38px;
+}
+
+.vio {
+   color: white;
+}
+
+.boton-modelo-m {
+
+        font-size: 20px;
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #b41a8c;
+        border: none;
+
+}

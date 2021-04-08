@@ -40,3 +40,10 @@ Route::resource('casas', CasaController::class)->names([
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
+// RUTAS MIRAVERDE
+Route::get('/miraverde', function () {
+    $modelos = Casa::all();
+    $desde = Casa::orderBy('price', 'asc')->first();
+    return view('miraverde.miraverde', compact('modelos','desde'));
+})->name('miraverde');
