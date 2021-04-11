@@ -12,13 +12,13 @@
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
-                            <img src="{{ asset('img/miraverde/flamboyan-plus/slider-interior-2.jpg') }}" class="d-block w-100" alt="...">
+                            <img src="{{ asset('img/miraverde/flamboyan-plus/slider-interior-2.jpg') }}" class="d-block w-100" alt="Flamboyán plus | ¡Una ciudad viva!">
                           </div>
                           <div class="carousel-item">
-                            <img src="{{ asset('img/miraverde/flamboyan-plus/slider-interior-1.jpg') }}" class="d-block w-100" alt="...">
+                            <img src="{{ asset('img/miraverde/flamboyan-plus/slider-interior-1.jpg') }}" class="d-block w-100" alt="Flamboyán plus | ¡Una ciudad viva!">
                           </div>
                           <div class="carousel-item">
-                            <img src="{{ asset('img/miraverde/flamboyan-plus/slider-interior.jpg') }}" class="d-block w-100" alt="...">
+                            <img src="{{ asset('img/miraverde/flamboyan-plus/slider-interior.jpg') }}" class="d-block w-100" alt="Flamboyán plus | ¡Una ciudad viva!">
                           </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -51,18 +51,42 @@
                     <br>
 
                     
-                    <li style="font-weight: 600" class="boold">Planta Arquitectónica</li> <br>
-                    <li style="font-weight: 600" class="boold">PLANTA BAJA</li>
-                    <li>Sala / Comedor</li>
-                    <li>Cocina individual</li>
-                    <li>1/2 baño</li>
-                    <li>Cochera semi-techada</li>
-                    <li style="font-weight: 600" class="boold">PLANTA ALTA</li>
-                    <li>Recámara principal con área
-                        para clóset y baño completo</li>
-                    <li>Recámara secundaria con área
-                        para clóset</li>
-                    <li>1 Baño Completo</li>
+                    <li style="font-weight: 600" class="boold">
+                        Planta Arquitectónica
+                    </li> 
+                    <br>
+                    <li style="font-weight: 600" class="boold">
+                        PLANTA BAJA
+                    </li>
+                    <li>
+                        Sala / Comedor
+
+                    </li>
+                    <li>
+                        Cocina independiente
+
+                    </li>
+                    <li>
+                        1/2 baño
+
+                    </li>
+                    <li>
+                        Cochera semitechada
+
+                    </li>
+                    <li style="font-weight: 600" class="boold">
+                        PLANTA ALTA
+                    </li>
+
+                    <li>
+                        Recámara principal con área para clóset y baño
+                    </li>
+                    <li>
+                        Recámara secundaria con área para clóset
+                    </li>
+                    <li>
+                        Baño Completo
+                    </li>
 
 
 

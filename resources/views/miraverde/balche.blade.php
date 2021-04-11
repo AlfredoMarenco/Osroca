@@ -14,13 +14,13 @@
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
-                            <img src="{{ asset('img/miraverde/balche/slider-interior-2.jpg') }}" class="d-block w-100" alt="...">
+                            <img src="{{ asset('img/miraverde/balche/slider-interior-2.jpg') }}" class="d-block w-100" alt="Modelo Balché | ¡Una Ciudad Viva!">
                           </div>
                           <div class="carousel-item">
-                            <img src="{{ asset('img/miraverde/balche/slider-interior-1.jpg') }}" class="d-block w-100" alt="...">
+                            <img src="{{ asset('img/miraverde/balche/slider-interior-1.jpg') }}" class="d-block w-100" alt="Modelo Balché | ¡Una Ciudad Viva!">
                           </div>
                           <div class="carousel-item">
-                            <img src="{{ asset('img/miraverde/balche/slider-interior.jpg') }}" class="d-block w-100" alt="...">
+                            <img src="{{ asset('img/miraverde/balche/slider-interior.jpg') }}" class="d-block w-100" alt="Modelo Balché | ¡Una Ciudad Viva!">
                           </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -50,7 +50,7 @@
                     <img src="{{ asset('img/miraverde/balche/Planta-baja.jpg') }}" class="img-fluid planta-b" alt="">
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 ameni-txt">
-                    <h1>Modelo Balche</h1>
+                    <h1>Modelo Balché</h1>
                     <li>Terreno desde: 7 x 17 m </li>
                     <li>Construcción: 63.28 m2</li>
                     <br>
@@ -60,6 +60,7 @@
                     <li>Sala / Comedor</li>
                     <li>Cocina</li>
                     <li>1 Baño Completo</li>
+                    <li>Jardín Frontal</li>
                     <li>2 recámaras con área para closet</li>
                     <li>Patio</li>
                     <li>Cuarto de lavado</li>
@@ -83,7 +84,7 @@
 
                     <h2 class="un-desarrollo" style="text-align: center;">Un desarrollo de</h2>
                     <div style="text-align: center">
-                        <img src="{{ asset('img/Icons/Logo-Calzada.svg') }}" alt="" class="img-fluid circulo-calzada">
+                        <img src="{{ asset('img/Icons/Logo-Calzada.svg') }}" alt="Modelo Balché | ¡Una Ciudad Viva!" class="img-fluid circulo-calzada">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 formulario-2">

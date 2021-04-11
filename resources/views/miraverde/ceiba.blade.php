@@ -14,13 +14,13 @@
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
-                            <img src="{{ asset('img/miraverde/ceiba-plus/slider-interior-2.jpg') }}" class="d-block w-100" alt="...">
+                            <img src="{{ asset('img/miraverde/ceiba-plus/slider-interior-2.jpg') }}" class="d-block w-100" alt="Casas en Mérida, Modelo Ceiba Plus | ¡Una ciudad viva!">
                           </div>
                           <div class="carousel-item">
-                            <img src="{{ asset('img/miraverde/ceiba-plus/slider-interior-1.jpg') }}" class="d-block w-100" alt="...">
+                            <img src="{{ asset('img/miraverde/ceiba-plus/slider-interior-1.jpg') }}" class="d-block w-100" alt="Casas en Mérida, Modelo Ceiba Plus | ¡Una ciudad viva!">
                           </div>
                           <div class="carousel-item">
-                            <img src="{{ asset('img/miraverde/ceiba-plus/slider-interior.jpg') }}" class="d-block w-100" alt="...">
+                            <img src="{{ asset('img/miraverde/ceiba-plus/slider-interior.jpg') }}" class="d-block w-100" alt="Casas en Mérida, Modelo Ceiba Plus | ¡Una ciudad viva!">
                           </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -48,8 +48,9 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 ameni-txt">
                     <h1>Modelo Ceiba Plus</h1>
+
                     <li>Terreno desde: 7 x 17 m </li>
-                    <li>Construcción: 65.73 m2</li>
+                    <li>Construcción: 82.25 m2</li>
                     <br>
 
                     
@@ -60,13 +61,13 @@
                     <li>Sala / Comedor</li>
                     <li>Cocina independiente</li>
                     <li>1/2 baño</li>
-                    <li>Cochera semi-techada</li>
+                    <li>Cochera semitechada</li>
 
                     <li style="font-weight: 600" class="boold">PLANTA ALTA</li>
+                    
                     <li>Recámara principal con área
                         para clóset y acceso a baño completo</li>
-                    <li>Recámara 2:</li>
-                    <li>Baño Completo</li>
+                    <li>Baño completo/li>
 
 
 

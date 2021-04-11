@@ -52,7 +52,7 @@
                             </div>
 
                             <div class="costo-modelo">
-                                <p class="espacio-terreno">Terreno desde: 7 x 17 m <br>Construcción de: 73.69 m2</p>
+                                <p class="espacio-terreno">Terreno desde: 7 x 17 m <br>Construcción de: 65.73 m2</p>
                             </div>
 
                             <div class="row">
@@ -109,7 +109,7 @@
 
         <!--CORTAR Y LUEGO PEGAR-->
 
-        <!--modelo Bugambilia Plus-->
+        <!--modelo Flamboyán Plus-->
 
         <div class="container" id="magenta" style="margin-top: 30px">
             <div class="row magenta-model p-0">
@@ -169,7 +169,7 @@
 
                             <div class="row centro-b">
                                 <div class="col-6 botones-1 ">
-                                    <a href="{{ route('bugambilia') }}"><button class="btn- btn-secondary tipo">Cotiza tu
+                                    <a href="{{ route('flamboyan') }}"><button class="btn- btn-secondary tipo">Cotiza tu
                                             casa</button></a>
                                 </div>
                                 <div class="col-6 botones">
@@ -183,17 +183,18 @@
 
                 </div>
                 <div class="col-lg-5 col-md-12 col-sm-12 p-0 imagen padding-0 margen-prop">
-                    <img src="{{ asset('img/miraverde/bugambilia-plus/pagina-modelos.jpg') }}" class="img-fluid" alt="">
+                    <img src="{{ asset('img/miraverde/flamboyan-plus/pagina-modelos.jpg') }}" class="img-fluid" alt="">
                 </div>
 
             </div>
 
 
 
-            <!--modelo Flamboyán Plus -->
+            <!--modelo Bugambilia Plus -->
             <div class="row p-0" id="Violeta" style="margin-top: 30px">
                 <div class="col-lg-5 col-md-12 col-sm-12 uno-dos imagen padding-0">
-                    <img src="{{ asset('img/miraverde/flamboyan-plus/pagina-modelos.jpg') }}" class="img-fluid" alt="">
+                    <img src="{{ asset('img/miraverde/bugambilia-plus/pagina-modelos.jpg
+                    ') }}" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-7 col-md-12 col-sm-12 bg-violeta uno-uno">
                     @foreach ($modelos as $modelo)
@@ -209,7 +210,7 @@
                             </div>
 
                             <div class="costo-modelo">
-                                <p class="espacio-terreno">Terreno desde: 7 x 17 m <br>Construcción de: 65.73 m2</p>
+                                <p class="espacio-terreno">Terreno desde: 7 x 17 m <br>Construcción de: 73.69 m2</p>
                             </div>
 
                             <div class="row">
@@ -250,7 +251,7 @@
 
                             <div class="row centro-b">
                                 <div class="col-6 botones-1 ">
-                                    <a href="{{ route('flamboyan') }}"><button class="btn- btn-secondary tipo">Cotiza tu
+                                    <a href="{{ route('bugambilia') }}"><button class="btn- btn-secondary tipo">Cotiza tu
                                             casa</button></a>
                                 </div>
                                 <div class="col-6 botones">
@@ -303,7 +304,7 @@
                                 <div class="col-4 modelo-car-2">
                                     <img src="{{ asset('img/Icons/Icon-Baño-bco.png') }}" alt=""
                                         class="img-fluid caract-mod-1-1">
-                                    <p class="descri">2 1/2 Baños</p>
+                                    <p class="descri">1 1/2 Baños</p>
                                 </div>
                             </div>
 
