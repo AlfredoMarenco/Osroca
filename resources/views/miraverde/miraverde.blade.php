@@ -14,7 +14,7 @@
                         @endif
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 alm">
-                        <img src="{{ asset('img/Icons/Logo-miraverde-inv.png') }}" class="img-fluid alm-inv" alt="">
+                        <img src="{{ asset('img/Icons/Logo-miraverde-inv-2.svg') }}" class="img-fluid alm-inv" alt="">
                     </div>
                 </div>
             </div>

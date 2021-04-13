@@ -43,7 +43,7 @@
         <div class="container-fluid">
             <div class="row ameni">
                 <div class="col-lg-4 col-md-4 col-sm-6 imag-planta">
-                    <img src="{{ asset('img/miraverde/ceiba-plus/Planta-baja.jpg') }}" class="img-fluid planta-b"
+                    <img src="{{ asset('img/miraverde/ceiba-plus/3-PB-CEIBA.png') }}" class="img-fluid planta-b"
                         alt="">
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 ameni-txt">
@@ -75,7 +75,7 @@
                     <br>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 imag-planta">
-                    <img src="{{ asset('img/miraverde/ceiba-plus/Planta-alta.jpg') }}" class="img-fluid planta-b"
+                    <img src="{{ asset('img/miraverde/ceiba-plus/4-PA-CEIBA.png') }}" class="img-fluid planta-b"
                         alt="">
                 </div>
 

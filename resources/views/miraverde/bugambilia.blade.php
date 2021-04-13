@@ -41,7 +41,7 @@
         <div class="container-fluid">
             <div class="row ameni">
                 <div class="col-lg-4 col-md-4 col-sm-6 imag-planta">
-                    <img src="{{ asset('img/miraverde/bugambilia-plus/planta-baja.jpg') }}" class="img-fluid planta-b"
+                    <img src="{{ asset('img/miraverde/bugambilia-plus/1-PB-BUGAMBILIA.png') }}" class="img-fluid planta-b"
                         alt="">
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 ameni-txt">
@@ -82,7 +82,7 @@
                     <br>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 imag-planta">
-                    <img src="{{ asset('img/miraverde/bugambilia-plus/planta-alta.jpg') }}" class="img-fluid planta-b"
+                    <img src="{{ asset('img/miraverde/bugambilia-plus/2-PA-BUGAMBILIA.png') }}" class="img-fluid planta-b"
                         alt="">
                 </div>
 

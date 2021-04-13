@@ -41,7 +41,7 @@
         <div class="container-fluid">
             <div class="row ameni">
                 <div class="col-lg-4 col-md-4 col-sm-6 imag-planta">
-                    <img src="{{ asset('img/miraverde/flamboyan-plus/Planta-baja.png') }}" class="img-fluid planta-b"
+                    <img src="{{ asset('img/miraverde/flamboyan-plus/5-PB-FLAMBOYAN.png') }}" class="img-fluid planta-b"
                         alt="">
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 ameni-txt">
@@ -94,7 +94,7 @@
                     <br>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 imag-planta">
-                    <img src="{{ asset('img/miraverde/flamboyan-plus/Planta-alta.png') }}" class="img-fluid planta-b"
+                    <img src="{{ asset('img/miraverde/flamboyan-plus/6-PA-FLAMBOYAN.png') }}" class="img-fluid planta-b"
                         alt="">
                 </div>
 
