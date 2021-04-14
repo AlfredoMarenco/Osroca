@@ -303,7 +303,7 @@
                             <h3 class="lead costo">DESDE <B>${{ number_format($desdeMiraverde->price) }}</B></h3>
                         @endif
                         <div class="boton-2">
-                            <a href="#"><button class="btn btn-primary mb-5">Encuentra tu
+                            <a href="{{ route('miraverde') }}"><button class="btn btn-primary mb-5">Encuentra tu
                                     casa</button></a>
                         </div>
                     </div>
