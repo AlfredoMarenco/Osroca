@@ -97,7 +97,7 @@
                                             casa</button></a>
                                 </div>
                                 <div class="col-6 botones">
-                                    <a href="{{ asset('download/Aguamarina.pdf') }}" target="_blanK"><button
+                                    <a href="{{ asset('download/ficha-tecnica-balche.pdf') }}" target="_blanK"><button
                                             class="btn- btn-secondary tipo">Ficha técnica</button></a>
                                 </div>
                             </div>
@@ -173,7 +173,7 @@
                                             casa</button></a>
                                 </div>
                                 <div class="col-6 botones">
-                                    <a href="{{ asset('download/Magenta.pdf') }}" target="_blanK"><button
+                                    <a href="{{ asset('download/ficha-tecnica-flamboyan-plus.pdf') }}" target="_blanK"><button
                                             class="btn- btn-secondary tipo">Ficha
                                             técnica</button></a>
                                 </div>
@@ -255,7 +255,7 @@
                                             casa</button></a>
                                 </div>
                                 <div class="col-6 botones">
-                                    <a href="{{ asset('download/Violeta.pdf') }}" target="_blanK"><button
+                                    <a href="{{ asset('download/ficha-tecnica-bugambilia-plus.pdf') }}" target="_blanK"><button
                                             class="btn- btn-secondary tipo">Ficha
                                             técnica</button></a>
                                 </div>
@@ -332,7 +332,7 @@
                                             casa</button></a>
                                 </div>
                                 <div class="col-6 botones">
-                                    <a href="{{ asset('download/Violeta-plus.pdf') }}" target="_blanK"><button
+                                    <a href="{{ asset('download/ficha-tecnica-ceiba-plus.pdf') }}" target="_blanK"><button
                                             class="btn- btn-secondary tipo">Ficha técnica</button></a>
                                 </div>
                             </div>
