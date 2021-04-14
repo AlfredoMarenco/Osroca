@@ -5,7 +5,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-5 col-md-12 col-sm-12">
-                    <img src="{{ asset('img/Icons/Logo-miraverde-inv.png') }}" class="img-fluid logo-h" alt="">
+                    <img src="{{ asset('img/Icons/Logo-miraverde-inv.svg') }}" class="img-fluid logo-h" alt="">
                 </div>
                 <div class="col-lg-7 col-md-12 col-sm-12 p-0">
                     <!--SLIDER-->
@@ -51,9 +51,9 @@
                     <br>
 
                     <li style="font-weight: 600" class="boold">Planta Arquitectónica</li> <br>
-                    
+
                     <li style="font-weight: 600" class="boold">PLANTA BAJA</li>
-                    
+
                     <li>Sala / Comedor</li>
                     <li>Cocina independiente</li>
                     <li>1/2 baño</li>
