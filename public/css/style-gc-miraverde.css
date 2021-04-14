@@ -1,14 +1,14 @@
 @font-face {
     font-family: "clearface";
-    src: url("../fonts/GranCalzada/Clearface/Clearface-Bold.ttf");
+    src: url("../../fonts/GranCalzada/Clearface/Clearface-Bold.ttf");
     font-style: normal;
     font-weight: bold;
     }
 
 @font-face {
     font-family: 'Minion-Pro';
-    src: url("../fonts/GranCalzada/Minionpro/MinionPro-Regular.otf");
-    src: url("../fonts/GranCalzada/clearface/ClearfaceEFHeavy-Regular.otf");
+    src: url("../../fonts/GranCalzada/Minionpro/MinionPro-Regular.otf");
+    src: url("../../fonts/GranCalzada/clearface/ClearfaceEFHeavy-Regular.otf");
     font-style: normal;
     font-weight: bold;
     }
