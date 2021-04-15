@@ -157,7 +157,7 @@
                             aria-hidden="false" tabindex="0" class="img-fluid">
                         </iframe></div>
                     <h4 class="oficina mt-3">Plaza Caliza:</h4>
-                    <p class="direccion">Calle 56 # 514<br> Fraccionamiento Gran Calzada.
+                    <p class="direccion">Calle 56 # 514<br> Fraccionamiento Gran Calzada. <br> Tel: (999) 944 99 52
                     </p>
                 </div>
                 <div class="col-lg-4">
@@ -168,7 +168,7 @@
                             aria-hidden="false" tabindex="0" class="img-fluid"></iframe>
                         </div>
                     <h4 class="oficina mt-3">Camper entrada Gran Calzada:</h4>
-                    <p class="direccion">Entrada Fraccionamiento Gran Calzada<br>CP: 97390 Umán.</p>
+                    <p class="direccion">Entrada Fraccionamiento Gran Calzada<br>CP: 97390 Umán. <br> Tel: (999) 944 99 52</p>
                 </div>
             </div> <!--END FOOTER MIRAVERDE-->
 

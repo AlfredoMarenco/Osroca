@@ -52,7 +52,7 @@
                             </div>
 
                             <div class="costo-modelo">
-                                <p class="espacio-terreno">Terreno desde: 7 x 17 m <br>Construcción de: 65.73 m2</p>
+                                <p class="espacio-terreno">Terreno desde: 7 x 17 m <br>Construcción de: 63.28 m2 </p>
                             </div>
 
                             <div class="row">
@@ -145,7 +145,7 @@
                                 <div class="col-4 modelo-car-2">
                                     <img src="{{ asset('img/Icons/Icon-Baño-bco.png') }}" alt=""
                                         class="img-fluid caract-mod-1-1">
-                                    <p class="descri">1 ½ Baños</p>
+                                    <p class="descri">2 ½ Baños</p>
                                 </div>
                             </div>
 
@@ -227,7 +227,7 @@
                                 <div class="col-4 modelo-car-2">
                                     <img src="{{ asset('img/Icons/Icon-Baño-bco.png') }}
                                                    " alt="" class="img-fluid caract-mod-1-1">
-                                    <p class="descri">1 ½ Baño</p>
+                                    <p class="descri">2 ½ Baños</p>
                                 </div>
                             </div>
 
@@ -299,12 +299,12 @@
                                 <div class="col-4 modelo-car">
                                     <img src="{{ asset('img/Icons/Icon-Recaramara-doble-bco.png') }}" alt=""
                                         class="img-fluid caract-mod">
-                                    <p class="descri">2 Recámaras</p>
+                                    <p class="descri">3 Recámaras</p>
                                 </div>
                                 <div class="col-4 modelo-car-2">
                                     <img src="{{ asset('img/Icons/Icon-Baño-bco.png') }}" alt=""
                                         class="img-fluid caract-mod-1-1">
-                                    <p class="descri">1 1/2 Baños</p>
+                                    <p class="descri">2 1/2 Baños</p>
                                 </div>
                             </div>
 

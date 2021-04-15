@@ -83,10 +83,10 @@
                         <a class="nav-link mx-5" href="#aguamarina">Balché</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="#magenta">Bugambilia Plus</a>
+                        <a class="nav-link mx-5" href="#magenta">Flamboyán Plus</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="#Violeta">Flamboyán Plus</a>
+                        <a class="nav-link mx-5" href="#Violeta">Bugambilia Plus</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link mx-5" href="#Violeta-plus">Ceiba Plus</a>
@@ -162,7 +162,7 @@
                         </iframe></div>
                     <h4 class="oficina mt-3">Plaza Caliza:</h4>
                     <p class="direccion">Calle 56 # 514<br> Fraccionamiento Gran Calzada.
-                    </p>
+                        <br> Tel: (999) 944 99 52</p>
                 </div>
                 <div class="col-lg-4">
                     <div class="embed-responsive embed-responsive-4by3">
@@ -172,7 +172,7 @@
                             aria-hidden="false" tabindex="0" class="img-fluid"></iframe>
                         </div>
                     <h4 class="oficina mt-3">Camper entrada Gran Calzada:</h4>
-                    <p class="direccion">Entrada Fraccionamiento Gran Calzada<br>CP: 97390 Umán.</p>
+                    <p class="direccion">Entrada Fraccionamiento Gran Calzada<br>CP: 97390 Umán.<br> Tel: (999) 944 99 52</p>
                 </div>
             </div> <!--END FOOTER MIRAVERDE-->
 
