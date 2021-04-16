@@ -64,7 +64,13 @@
                     <li>2 recámaras con área para closet</li>
                     <li>Patio</li>
                     <li>Cuarto de lavado</li>
-
+                    <br>
+                    <div class="caracteristicas-del-lote">
+                        <img src="{{ asset('img/miraverde/Modelos-carct-b.png') }}" class="img-fluid" alt="">
+                    </div>
+                    <div class="caracteristicas-del-lote pt-2">
+                        <img src="{{ asset('img/miraverde/Modelos-carct-b-1.png') }}" class="img-fluid" alt="">
+                    </div>
 
                     <br>
                 </div>

@@ -67,7 +67,14 @@
 
                     <li>Recámara principal con área
                         para clóset y acceso a baño completo</li>
-                    <li>Baño completo/li>
+                    <li>Baño completo</li>
+
+                    <div class="caracteristicas-del-lote pt-2">
+                        <img src="{{ asset('img/miraverde/Modelos-carct-.png') }}" class="img-fluid" alt="">
+                    </div>
+                    <div class="caracteristicas-del-lote pt-2">
+                        <img src="{{ asset('img/miraverde/Modelos-carct-2.png') }}" class="img-fluid" alt="">
+                    </div>
 
 
 
@@ -80,7 +87,6 @@
                 </div>
 
             </div>
-        </div>
 
     </section>
 
