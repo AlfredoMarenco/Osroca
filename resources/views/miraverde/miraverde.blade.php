@@ -63,12 +63,12 @@
                                 </div>
                                 <div class="col-4 modelo-car">
                                     <img src="{{ asset('img/Icons/Icon-Recaramara-doble-bco.png') }}
-                                                   " alt="" class="img-fluid caract-mod">
+                                                       " alt="" class="img-fluid caract-mod">
                                     <p class="descri">2 Recámaras</p>
                                 </div>
                                 <div class="col-4 modelo-car-2">
                                     <img src="{{ asset('img/Icons/Icon-Baño-bco.png') }}
-                                                   " alt="" class="img-fluid caract-mod-1-1">
+                                                       " alt="" class="img-fluid caract-mod-1-1">
                                     <p class="descri">1 Baño</p>
                                 </div>
                             </div>
@@ -92,13 +92,54 @@
                             </div>
 
                             <div class="row centro-b">
-                                <div class="col-6 botones-1 ">
-                                    <a href="{{ route('balche') }}"><button class="btn- btn-secondary tipo">Cotiza tu
-                                            casa</button></a>
+                                <div class="col-6 botones-1">
+
+                                    <a href="{{ route('balche') }}" class="btn btn-secondary tipo">Cotiza tu
+                                        casa</a>
+                                    
                                 </div>
                                 <div class="col-6 botones">
-                                    <a href="{{ asset('download/ficha-tecnica-balche.pdf') }}" target="_blanK"><button
-                                            class="btn- btn-secondary tipo">Ficha técnica</button></a>
+                                    <a href="{{ asset('download/ficha-tecnica-balche.pdf') }}" data-toggle="modal" data-target="#staticBackdrop"
+                                            class="btn btn-secondary tipo">Ficha técnica</a>
+
+                                            <!-- Modal -->
+                                    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false"
+                                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="staticBackdropLabel">Responde el formulario</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form action="">
+                                                    <input type="hidden" name="titulo" value="Lead Balché">
+                                                    <div class="form-group">
+                                                        <label for="formcontrolnombre">¿Cuál es tu nombre?</label>
+                                                        <input type="name" name="nombre" class="form-control" id="formcontrolnombre" required="required" placeholder="Escribe tu nombre">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="formcontrolapellido">¿Cuál es tu apellido?</label>
+                                                        <input type="name" name="nombre" class="form-control" id="formcontrolnombre" required="required" placeholder="Escribe tu nombre">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="formcontrolcorreo">Correo electrónico</label>
+                                                        <input type="mail" name="nombre" class="form-control" id="formcontrolcorreo" required="required" placeholder="Escribe tu nombre">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="formcontroltelefono">Teléfono</label>
+                                                        <input type="mail" name="nombre" class="form-control" id="formcontroltelefono" required="required" placeholder="Escribe tu nombre">   
+                                            </div>
+                                            <button type="submit" class="btn btn-success btn-block mt-5">Enviar</button>
+                                            <div class="modal-footer">
+                                            </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 </div>
                             </div>
                         @endif
@@ -120,7 +161,8 @@
                             <h1 class="modelo-titulo-1" style="text-align: center">{{ $modelo->name }}</h1>
                             <div class="costo-modelo">
                                 @if ($modelo->visible == 1)
-                                    <button class="boton-modelo-rosa">Desde: ${{ number_format($modelo->price) }}</button>
+                                    <button class="boton-modelo-rosa">Desde:
+                                        ${{ number_format($modelo->price) }}</button>
                                 @else
 
                                 @endif
@@ -167,16 +209,68 @@
                                 </div>
                             </div>
 
-                            <div class="row centro-b">
+                            <div class="row centro-b mb-3">
                                 <div class="col-6 botones-1 ">
-                                    <a href="{{ route('flamboyan') }}"><button class="btn- btn-secondary tipo">Cotiza tu
-                                            casa</button></a>
+                                    <a href="{{ route('flamboyan') }}" class="btn btn-secondary tipo">Cotiza tu
+                                            casa</a>
                                 </div>
-                                <div class="col-6 botones">
-                                    <a href="{{ asset('download/ficha-tecnica-flamboyan-plus.pdf') }}" target="_blanK"><button
-                                            class="btn- btn-secondary tipo">Ficha
-                                            técnica</button></a>
+                                <div class="col-6 botones mb-3">
+                                    <a href="{{ asset('download/ficha-tecnica-flamboyan-plus.pdf') }}"
+                                        data-toggle="modal" data-target="modal-flamboyan" class="btn btn-secondary tipo">Ficha
+                                            técnica</a>
+
+                                           <!-- Modal -->
+
+                                    <div class="modal fade" id="modal-flamboyan" data-backdrop="static" data-keyboard="false"
+                                    tabindex="-1" aria-labelledby="modal-flamboyan-label" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="modal-flamboyan-label">Responde el formulario</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+
+                                            <div class="modal-body">
+                                                <form action="">
+                                                    <input type="hidden" name="titulo" value="Lead Balché">
+                                                    <div class="form-group">
+                                                        <label for="formcontrolnombre">¿Cuál es tu nombre?</label>
+                                                        <input type="name" name="nombre" class="form-control" id="formcontrolnombre" required="required" placeholder="Escribe tu nombre">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="formcontrolapellido">¿Cuál es tu apellido?</label>
+                                                        <input type="name" name="nombre" class="form-control" id="formcontrolnombre" required="required" placeholder="Escribe tu nombre">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="formcontrolcorreo">Correo electrónico</label>
+                                                        <input type="mail" name="nombre" class="form-control" id="formcontrolcorreo" required="required" placeholder="Escribe tu nombre">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="formcontroltelefono">Teléfono</label>
+                                                        <input type="mail" name="nombre" class="form-control" id="formcontroltelefono" required="required" placeholder="Escribe tu nombre">   
+                                            </div>
+                                                
+                                                    <button type="submit" class="btn btn-success btn-block mt-5">
+                                                        Enviar
+                                                    </button>
+
+                                            <div class="modal-footer">
+                                            </form>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+                                            
+
+
+
+
+                                </div>
+                            </div>
+
                             </div>
                         @endif
                     @endforeach
@@ -194,7 +288,8 @@
             <div class="row p-0" id="Violeta" style="margin-top: 30px">
                 <div class="col-lg-5 col-md-12 col-sm-12 uno-dos imagen padding-0">
                     <img src="{{ asset('img/miraverde/bugambilia-plus/pagina-modelos.jpg
-                    ') }}" class="img-fluid" alt="">
+                    ') }}"
+                        class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-7 col-md-12 col-sm-12 bg-violeta uno-uno">
                     @foreach ($modelos as $modelo)
@@ -221,12 +316,12 @@
                                 </div>
                                 <div class="col-4 modelo-car">
                                     <img src="{{ asset('img/Icons/Icon-Recaramara-doble-bco.png') }}
-                                                   " alt="" class="img-fluid caract-mod">
+                                                       " alt="" class="img-fluid caract-mod">
                                     <p class="descri">2 Recámaras</p>
                                 </div>
                                 <div class="col-4 modelo-car-2">
                                     <img src="{{ asset('img/Icons/Icon-Baño-bco.png') }}
-                                                   " alt="" class="img-fluid caract-mod-1-1">
+                                                       " alt="" class="img-fluid caract-mod-1-1">
                                     <p class="descri">2 ½ Baños</p>
                                 </div>
                             </div>
@@ -249,15 +344,15 @@
                                 </div>
                             </div>
 
-                            <div class="row centro-b">
+                            <div class="row centro-b mb-3">
                                 <div class="col-6 botones-1 ">
-                                    <a href="{{ route('bugambilia') }}"><button class="btn- btn-secondary tipo">Cotiza tu
-                                            casa</button></a>
+                                    <a href="{{ route('bugambilia') }}" class="btn btn-secondary tipo">
+                                        Cotiza tu casa</a>
                                 </div>
-                                <div class="col-6 botones">
-                                    <a href="{{ asset('download/ficha-tecnica-bugambilia-plus.pdf') }}" target="_blanK"><button
-                                            class="btn- btn-secondary tipo">Ficha
-                                            técnica</button></a>
+                                <div class="col-6 botones mb-3">
+                                    <a href="{{ asset('download/ficha-tecnica-bugambilia-plus.pdf') }}"
+                                         class="btn btn-secondary tipo mb-3">
+                                         Ficha técnica</a>
                                 </div>
                             </div>
                         @endif
@@ -279,7 +374,8 @@
                             <h1 class="modelo-titulo-1" style="text-align: center">{{ $modelo->name }}</h1>
                             <div class="costo-modelo">
                                 @if ($modelo->visible == 1)
-                                    <button class="boton-modelo-rosa">Desde: ${{ number_format($modelo->price) }}</button>
+                                    <button class="boton-modelo-rosa">Desde:
+                                        ${{ number_format($modelo->price) }}</button>
                                 @else
 
                                 @endif
@@ -326,14 +422,14 @@
                                 </div>
                             </div>
 
-                            <div class="row centro-b">
+                            <div class="row centro-b mb-3">
                                 <div class="col-6 botones-1 ">
-                                    <a href="{{ route('ceiba') }}"><button class="btn- btn-secondary tipo">Cotiza tu
-                                            casa</button></a>
+                                    <a href="{{ route('ceiba') }}" class="btn btn-secondary tipo">Cotiza tu
+                                            casa</a>
                                 </div>
-                                <div class="col-6 botones">
-                                    <a href="{{ asset('download/ficha-tecnica-ceiba-plus.pdf') }}" target="_blanK"><button
-                                            class="btn- btn-secondary tipo">Ficha técnica</button></a>
+                                <div class="col-6 botones mb-3">
+                                    <a href="{{ asset('download/ficha-tecnica-ceiba-plus.pdf') }}"
+                                    class="btn btn-secondary tipo" >Ficha técnica</a>
                                 </div>
                             </div>
                         @endif
