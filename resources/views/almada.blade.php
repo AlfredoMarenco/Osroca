@@ -93,12 +93,75 @@
 
                             <div class="row centro-b">
                                 <div class="col-6 botones-1 ">
-                                    <a href="{{ route('aguamarina') }}"><button class="btn- btn-secondary tipo">Cotiza tu
-                                            casa</button></a>
+                                    <a href="{{ route('aguamarina') }}" class="btn btn-secondary tipo">Cotiza tu
+                                            casa</a>
                                 </div>
                                 <div class="col-6 botones">
-                                    <a href="{{ asset('download/Aguamarina.pdf') }}" target="_blanK"><button
-                                            class="btn- btn-secondary tipo">Ficha técnica</button></a>
+                                    <a href="{{ asset('download/Aguamarina.pdf') }}" class="btn btn-secondary tipo" data-toggle="modal" data-target="#modal-aguamarina">Ficha técnica</a>
+
+                                     <!-- Modal -->
+
+                                     <div class="modal fade" id="modal-aguamarina" data-backdrop="static" data-keyboard="false"
+                                     tabindex="-1" aria-labelledby="modal-aguamarina-label" aria-hidden="true">
+                                     <div class="modal-dialog">
+                                         <div class="modal-content">
+                                             <div class="modal-header">
+                                                 <h5 class="modal-title" id="modal-flamboyan-label">Responde el formulario</h5>
+                                                 <button type="button" class="close" data-dismiss="modal"
+                                                     aria-label="Close">
+                                                     <span aria-hidden="true">&times;</span>
+                                                 </button>
+                                             </div>
+ 
+                                             <div class="modal-body">
+                                                 <form action="">
+                                                     <input type="hidden" name="titulo" value="Lead Aguamarina">
+                                                     <div class="form-group">
+                                                         <label for="formcontrolnombre">Nombre*</label>
+                                                         <input type="text" name="nombre" class="form-control" id="formcontrolnombre" required="required" placeholder="Escribe tu nombre">
+                                                     </div>
+                                                     <div class="form-group">
+                                                         <label for="formcontrolcorreo">Correo*</label>
+                                                         <input type="mail" name="nombre" class="form-control" id="formcontrolcorreo" required="required" placeholder="Escribe tu correo">
+                                                     </div>
+                                                     <div class="form-group">
+                                                         <label for="formcontroltelefono">Número de teléfono*</label>
+                                                         <input type="text" name="nombre" class="form-control" id="formcontroltelefono" required="required" placeholder="Escribe tu teléfono">
+                                                     </div>
+                                                     <div class="form-group">
+                                                         <label for="formcontrolpresupuesto">¿Que presupuesto tienes?</label>
+                                                         <input type="text" name="nombre" class="form-control" id="formcontrolpresupuesto">   
+                                                     </div>
+                                                     <div class="form-group">
+                                                         <label for="formcredito">¿Cuentas con algún tipo de crédito en particular?</label>
+                                                         <input type="text" name="nombre" class="form-control" id="formcredito">   
+                                                     </div>
+                                                    
+                                                     <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                                         <label class="btn btn-dark">
+                                                             <input type="checkbox" name="llamada" value="llamada" autocomplete="off"> Llamada
+                                                         </label>
+                                                         <label class="btn btn-dark">
+                                                             <input type="checkbox" name="whatsapp" value="whatsapp" autocomplete="off"> Whatsapp
+                                                         </label>
+                                                         <label class="btn btn-dark">
+                                                             <input type="checkbox" name="correo" value="correo electrónico" autocomplete="off"> Correo electrónico
+                                                         </label>
+                                                         
+                                                     </div>
+                                                 
+                                                     <button type="submit" class="btn btn-success btn-block mt-5">
+                                                         Enviar
+                                                     </button>
+ 
+                                             <div class="modal-footer">
+                                             </form>
+                                             </div>
+                                         </div>
+                                     </div>
+
+                                    
+
                                 </div>
                             </div>
                         @endif
@@ -173,9 +236,76 @@
                                             casa</button></a>
                                 </div>
                                 <div class="col-6 botones">
-                                    <a href="{{ asset('download/Magenta.pdf') }}" target="_blanK"><button
-                                            class="btn- btn-secondary tipo">Ficha
-                                            técnica</button></a>
+                                    <a href="{{ asset('download/Magenta.pdf') }}" 
+                                            class="btn- btn-secondary tipo" data-toggle="modal" data-target="#modal-magenta">
+                                            Ficha
+                                            técnica</a>
+
+                                    <!-- Modal -->
+
+                                    <div class="modal fade" id="modal-magenta" data-backdrop="static" data-keyboard="false"
+                                    tabindex="-1" aria-labelledby="modal-magenta-label" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="modal-flamboyan-label">Responde el formulario</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+
+                                            <div class="modal-body">
+                                                <form action="">
+                                                    <input type="hidden" name="titulo" value="Lead Magenta">
+                                                    <div class="form-group">
+                                                        <label for="formcontrolnombre">Nombre*</label>
+                                                        <input type="text" name="nombre" class="form-control" id="formcontrolnombre" required="required" placeholder="Escribe tu nombre">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="formcontrolcorreo">Correo*</label>
+                                                        <input type="mail" name="nombre" class="form-control" id="formcontrolcorreo" required="required" placeholder="Escribe tu correo">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="formcontroltelefono">Número de teléfono*</label>
+                                                        <input type="text" name="nombre" class="form-control" id="formcontroltelefono" required="required" placeholder="Escribe tu teléfono">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="formcontrolpresupuesto">¿Que presupuesto tienes?</label>
+                                                        <input type="text" name="nombre" class="form-control" id="formcontrolpresupuesto">   
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="formcredito">¿Cuentas con algún tipo de crédito en particular?</label>
+                                                        <input type="text" name="nombre" class="form-control" id="formcredito">   
+                                                    </div>
+                                                   
+                                                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                                        <label class="btn btn-dark">
+                                                            <input type="checkbox" name="llamada" value="llamada" autocomplete="off"> Llamada
+                                                        </label>
+                                                        <label class="btn btn-dark">
+                                                            <input type="checkbox" name="whatsapp" value="whatsapp" autocomplete="off"> Whatsapp
+                                                        </label>
+                                                        <label class="btn btn-dark">
+                                                            <input type="checkbox" name="correo" value="correo electrónico" autocomplete="off"> Correo electrónico
+                                                        </label>
+                                                        
+                                                    </div>
+                                                
+                                                    <button type="submit" class="btn btn-success btn-block mt-5">
+                                                        Enviar
+                                                    </button>
+
+                                            <div class="modal-footer">
+                                            </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+
+
                                 </div>
                             </div>
                         @endif
@@ -250,13 +380,78 @@
 
                             <div class="row centro-b">
                                 <div class="col-6 botones-1 ">
-                                    <a href="{{ route('violeta') }}"><button class="btn- btn-secondary tipo">Cotiza tu
-                                            casa</button></a>
+                                    <a href="{{ route('violeta') }}" class="btn btn-secondary tipo">Cotiza tu
+                                            casa</a>
                                 </div>
                                 <div class="col-6 botones">
-                                    <a href="{{ asset('download/Violeta.pdf') }}" target="_blanK"><button
-                                            class="btn- btn-secondary tipo">Ficha
-                                            técnica</button></a>
+                                    <a href="{{ asset('download/Violeta.pdf') }}" 
+                                            class="btn btn-secondary tipo" data-target="#modal-violeta" data-toggle="modal">Ficha
+                                            técnica</a>
+
+                                    <!-- Modal -->
+
+                                    <div class="modal fade" id="modal-violeta" data-backdrop="static" data-keyboard="false"
+                                    tabindex="-1" aria-labelledby="modal-violeta-label" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="modal-violeta-label">Responde el formulario</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+
+                                            <div class="modal-body">
+                                                <form action="">
+                                                    <input type="hidden" name="titulo" value="Lead Violeta">
+                                                    <div class="form-group">
+                                                        <label for="formcontrolnombre">Nombre*</label>
+                                                        <input type="text" name="nombre" class="form-control" id="formcontrolnombre" required="required" placeholder="Escribe tu nombre">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="formcontrolcorreo">Correo*</label>
+                                                        <input type="mail" name="nombre" class="form-control" id="formcontrolcorreo" required="required" placeholder="Escribe tu correo">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="formcontroltelefono">Número de teléfono*</label>
+                                                        <input type="text" name="nombre" class="form-control" id="formcontroltelefono" required="required" placeholder="Escribe tu teléfono">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="formcontrolpresupuesto">¿Que presupuesto tienes?</label>
+                                                        <input type="text" name="nombre" class="form-control" id="formcontrolpresupuesto">   
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="formcredito">¿Cuentas con algún tipo de crédito en particular?</label>
+                                                        <input type="text" name="nombre" class="form-control" id="formcredito">   
+                                                    </div>
+                                                   
+                                                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                                        <label class="btn btn-dark">
+                                                            <input type="checkbox" name="llamada" value="llamada" autocomplete="off"> Llamada
+                                                        </label>
+                                                        <label class="btn btn-dark">
+                                                            <input type="checkbox" name="whatsapp" value="whatsapp" autocomplete="off"> Whatsapp
+                                                        </label>
+                                                        <label class="btn btn-dark">
+                                                            <input type="checkbox" name="correo" value="correo electrónico" autocomplete="off"> Correo electrónico
+                                                        </label>
+                                                        
+                                                    </div>
+                                                
+                                                    <button type="submit" class="btn btn-success btn-block mt-5">
+                                                        Enviar
+                                                    </button>
+
+                                            <div class="modal-footer">
+                                            </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+
                                 </div>
                             </div>
                         @endif
@@ -327,12 +522,77 @@
 
                             <div class="row centro-b">
                                 <div class="col-6 botones-1 ">
-                                    <a href="{{ route('violetaplus') }}"><button class="btn- btn-secondary tipo">Cotiza tu
-                                            casa</button></a>
+                                    <a href="{{ route('violetaplus') }}" class="btn btn-secondary tipo">Cotiza tu
+                                            casa</a>
                                 </div>
                                 <div class="col-6 botones">
-                                    <a href="{{ asset('download/Violeta-plus.pdf') }}" target="_blanK"><button
-                                            class="btn- btn-secondary tipo">Ficha técnica</button></a>
+                                    <a href="{{ asset('download/Violeta-plus.pdf') }}" 
+                                            class="btn btn-secondary tipo" data-toggle="modal" data-target="#modal-violeta-plus">Ficha técnica</a>
+
+                                    <!-- Modal -->
+
+                                    <div class="modal fade" id="modal-violeta-plus" data-backdrop="static" data-keyboard="false"
+                                    tabindex="-1" aria-labelledby="modal-violeta-plus-label" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="modal-violeta-plus-label">Responde el formulario</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+
+                                            <div class="modal-body">
+                                                <form action="">
+                                                    <input type="hidden" name="titulo" value="Lead Violeta Plus">
+                                                    <div class="form-group">
+                                                        <label for="formcontrolnombre">Nombre*</label>
+                                                        <input type="text" name="nombre" class="form-control" id="formcontrolnombre" required="required" placeholder="Escribe tu nombre">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="formcontrolcorreo">Correo*</label>
+                                                        <input type="mail" name="nombre" class="form-control" id="formcontrolcorreo" required="required" placeholder="Escribe tu correo">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="formcontroltelefono">Número de teléfono*</label>
+                                                        <input type="text" name="nombre" class="form-control" id="formcontroltelefono" required="required" placeholder="Escribe tu teléfono">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="formcontrolpresupuesto">¿Que presupuesto tienes?</label>
+                                                        <input type="text" name="nombre" class="form-control" id="formcontrolpresupuesto">   
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="formcredito">¿Cuentas con algún tipo de crédito en particular?</label>
+                                                        <input type="text" name="nombre" class="form-control" id="formcredito">   
+                                                    </div>
+                                                   
+                                                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                                        <label class="btn btn-dark">
+                                                            <input type="checkbox" name="llamada" value="llamada" autocomplete="off"> Llamada
+                                                        </label>
+                                                        <label class="btn btn-dark">
+                                                            <input type="checkbox" name="whatsapp" value="whatsapp" autocomplete="off"> Whatsapp
+                                                        </label>
+                                                        <label class="btn btn-dark">
+                                                            <input type="checkbox" name="correo" value="correo electrónico" autocomplete="off"> Correo electrónico
+                                                        </label>
+                                                        
+                                                    </div>
+                                                
+                                                    <button type="submit" class="btn btn-success btn-block mt-5">
+                                                        Enviar
+                                                    </button>
+
+                                            <div class="modal-footer">
+                                            </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+
                                 </div>
                             </div>
                         @endif

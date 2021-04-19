@@ -255,37 +255,37 @@
 
                                             <div class="modal-body">
                                                 <form action="">
-                                                    <input type="hidden" name="titulo" value="Lead Flamboyán">
+                                                    <input type="hidden" name="titulo" value="Lead Bugambilia">
                                                     <div class="form-group">
                                                         <label for="formcontrolnombre">Nombre*</label>
                                                         <input type="text" name="nombre" class="form-control" id="formcontrolnombre" required="required" placeholder="Escribe tu nombre">
                                                     </div>
                                                     <div class="form-group">
-                                                        <label for="formcontrolapellido">Correo*</label>
-                                                        <input type="mail" name="nombre" class="form-control" id="formcontrolnombre" required="required" placeholder="Escribe tu nombre">
+                                                        <label for="formcontrolcorreo">Correo*</label>
+                                                        <input type="mail" name="nombre" class="form-control" id="formcontrolcorreo" required="required" placeholder="Escribe tu correo">
                                                     </div>
                                                     <div class="form-group">
-                                                        <label for="formcontrolcorreo">Número de teléfono*</label>
-                                                        <input type="text" name="nombre" class="form-control" id="formcontrolcorreo" required="required" placeholder="Escribe tu nombre">
+                                                        <label for="formcontroltelefono">Número de teléfono*</label>
+                                                        <input type="text" name="nombre" class="form-control" id="formcontroltelefono" required="required" placeholder="Escribe tu teléfono">
                                                     </div>
                                                     <div class="form-group">
-                                                        <label for="formcontroltelefono">¿Que presupuesto tienes?</label>
-                                                        <input type="text" name="nombre" class="form-control" id="formcontroltelefono" required="required" placeholder="Escribe tu nombre">   
+                                                        <label for="formcontrolpresupuesto">¿Que presupuesto tienes?</label>
+                                                        <input type="text" name="nombre" class="form-control" id="formcontrolpresupuesto">   
                                                     </div>
                                                     <div class="form-group">
-                                                        <label for="formcontroltelefono">¿Cuentas con algún tipo de crédito en particular?</label>
-                                                        <input type="mail" name="nombre" class="form-control" id="formcontroltelefono" required="required" placeholder="Escribe tu nombre">   
+                                                        <label for="formcredito">¿Cuentas con algún tipo de crédito en particular?</label>
+                                                        <input type="text" name="nombre" class="form-control" id="formcredito">   
                                                     </div>
                                                    
                                                     <div class="btn-group btn-group-toggle" data-toggle="buttons">
                                                         <label class="btn btn-dark">
-                                                            <input type="checkbox" name="llamada" value="España" autocomplete="off"> Llamada
+                                                            <input type="checkbox" name="llamada" value="llamada" autocomplete="off"> Llamada
                                                         </label>
                                                         <label class="btn btn-dark">
-                                                            <input type="checkbox" name="whatsapp" value="Francia" autocomplete="off"> Whatsapp
+                                                            <input type="checkbox" name="whatsapp" value="whatsapp" autocomplete="off"> Whatsapp
                                                         </label>
                                                         <label class="btn btn-dark">
-                                                            <input type="checkbox" name="correo" value="Portugal" autocomplete="off"> Correo electrónico
+                                                            <input type="checkbox" name="correo" value="correo electrónico" autocomplete="off"> Correo electrónico
                                                         </label>
                                                         
                                                     </div>
@@ -413,31 +413,31 @@
                                                         <input type="text" name="nombre" class="form-control" id="formcontrolnombre" required="required" placeholder="Escribe tu nombre">
                                                     </div>
                                                     <div class="form-group">
-                                                        <label for="formcontrolapellido">Correo*</label>
-                                                        <input type="mail" name="nombre" class="form-control" id="formcontrolnombre" required="required" placeholder="Escribe tu nombre">
+                                                        <label for="formcontrolcorreo">Correo*</label>
+                                                        <input type="mail" name="nombre" class="form-control" id="formcontrolcorreo" required="required" placeholder="Escribe tu correo">
                                                     </div>
                                                     <div class="form-group">
-                                                        <label for="formcontrolcorreo">Número de teléfono*</label>
-                                                        <input type="text" name="nombre" class="form-control" id="formcontrolcorreo" required="required" placeholder="Escribe tu nombre">
+                                                        <label for="formcontroltelefono">Número de teléfono*</label>
+                                                        <input type="text" name="nombre" class="form-control" id="formcontroltelefono" required="required" placeholder="Escribe tu teléfono">
                                                     </div>
                                                     <div class="form-group">
-                                                        <label for="formcontroltelefono">¿Que presupuesto tienes?</label>
-                                                        <input type="text" name="nombre" class="form-control" id="formcontroltelefono" required="required" placeholder="Escribe tu nombre">   
+                                                        <label for="formcontrolpresupuesto">¿Que presupuesto tienes?</label>
+                                                        <input type="text" name="nombre" class="form-control" id="formcontrolpresupuesto">   
                                                     </div>
                                                     <div class="form-group">
-                                                        <label for="formcontroltelefono">¿Cuentas con algún tipo de crédito en particular?</label>
-                                                        <input type="mail" name="nombre" class="form-control" id="formcontroltelefono" required="required" placeholder="Escribe tu nombre">   
+                                                        <label for="formcredito">¿Cuentas con algún tipo de crédito en particular?</label>
+                                                        <input type="text" name="nombre" class="form-control" id="formcredito">   
                                                     </div>
                                                    
                                                     <div class="btn-group btn-group-toggle" data-toggle="buttons">
                                                         <label class="btn btn-dark">
-                                                            <input type="checkbox" name="llamada" value="España" autocomplete="off"> Llamada
+                                                            <input type="checkbox" name="llamada" value="llamada" autocomplete="off"> Llamada
                                                         </label>
                                                         <label class="btn btn-dark">
-                                                            <input type="checkbox" name="whatsapp" value="Francia" autocomplete="off"> Whatsapp
+                                                            <input type="checkbox" name="whatsapp" value="whatsapp" autocomplete="off"> Whatsapp
                                                         </label>
                                                         <label class="btn btn-dark">
-                                                            <input type="checkbox" name="correo" value="Portugal" autocomplete="off"> Correo electrónico
+                                                            <input type="checkbox" name="correo" value="correo electrónico" autocomplete="off"> Correo electrónico
                                                         </label>
                                                         
                                                     </div>
@@ -549,31 +549,31 @@
                                                         <input type="text" name="nombre" class="form-control" id="formcontrolnombre" required="required" placeholder="Escribe tu nombre">
                                                     </div>
                                                     <div class="form-group">
-                                                        <label for="formcontrolapellido">Correo*</label>
-                                                        <input type="mail" name="nombre" class="form-control" id="formcontrolnombre" required="required" placeholder="Escribe tu nombre">
+                                                        <label for="formcontrolcorreo">Correo*</label>
+                                                        <input type="mail" name="nombre" class="form-control" id="formcontrolcorreo" required="required" placeholder="Correo electrónico">
                                                     </div>
                                                     <div class="form-group">
                                                         <label for="formcontrolcorreo">Número de teléfono*</label>
-                                                        <input type="text" name="nombre" class="form-control" id="formcontrolcorreo" required="required" placeholder="Escribe tu nombre">
+                                                        <input type="text" name="nombre" class="form-control" id="formcontrolcorreo" required="required" placeholder="Escribe tu teléfono">
                                                     </div>
                                                     <div class="form-group">
-                                                        <label for="formcontroltelefono">¿Que presupuesto tienes?</label>
-                                                        <input type="text" name="nombre" class="form-control" id="formcontroltelefono" required="required" placeholder="Escribe tu nombre">   
+                                                        <label for="formcontrolpresupuesto">¿Que presupuesto tienes?</label>
+                                                        <input type="text" name="nombre" class="form-control" id="formcontrolpresupuesto">   
                                                     </div>
                                                     <div class="form-group">
-                                                        <label for="formcontroltelefono">¿Cuentas con algún tipo de crédito en particular?</label>
-                                                        <input type="mail" name="nombre" class="form-control" id="formcontroltelefono" required="required" placeholder="Escribe tu nombre">   
+                                                        <label for="formcontrolcredito">¿Cuentas con algún tipo de crédito en particular?</label>
+                                                        <input type="text" name="nombre" class="form-control" id="formcontrolcredito" >   
                                                     </div>
                                                    
                                                     <div class="btn-group btn-group-toggle" data-toggle="buttons">
                                                         <label class="btn btn-dark">
-                                                            <input type="checkbox" name="llamada" value="España" autocomplete="off"> Llamada
+                                                            <input type="checkbox" name="llamada" value="llamada" autocomplete="off"> Llamada
                                                         </label>
                                                         <label class="btn btn-dark">
-                                                            <input type="checkbox" name="whatsapp" value="Francia" autocomplete="off"> Whatsapp
+                                                            <input type="checkbox" name="whatsapp" value="whatsapp" autocomplete="off"> Whatsapp
                                                         </label>
                                                         <label class="btn btn-dark">
-                                                            <input type="checkbox" name="correo" value="Portugal" autocomplete="off"> Correo electrónico
+                                                            <input type="checkbox" name="correo" value="correo electrónico" autocomplete="off"> Correo electrónico
                                                         </label>
                                                         
                                                     </div>
