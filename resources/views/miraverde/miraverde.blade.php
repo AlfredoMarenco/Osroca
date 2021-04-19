@@ -96,7 +96,7 @@
 
                                     <a href="{{ route('balche') }}" class="btn btn-secondary tipo">Cotiza tu
                                         casa</a>
-                                    
+
                                 </div>
                                 <div class="col-6 botones">
                                     <a href="{{ asset('download/ficha-tecnica-balche.pdf') }}" data-toggle="modal" data-target="#staticBackdrop"
@@ -131,7 +131,7 @@
                                                     </div>
                                                     <div class="form-group">
                                                         <label for="formcontroltelefono">Teléfono</label>
-                                                        <input type="mail" name="nombre" class="form-control" id="formcontroltelefono" required="required" placeholder="Escribe tu nombre">   
+                                                        <input type="mail" name="nombre" class="form-control" id="formcontroltelefono" required="required" placeholder="Escribe tu nombre">
                                             </div>
                                             <button type="submit" class="btn btn-success btn-block mt-5">Enviar</button>
                                             <div class="modal-footer">
@@ -216,7 +216,7 @@
                                 </div>
                                 <div class="col-6 botones mb-3">
                                     <a href="{{ asset('download/ficha-tecnica-flamboyan-plus.pdf') }}"
-                                        data-toggle="modal" data-target="modal-flamboyan" class="btn btn-secondary tipo">Ficha
+                                        data-toggle="modal" data-target="#modal-flamboyan" class="btn btn-secondary tipo">Ficha
                                             técnica</a>
 
                                            <!-- Modal -->
@@ -250,9 +250,9 @@
                                                     </div>
                                                     <div class="form-group">
                                                         <label for="formcontroltelefono">Teléfono</label>
-                                                        <input type="mail" name="nombre" class="form-control" id="formcontroltelefono" required="required" placeholder="Escribe tu nombre">   
+                                                        <input type="mail" name="nombre" class="form-control" id="formcontroltelefono" required="required" placeholder="Escribe tu nombre">
                                             </div>
-                                                
+
                                                     <button type="submit" class="btn btn-success btn-block mt-5">
                                                         Enviar
                                                     </button>
@@ -263,7 +263,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                            
+
 
 
 
