@@ -40,7 +40,7 @@ class Leads extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.leads')->subject('Nuevo Leads Gran Calzada')->with([
+        return $this->markdown('emails.leads')->subject('Nuevo Lead Gran Calzada')->with([
             'modelo' => $this->modelo,
             'nombre' => $this->nombre,
             'correo' => $this->correo,
