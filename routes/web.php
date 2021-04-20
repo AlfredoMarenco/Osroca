@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\CasaController;
+use App\Http\Controllers\EmailController;
+use App\Mail\Leads;
 use App\Models\Casa;
 use Illuminate\Support\Facades\Route;
 
@@ -64,3 +66,11 @@ Route::get('/modelo-flamboyan', function () {
 Route::get('/modelo-ceiba', function () {
     return view('miraverde.ceiba');
 })->name('ceiba');
+
+
+Route::get('/mailable', function () {
+    return new Leads('Balche','Alfredo Gonzalez Marenco', 'ripmarenko@gmail.com','9993629936','No cuento con presupuesto','Infonavit','whatsapp');
+});
+
+
+Route::post('/sendMails',[EmailController::class,'sendEmail'])->name('email.send');
