@@ -59,7 +59,7 @@
                     <li>Jardín Frontal</li>
                     <li>2 recámaras con área para closet</li>
                     <li>Patio</li>
-                    <li>Cuarto de lavado</li>
+                    <li>Área de lavado</li>
                     <br>
                     <div class="caracteristicas-del-lote">
                         <img src="{{ asset('img/miraverde/Modelos-carct-b.png') }}" class="img-fluid" alt="">

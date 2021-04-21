@@ -179,7 +179,7 @@
                                 @endif
                             </div>
                             <div class="costo-modelo">
-                                <p class="espacio-terreno">Terreno desde: 7 x 17 m <br>Construcción de: 73.69 m2</p>
+                                <p class="espacio-terreno">Terreno desde: 7 x 17 m <br>Construcción de: 65.73 m2</p>
                             </div>
                             <div class="row">
                                 <div class="col-4 modelo-car-1">

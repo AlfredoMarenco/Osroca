@@ -67,6 +67,8 @@
 
                     <li>Recámara principal con área
                         para clóset y acceso a baño completo</li>
+                    <li>Recámara 1 con área para clóset</li>
+                    <li>Recámara 2</li>
                     <li>Baño completo</li>
 
                     <div class="caracteristicas-del-lote pt-2">
