@@ -23,42 +23,42 @@ class EmailController extends Controller
         switch ($modelo) {
             case 'balche':
                 Mail::to(['alvarbu@gmail.com', 'ripmarenko@gmail.com'])->locale('es')->send(new Leads('Miraverde - Balche', $nombre, $correo, $telefono, $presupuesto, $credito, $contacto));
-                Alert::success('Datos recibidos', 'Tus datos han sido enviados con éxito!');
+                Alert::success('Datos recibidos', '¡Tus datos han sido enviados con éxito!');
                 return view('pdf.balche');
                 break;
             case 'flamboyanplus':
                 Mail::to(['alvarbu@gmail.com', 'ripmarenko@gmail.com'])->locale('es')->send(new Leads('Miraverde - Flamboyan Plus', $nombre, $correo, $telefono, $presupuesto, $credito, $contacto));
-                Alert::success('Datos recibidos', 'Tus datos han sido enviados con éxito!');
+                Alert::success('Datos recibidos', '¡Tus datos han sido enviados con éxito!');
                 return view('pdf.flamboyanplus');
                 break;
             case 'bugambiliaplus':
                 Mail::to(['alvarbu@gmail.com', 'ripmarenko@gmail.com'])->locale('es')->send(new Leads('Miraverde - Bugambilia Plus', $nombre, $correo, $telefono, $presupuesto, $credito, $contacto));
-                Alert::success('Datos recibidos', 'Tus datos han sido enviados con éxito!');
+                Alert::success('Datos recibidos', '¡Tus datos han sido enviados con éxito!');
                 return view('pdf.bugambiliaplus');
                 break;
             case 'ceibaplus':
                 Mail::to(['alvarbu@gmail.com', 'ripmarenko@gmail.com'])->locale('es')->send(new Leads('Miraverde - Ceiba Plus', $nombre, $correo, $telefono, $presupuesto, $credito, $contacto));
-                Alert::success('Datos recibidos', 'Tus datos han sido enviados con éxito!');
+                Alert::success('Datos recibidos', '¡Tus datos han sido enviados con éxito!');
                 return view('pdf.ceibaplus');
                 break;
             case 'aguamarina':
                 Mail::to(['alvarbu@gmail.com', 'ripmarenko@gmail.com'])->locale('es')->send(new Leads('Almada - Aguamarina', $nombre, $correo, $telefono, $presupuesto, $credito, $contacto));
-                Alert::success('Datos recibidos', 'Tus datos han sido enviados con éxito!');
+                Alert::success('Datos recibidos', '¡Tus datos han sido enviados con éxito!');
                 return view('pdf.aguamarina');
                 break;
             case 'magenta':
                 Mail::to(['alvarbu@gmail.com', 'ripmarenko@gmail.com'])->locale('es')->send(new Leads('Almada - Magenta', $nombre, $correo, $telefono, $presupuesto, $credito, $contacto));
-                Alert::success('Datos recibidos', 'Tus datos han sido enviados con éxito!');
+                Alert::success('Datos recibidos', '¡Tus datos han sido enviados con éxito!');
                 return view('pdf.magenta');
                 break;
             case 'violeta':
                 Mail::to(['alvarbu@gmail.com', 'ripmarenko@gmail.com'])->locale('es')->send(new Leads('Almada - Violeta', $nombre, $correo, $telefono, $presupuesto, $credito, $contacto));
-                Alert::success('Datos recibidos', 'Tus datos han sido enviados con éxito!');
+                Alert::success('Datos recibidos', '¡Tus datos han sido enviados con éxito!');
                 return view('pdf.violeta');
                 break;
             case 'violetaplus':
                 Mail::to(['alvarbu@gmail.com', 'ripmarenko@gmail.com'])->locale('es')->send(new Leads('Almada - Violeta Plus', $nombre, $correo, $telefono, $presupuesto, $credito, $contacto));
-                Alert::success('Datos recibidos', 'Tus datos han sido enviados con éxito!');
+                Alert::success('Datos recibidos', '¡Tus datos han sido enviados con éxito!');
                 return view('pdf.violetaplus');
                 break;
         }
