@@ -141,16 +141,17 @@
 
 
 
-             <!--FOOTER MIRAVERDE--> <div class="row mt-5 pt-2 oficinas ">
+            <!--FOOTER MIRAVERDE-->
+            <div class="row mt-5 pt-2 oficinas ">
 
                 <div class="col-lg-12" style="text-align: center">
                     <h2 class="puntos-de-venta">Encuentra nuestros puntos de venta</h2>
                 </div>
 
-                <div class="col-lg-4"> 
+                <div class="col-lg-4">
                     <div class="logo-footer">
                         <img src="{{ asset('img/Icons/Logo-GranCalzada.svg') }}" class="img-fluid" alt="Gran calzada"
-                    loading="lazy">
+                            loading="lazy">
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -159,10 +160,12 @@
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.779236984896!2d-89.71793858457549!3d20.92119968605673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjDCsDU1JzE2LjMiTiA4OcKwNDInNTYuNyJX!5e0!3m2!1ses!2smx!4v1618357075719!5m2!1ses!2smx"
                             width="600" height="600" frameborder="0" style="border:0;" allowfullscreen=""
                             aria-hidden="false" tabindex="0" class="img-fluid">
-                        </iframe></div>
+                        </iframe>
+                    </div>
                     <h4 class="oficina mt-3">Plaza Caliza:</h4>
                     <p class="direccion">Calle 56 # 514<br> Fraccionamiento Gran Calzada.
-                        <br> Tel: (999) 944 99 52</p>
+                        <br> Tel: (999) 944 99 52
+                    </p>
                 </div>
                 <div class="col-lg-4">
                     <div class="embed-responsive embed-responsive-4by3">
@@ -170,15 +173,17 @@
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.6562473680665!2d-89.71620058457546!3d20.926145286054044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjDCsDU1JzM0LjEiTiA4OcKwNDInNTAuNCJX!5e0!3m2!1ses!2smx!4v1618357207952!5m2!1ses!2smx"
                             width="600" height="600" frameborder="0" style="border:0;" allowfullscreen=""
                             aria-hidden="false" tabindex="0" class="img-fluid"></iframe>
-                        </div>
+                    </div>
                     <h4 class="oficina mt-3">Camper entrada Gran Calzada:</h4>
-                    <p class="direccion">Entrada Fraccionamiento Gran Calzada<br>CP: 97390 Umán.<br> Tel: (999) 944 99 52</p>
+                    <p class="direccion">Entrada Fraccionamiento Gran Calzada<br>CP: 97390 Umán.<br> Tel: (999) 944 99
+                        52</p>
                 </div>
-            </div> <!--END FOOTER MIRAVERDE-->
+            </div>
+            <!--END FOOTER MIRAVERDE-->
 
 
 
-          <!-- FOOTER ALMADA  <div class="row mt-5 pt-2 oficinas ">
+            <!-- FOOTER ALMADA  <div class="row mt-5 pt-2 oficinas ">
 
                 <div class="col-lg-12" style="text-align: center">
                     <h2 class="puntos-de-venta">Encuentra nuestros puntos de venta</h2>
@@ -257,8 +262,7 @@
         });
 
     </script>
-
-
+    @include('sweetalert::alert')
 </body>
 
 </html>

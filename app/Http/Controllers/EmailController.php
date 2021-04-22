@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Mail\Leads;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use RealRashid\SweetAlert\Facades\Alert;
 
 class EmailController extends Controller
 {
@@ -21,37 +22,50 @@ class EmailController extends Controller
 
         switch ($modelo) {
             case 'balche':
-                Mail::to(['alvarbu@gmail.com','ripmarenko@gmail.com'])->locale('es')->send(new Leads('Miraverde - Balche', $nombre, $correo, $telefono, $presupuesto, $credito, $contacto));
-                return redirect('/download/ficha-tecnica-balche.pdf');
+                Mail::to(['alvarbu@gmail.com', 'ripmarenko@gmail.com'])->locale('es')->send(new Leads('Miraverde - Balche', $nombre, $correo, $telefono, $presupuesto, $credito, $contacto));
+                Alert::success('Datos recibidos', 'Tus datos han sido enviados con éxto!');
+                return view('pdf.balche');
                 break;
             case 'flamboyanplus':
-                Mail::to(['alvarbu@gmail.com','ripmarenko@gmail.com'])->locale('es')->send(new Leads('Miraverde - Flamboyan Plus', $nombre, $correo, $telefono, $presupuesto, $credito, $contacto));
-                return redirect('/download/ficha-tecnica-flamboyan-plus.pdf');
+                Mail::to(['alvarbu@gmail.com', 'ripmarenko@gmail.com'])->locale('es')->send(new Leads('Miraverde - Flamboyan Plus', $nombre, $correo, $telefono, $presupuesto, $credito, $contacto));
+                Alert::success('Datos recibidos', 'Tus datos han sido enviados con éxto!');
+                return view('pdf.flamboyanplus');
                 break;
             case 'bugambiliaplus':
-                Mail::to(['alvarbu@gmail.com','ripmarenko@gmail.com'])->locale('es')->send(new Leads('Miraverde - Bugambilia Plus', $nombre, $correo, $telefono, $presupuesto, $credito, $contacto));
-                return redirect('/download/ficha-tecnica-bugambilia-plus.pdf');
+                Mail::to(['alvarbu@gmail.com', 'ripmarenko@gmail.com'])->locale('es')->send(new Leads('Miraverde - Bugambilia Plus', $nombre, $correo, $telefono, $presupuesto, $credito, $contacto));
+                Alert::success('Datos recibidos', 'Tus datos han sido enviados con éxto!');
+                return view('pdf.bugambiliaplus');
                 break;
             case 'ceibaplus':
-                Mail::to(['alvarbu@gmail.com','ripmarenko@gmail.com'])->locale('es')->send(new Leads('Miraverde - Ceiba Plus', $nombre, $correo, $telefono, $presupuesto, $credito, $contacto));
-                return redirect('/download/ficha-tecnica-ceiba-plus.pdf');
+                Mail::to(['alvarbu@gmail.com', 'ripmarenko@gmail.com'])->locale('es')->send(new Leads('Miraverde - Ceiba Plus', $nombre, $correo, $telefono, $presupuesto, $credito, $contacto));
+                Alert::success('Datos recibidos', 'Tus datos han sido enviados con éxto!');
+                return view('pdf.ceibaplus');
                 break;
             case 'aguamarina':
-                Mail::to(['alvarbu@gmail.com','ripmarenko@gmail.com'])->locale('es')->send(new Leads('Almada - Aguamarina', $nombre, $correo, $telefono, $presupuesto, $credito, $contacto));
-                return redirect('/download/Aguamarina.pdf');
+                Mail::to(['alvarbu@gmail.com', 'ripmarenko@gmail.com'])->locale('es')->send(new Leads('Almada - Aguamarina', $nombre, $correo, $telefono, $presupuesto, $credito, $contacto));
+                Alert::success('Datos recibidos', 'Tus datos han sido enviados con éxto!');
+                return view('pdf.aguamarina');
                 break;
             case 'magenta':
-                Mail::to(['alvarbu@gmail.com','ripmarenko@gmail.com'])->locale('es')->send(new Leads('Almada - Magenta', $nombre, $correo, $telefono, $presupuesto, $credito, $contacto));
-                return redirect('/download/Magenta.pdf');
+                Mail::to(['alvarbu@gmail.com', 'ripmarenko@gmail.com'])->locale('es')->send(new Leads('Almada - Magenta', $nombre, $correo, $telefono, $presupuesto, $credito, $contacto));
+                Alert::success('Datos recibidos', 'Tus datos han sido enviados con éxto!');
+                return view('pdf.magenta');
                 break;
             case 'violeta':
-                Mail::to(['alvarbu@gmail.com','ripmarenko@gmail.com'])->locale('es')->send(new Leads('Almada - Violeta', $nombre, $correo, $telefono, $presupuesto, $credito, $contacto));
-                return redirect('/download/Violeta.pdf');
+                Mail::to(['alvarbu@gmail.com', 'ripmarenko@gmail.com'])->locale('es')->send(new Leads('Almada - Violeta', $nombre, $correo, $telefono, $presupuesto, $credito, $contacto));
+                Alert::success('Datos recibidos', 'Tus datos han sido enviados con éxto!');
+                return view('pdf.violeta');
                 break;
             case 'violetaplus':
-                Mail::to(['alvarbu@gmail.com','ripmarenko@gmail.com'])->locale('es')->send(new Leads('Almada - Violeta Plus', $nombre, $correo, $telefono, $presupuesto, $credito, $contacto));
-                return redirect('/download/Cioleta-plus.pdf');
+                Mail::to(['alvarbu@gmail.com', 'ripmarenko@gmail.com'])->locale('es')->send(new Leads('Almada - Violeta Plus', $nombre, $correo, $telefono, $presupuesto, $credito, $contacto));
+                Alert::success('Datos recibidos', 'Tus datos han sido enviados con éxto!');
+                return view('pdf.violetaplus');
                 break;
         }
+    }
+
+    public function showAlert()
+    {
+        Alert::alert('Email enviado', 'Tus datos se han enviado con éxito!');
     }
 }
