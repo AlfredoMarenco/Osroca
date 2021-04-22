@@ -285,13 +285,17 @@
                         <img src="{{ asset('img/Icons/Logo-Almada.png') }}" class="almada mt-5 img-fluid" alt="">
                         @if ($desdeAlmada->visible == 0)
                             <h3 class="lead costo"><B><br></B></h3>
+                            <div class="boton-2">
+                                <a href="#"><button class="btn btn-primary mb-5">Encuentra tu
+                                        casa</button></a>
+                            </div>
                         @else
-                            <h3 class="lead costo">DESDE <B>${{ number_format($desdeAlmada->price) }}</B></h3>
+                            <h3 class="lead costo">DESDE <B>${{ number_format($desdeAlmada->price) }}</B></h3><div class="boton-2">
+                                <a href="{{ route('almada') }}"><button class="btn btn-primary mb-5">Encuentra tu
+                                        casa</button></a>
+                            </div>
                         @endif
-                        <div class="boton-2">
-                            <a href="{{ route('almada') }}"><button class="btn btn-primary mb-5">Encuentra tu
-                                    casa</button></a>
-                        </div>
+
                     </div>
                 </div>
                 <div class="col-12 col-lg-6 text-center">
@@ -299,13 +303,18 @@
                         <img src="{{ asset('img/Icons/Logo-Miraverde.png') }}" class="miraverde mt-5 img-fluid" alt="">
                         @if ($desdeMiraverde->visible == 0)
                             <h3 class="lead costo"><B><br></B></h3>
+                            <div class="boton-2">
+                                <a href="#"><button class="btn btn-primary mb-5">Encuentra tu
+                                        casa</button></a>
+                            </div>
                         @else
                             <h3 class="lead costo">DESDE <B>${{ number_format($desdeMiraverde->price) }}</B></h3>
+                            <div class="boton-2">
+                                <a href="{{ route('miraverde') }}"><button class="btn btn-primary mb-5">Encuentra tu
+                                        casa</button></a>
+                            </div>
                         @endif
-                        <div class="boton-2">
-                            <a href="{{ route('miraverde') }}"><button class="btn btn-primary mb-5">Encuentra tu
-                                    casa</button></a>
-                        </div>
+
                     </div>
                 </div>
             </div>
