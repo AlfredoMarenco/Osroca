@@ -220,6 +220,9 @@
     </script>
 
     @include('sweetalert::alert')
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5510950.js"></script>
+    <!-- End of HubSpot Embed Code -->
 </body>
 
 </html>
