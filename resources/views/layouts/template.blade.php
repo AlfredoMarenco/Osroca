@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta property="og:title" content="Gran Calzada una ciudad viva">
     <meta property="og:type" content="website" />
+    <meta name="author" content="https://www.agenciavandu.com">
     <meta name="description"
         content="La Gran Calzada® está creada para conectarte con todo lo que necesitas diariamente: comercios, escuelas, supermercados, etc." />
     <meta name="og:description"
@@ -63,7 +64,15 @@
             src="https://www.facebook.com/tr?id=2821273661220502&ev=PageView&noscript=1" /></noscript>
     <!-- End Facebook Pixel Code -->
 
+<!-- Global site tag (gtag.js) - Google Ads: 785328543 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-785328543"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'AW-785328543');
+</script>
 </head>
 
 <body>

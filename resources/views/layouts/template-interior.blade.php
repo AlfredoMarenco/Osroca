@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('img/Icons/favicon-32x32.png') }}">
-
+    <meta name="author" content="https://www.agenciavandu.com">
     <meta property="og:title" content="Gran Calzada una ciudad viva">
     <meta property="og:type" content="website" />
     <meta name="description"
@@ -59,7 +59,15 @@
             src="https://www.facebook.com/tr?id=2821273661220502&ev=PageView&noscript=1" /></noscript>
     <!-- End Facebook Pixel Code -->
 
+<!-- Global site tag (gtag.js) - Google Ads: 785328543 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-785328543"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'AW-785328543');
+</script>
 </head>
 
 <body>
