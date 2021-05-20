@@ -59,15 +59,18 @@
             src="https://www.facebook.com/tr?id=2821273661220502&ev=PageView&noscript=1" /></noscript>
     <!-- End Facebook Pixel Code -->
 
-<!-- Global site tag (gtag.js) - Google Ads: 785328543 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-785328543"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Ads: 785328543 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-785328543"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'AW-785328543');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'AW-785328543');
+
+    </script>
 </head>
 
 <body>
