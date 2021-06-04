@@ -31,7 +31,7 @@
             <h1 class="familia" id="aguamarina">Tu familia merece un respiro</h1>
             <div class="row p-0">
                 <div class="col-lg-5 col-md-12 col-sm-12 uno-dos imagen padding-0">
-                    <img src="{{ asset('img/miraverde/balche/pagina-modelos.jpg') }}" class="img-fluid" alt="">
+                    <img src="{{ asset('img/miraverde/almendro/pagina-modelos-Almendro.jpg') }}" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-7 col-md-12 col-sm-12 bg-aqua uno-uno">
                     @foreach ($modelos as $modelo)
@@ -44,7 +44,7 @@
                                 @endif
                             </div>
                             <div class="costo-modelo">
-                                <p class="espacio-terreno">Terreno desde: 7 x 17 m <br>Construcción de: 63.28 m2 </p>
+                                <p class="espacio-terreno">Terreno desde: 7 x 17 m <br>Construcción de: 65.55 m2 </p>
                             </div>
                             <div class="row">
                                 <div class="col-4 modelo-car-1">
@@ -86,7 +86,7 @@
                                         casa</a>
                                 </div>
                                 <div class="col-6 botones">
-                                    <a href="{{ asset('download/ficha-tecnica-balche.pdf') }}" data-toggle="modal"
+                                    <a href="{{ asset('download/') }}" data-toggle="modal"
                                         data-target="#staticBackdrop" class="btn btn-secondary tipo">Ficha técnica</a>
                                     <!-- Modal -->
                                     <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false"

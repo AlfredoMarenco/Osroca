@@ -103,7 +103,7 @@
                                 class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-5" href="#aguamarina">Balché</a>
+                        <a class="nav-link mx-5" href="#aguamarina">Almendro</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link mx-5" href="#magenta">Flamboyán Plus</a>

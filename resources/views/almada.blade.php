@@ -323,84 +323,97 @@
                     <img src="{{ asset('img/magenta/GC_Magenta_B1_Fachada.jpg') }}" class="img-fluid" alt="">
                 </div>
             </div>
-            <!--modelo violeta -->
-            <div class="row p-0" id="Violeta" style="margin-top: 30px">
+        </div>
+ <!--modelo ambar -->
+        <div class="container" id="ambar">
+
+            <div class="row p-0 pt-5">
                 <div class="col-lg-5 col-md-12 col-sm-12 uno-dos imagen padding-0">
-                    <img src="{{ asset('img/violeta/GC_Violeta_Fachada-2.jpg') }}" class="img-fluid" alt="">
+                    <img src="{{ asset('img/ambar/pagina-modelos.jpg') }}" class="img-fluid" alt="">
                 </div>
-                <div class="col-lg-7 col-md-12 col-sm-12 bg-violeta uno-uno">
+                <div class="col-lg-7 col-md-12 col-sm-12 bg-aqua-ambar uno-uno">
                     @foreach ($modelos as $modelo)
-                        @if ($modelo->id == 3)
-                            <h1 class="modelo-titulo" style="text-align: center; color: white;">{{ $modelo->name }}</h1>
+
+                        @if ($modelo->id == 1)
+
+                            <h1 class="modelo-titulo" style="text-align: center">{{ $modelo->name }}</h1>
                             <div class="costo-modelo">
                                 @if ($modelo->visible == 1)
                                     <button class="boton-modelo">Desde: ${{ number_format($modelo->price) }}</button>
                                 @else
+
                                 @endif
                             </div>
+
                             <div class="costo-modelo">
-                                <p class="espacio-terreno">Terreno de: 6 x 17 m <br>Construcción de: 62.86 m2</p>
+                                <p class="espacio-terreno">Terreno de: 6 x 17 m <br>Construcción de: 52.72 m2</p>
                             </div>
+
                             <div class="row">
                                 <div class="col-4 modelo-car-1">
-                                    <img src="{{ asset('img/Icons/Icon-Planta-bco.png') }}" alt=""
+                                    <img src="{{ asset('img/Icons/Icon-Planta-morado.png') }}" alt=""
                                         class="img-fluid caract-mod-1-1-p">
-                                    <p class="descri">2 Plantas</p>
+                                    <p class="descri">1 Planta</p>
                                 </div>
                                 <div class="col-4 modelo-car">
-                                    <img src="{{ asset('img/Icons/Icon-Recaramara-doble-bco.png') }}
-                                                                               " alt="" class="img-fluid caract-mod">
+                                    <img src="{{ asset('img/Icons/Icon-Recaramara-doble.png') }}" alt=""
+                                        class="img-fluid caract-mod">
                                     <p class="descri">2 Recámaras</p>
                                 </div>
                                 <div class="col-4 modelo-car-2">
-                                    <img src="{{ asset('img/Icons/Icon-Baño-bco.png') }}
-                                                                               " alt="" class="img-fluid caract-mod-1-1">
-                                    <p class="descri">1 ½ Baño</p>
+                                    <img src="{{ asset('img/Icons/Icon-Baño-mdo.png') }}" alt=""
+                                        class="img-fluid caract-mod-1-1">
+                                    <p class="descri">2 Baño</p>
                                 </div>
                             </div>
+
                             <div class="row">
                                 <div class="col-4 modelo-car-1">
-                                    <img src="{{ asset('img/Icons/Icon-Sala-bco.png') }}" alt=""
+                                    <img src="{{ asset('img/Icons/Icon-Sala-mdo.png') }}" alt=""
                                         class="img-fluid caract-mod-1-s">
                                     <p class="descri espacio">Sala</p>
                                 </div>
                                 <div class="col-4 modelo-car-3">
-                                    <img src="{{ asset('img/Icons/Icon-Comedor-bco.png') }}" alt=""
+                                    <img src="{{ asset('img/Icons/Icon-Comedor-mdo.png') }}" alt=""
                                         class="img-fluid caract-mod-2">
                                     <p class="descri">Comedor</p>
                                 </div>
                                 <div class="col-4 modelo-car-2">
-                                    <img src="{{ asset('img/Icons/Icon-Cocina-bco.png') }}" alt=""
+                                    <img src="{{ asset('img/Icons/Icon-Cocina-do.png') }}" alt=""
                                         class="img-fluid caract-mod-1">
                                     <p class="descri">Cocina</p>
                                 </div>
                             </div>
+
                             <div class="row centro-b">
                                 <div class="col-6 botones-1 ">
-                                    <a href="{{ route('violeta') }}" class="btn btn-secondary tipo">Cotiza tu
+                                    <a href="{{ route('ambar') }}" class="btn btn-secondary tipo">Cotiza tu
                                         casa</a>
                                 </div>
                                 <div class="col-6 botones">
-                                    <a href="{{ asset('download/Violeta.pdf') }}" class="btn btn-secondary tipo"
-                                        data-target="#modal-violeta" data-toggle="modal">Ficha
-                                        técnica</a>
+                                    <a href="{{ asset('download/Ficha-almada.jpg') }}" class="btn btn-secondary tipo"
+                                        data-toggle="modal" data-target="#modal-aguamarina">Ficha técnica</a>
+
                                     <!-- Modal -->
-                                    <div class="modal fade" id="modal-violeta" data-backdrop="static" data-keyboard="false"
-                                        tabindex="-1" aria-labelledby="modal-violeta-label" aria-hidden="true">
+
+                                    <div class="modal fade" id="modal-aguamarina" data-backdrop="static"
+                                        data-keyboard="false" tabindex="-1" aria-labelledby="modal-aguamarina-label"
+                                        aria-hidden="true">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <h5 class="modal-title" id="modal-violeta-label">Responde el formulario
-                                                    </h5>
+                                                    <h5 class="modal-title" id="modal-flamboyan-label">Responde el
+                                                        formulario</h5>
                                                     <button type="button" class="close" data-dismiss="modal"
                                                         aria-label="Close">
                                                         <span aria-hidden="true">&times;</span>
                                                     </button>
                                                 </div>
+
                                                 <div class="modal-body">
                                                     <form action="{{ route('email.send') }}" method="POST">
                                                         @csrf
-                                                        <input type="hidden" name="modelo" value="violeta">
+                                                        <input type="hidden" name="modelo" value="aguamarina">
                                                         <div class="form-group">
                                                             <label for="formcontrolnombre">Nombre*</label>
                                                             <input type="text" name="nombre" class="form-control"
@@ -459,10 +472,153 @@
                 </div>
             </div>
         </div>
+            
+            <!--modelo violeta -->
+            <div class="container">
+                <div class="row p-0" id="Violeta" style="margin-top: 30px">
+                    <div class="col-lg-7 col-md-12 col-sm-12 bg-violeta uno-uno">
+                        @foreach ($modelos as $modelo)
+                            @if ($modelo->id == 3)
+                                <h1 class="modelo-titulo" style="text-align: center; color: white;">{{ $modelo->name }}</h1>
+                                <div class="costo-modelo">
+                                    @if ($modelo->visible == 1)
+                                        <button class="boton-modelo">Desde: ${{ number_format($modelo->price) }}</button>
+                                    @else
+                                    @endif
+                                </div>
+                                <div class="costo-modelo">
+                                    <p class="espacio-terreno">Terreno de: 6 x 17 m <br>Construcción de: 62.86 m2</p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4 modelo-car-1">
+                                        <img src="{{ asset('img/Icons/Icon-Planta-bco.png') }}" alt=""
+                                            class="img-fluid caract-mod-1-1-p">
+                                        <p class="descri">2 Plantas</p>
+                                    </div>
+                                    <div class="col-4 modelo-car">
+                                        <img src="{{ asset('img/Icons/Icon-Recaramara-doble-bco.png') }}
+                                                                                   " alt="" class="img-fluid caract-mod">
+                                        <p class="descri">2 Recámaras</p>
+                                    </div>
+                                    <div class="col-4 modelo-car-2">
+                                        <img src="{{ asset('img/Icons/Icon-Baño-bco.png') }}
+                                                                                   " alt="" class="img-fluid caract-mod-1-1">
+                                        <p class="descri">1 ½ Baño</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4 modelo-car-1">
+                                        <img src="{{ asset('img/Icons/Icon-Sala-bco.png') }}" alt=""
+                                            class="img-fluid caract-mod-1-s">
+                                        <p class="descri espacio">Sala</p>
+                                    </div>
+                                    <div class="col-4 modelo-car-3">
+                                        <img src="{{ asset('img/Icons/Icon-Comedor-bco.png') }}" alt=""
+                                            class="img-fluid caract-mod-2">
+                                        <p class="descri">Comedor</p>
+                                    </div>
+                                    <div class="col-4 modelo-car-2">
+                                        <img src="{{ asset('img/Icons/Icon-Cocina-bco.png') }}" alt=""
+                                            class="img-fluid caract-mod-1">
+                                        <p class="descri">Cocina</p>
+                                    </div>
+                                </div>
+                                <div class="row centro-b">
+                                    <div class="col-6 botones-1 ">
+                                        <a href="{{ route('violeta') }}" class="btn btn-secondary tipo">Cotiza tu
+                                            casa</a>
+                                    </div>
+                                    <div class="col-6 botones">
+                                        <a href="{{ asset('download/Violeta.pdf') }}" class="btn btn-secondary tipo"
+                                            data-target="#modal-violeta" data-toggle="modal">Ficha
+                                            técnica</a>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="modal-violeta" data-backdrop="static" data-keyboard="false"
+                                            tabindex="-1" aria-labelledby="modal-violeta-label" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="modal-violeta-label">Responde el formulario
+                                                        </h5>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <form action="{{ route('email.send') }}" method="POST">
+                                                            @csrf
+                                                            <input type="hidden" name="modelo" value="violeta">
+                                                            <div class="form-group">
+                                                                <label for="formcontrolnombre">Nombre*</label>
+                                                                <input type="text" name="nombre" class="form-control"
+                                                                    id="formcontrolnombre" required="required"
+                                                                    placeholder="Escribe tu nombre">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="formcontrolapellido">Correo*</label>
+                                                                <input type="mail" name="correo" class="form-control"
+                                                                    id="formcontrolnombre" required="required"
+                                                                    placeholder="Escribe tu email">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="formcontrolcorreo">Número de teléfono*</label>
+                                                                <input type="text" name="telefono" class="form-control"
+                                                                    id="formcontrolcorreo" required="required"
+                                                                    placeholder="Escribe tu telefono">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="formcontroltelefono">¿Que presupuesto
+                                                                    tienes?</label>
+                                                                <input type="text" name="presupuesto" class="form-control"
+                                                                    id="formcontroltelefono" required="required">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="formcontroltelefono">¿Cuentas con algún tipo de
+                                                                    crédito en particular?</label>
+                                                                <input type="mail" name="credito" class="form-control"
+                                                                    id="formcontroltelefono" required="required">
+                                                            </div>
+                                                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                                                <label class="btn btn-dark">
+                                                                    <input type="radio" name="contacto" value="llamada"
+                                                                        autocomplete="off"> Llamada
+                                                                </label>
+                                                                <label class="btn btn-dark">
+                                                                    <input type="radio" name="contacto" value="whatsapp"
+                                                                        autocomplete="off"> Whatsapp
+                                                                </label>
+                                                                <label class="btn btn-dark">
+                                                                    <input type="radio" name="contacto" value="correo"
+                                                                        autocomplete="off"> Correo electrónico
+                                                                </label>
+                                                            </div>
+                                                            <button type="submit"
+                                                                class="btn btn-success btn-block mt-5">Enviar</button>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            @endif
+                        @endforeach
+                    </div>
+                    <div class="col-lg-5 col-md-12 col-sm-12 uno-dos imagen padding-0">
+                        <img src="{{ asset('img/violeta/GC_Violeta_Fachada-2.jpg') }}" class="img-fluid" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+       
         <!--CORTAR Y LUEGO PEGAR-->
-        <!--modelo magenta-->
+        <!--modelo violeta plus-->
         <div class="container" id="Violeta-plus" style="margin-top: 30px">
             <div class="row magenta-model p-0">
+                <div class="col-lg-5 col-md-12 col-sm-12 p-0 imagen padding-0 margen-prop">
+                    <img src="{{ asset('img/violeta-plus/GC_Violeta_Plus_Fachada.jpg') }}" class="img-fluid" alt="">
+                </div>
                 <div class="col-lg-7 col-md-12 col-sm-12 bg-violeta">
                     @foreach ($modelos as $modelo)
                         @if ($modelo->id == 4)
@@ -592,9 +748,7 @@
                         @endif
                     @endforeach
                 </div>
-                <div class="col-lg-5 col-md-12 col-sm-12 p-0 imagen padding-0 margen-prop">
-                    <img src="{{ asset('img/violeta-plus/GC_Violeta_Plus_Fachada.jpg') }}" class="img-fluid" alt="">
-                </div>
+                
 
             </div>
     </section>

@@ -26,6 +26,10 @@ Route::get('/modelo-magenta', function () {
     return view('magenta');
 })->name('magenta');
 
+Route::get('/modelo-ambar', function () {
+    return view('ambar');
+})->name('ambar');
+
 Route::get('/modelo-violeta', function () {
     return view('violeta');
 })->name('violeta');
@@ -51,7 +55,7 @@ Route::get('/miraverde', function () {
     return view('miraverde.miraverde', compact('modelos','desde'));
 })->name('miraverde');
 
-Route::get('/modelo-balche', function () {
+Route::get('/modelo-almendro', function () {
     return view('miraverde.balche');
 })->name('balche');
 

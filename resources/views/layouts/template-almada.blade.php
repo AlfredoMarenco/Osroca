@@ -109,6 +109,9 @@
                         <a class="nav-link mx-5" href="#magenta">Magenta</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link mx-5" href="#ambar">Ambar</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link mx-5" href="#Violeta">Violeta</a>
                     </li>
                     <li class="nav-item">
