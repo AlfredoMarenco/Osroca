@@ -9,7 +9,7 @@
                     <img src="{{ asset('img/Icons/Logo-Almada-inv.png') }}" class="img-fluid logo-h" alt="">
                 </div>
                 <div class="col-lg-7 col-md-12 col-sm-12 p-0">
-                    
+
                     <!--SLIDER-->
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
@@ -46,7 +46,7 @@
                     <img src="{{ asset('img/ambar/AMBAR-planta.png') }}" class="img-fluid planta-b" alt="">
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 ameni-txt">
-                    <h1>Modelo Aguamarina</h1>
+                    <h1>Modelo Ambar</h1>
                     <li>Terreno desde: 6 x 17 m </li>
                     <li>Construcción: 52.72 m2</li>
                     <br>

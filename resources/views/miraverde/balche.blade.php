@@ -19,7 +19,7 @@
                           <div class="carousel-item">
                             <img src="{{ asset('img/miraverde/almendro/slider-interior-4.jpg') }}" class="d-block w-100" alt="Modelo Balché | ¡Una Ciudad Viva!">
                           </div>
-                          
+
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -44,7 +44,7 @@
                     <img src="{{ asset('img/miraverde/almendro/Almendro-planta.png') }}" class="img-fluid planta-b" alt="">
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 ameni-txt">
-                    <h1>Modelo Balché</h1>
+                    <h1>Modelo Almendro</h1>
                     <li>Terreno desde: 7 x 17 m </li>
                     <li>Construcción: 65.55 m2</li>
                     <br>
