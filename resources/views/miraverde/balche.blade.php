@@ -13,7 +13,10 @@
                     <!--SLIDER-->
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
-                          <div class="carousel-item active">
+                            <div class="carousel-item active">
+                            <img src="{{ asset('img/miraverde/almendro/slider-interior-5.jpg') }}" class="d-block w-100" alt="Modelo Balché | ¡Una Ciudad Viva!">
+                          </div>
+                          <div class="carousel-item ">
                             <img src="{{ asset('img/miraverde/almendro/slider-interior-3.jpg') }}" class="d-block w-100" alt="Modelo Balché | ¡Una Ciudad Viva!">
                           </div>
                           <div class="carousel-item">
