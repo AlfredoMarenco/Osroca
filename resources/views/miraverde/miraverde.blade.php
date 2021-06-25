@@ -86,7 +86,7 @@
                                         casa</a>
                                 </div>
                                 <div class="col-6 botones">
-                                    <a href="{{ asset('download/') }}" data-toggle="modal"
+                                    <a href="{{ asset('download/ficha-tecnica-almendro.pdf') }}" data-toggle="modal"
                                         data-target="#staticBackdrop" class="btn btn-secondary tipo">Ficha técnica</a>
                                     <!-- Modal -->
                                     <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false"
